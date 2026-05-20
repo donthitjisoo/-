@@ -191,39 +191,48 @@ async function refreshQuotes(options = {}) {
   if (!options.quiet) setStatus("更新報價中...");
 
   const codes = state.stocks.map((stock) => stock.code);
-  let source = "";
-  let cacheUpdatedAt = "";
-  let quotes = new Map();
-  let fallbackMessage = "";
+  let cacheError = null;
 
   try {
     const cached = await fetchCachedQuotes();
-    quotes = cached.quotes;
-    source = "GitHub Actions 快取";
-    cacheUpdatedAt = cached.updatedAt;
+    if (cached.quotes.size > 0) {
+      applyQuotes({
+        quotes: cached.quotes,
+        source: "GitHub Actions 快取",
+        updatedAt: cached.updatedAt,
+        status: `已載入快取 ${cached.quotes.size} 檔，GitHub Actions 會定期更新。`
+      });
+      return;
+    }
   } catch (error) {
-    if (!options.quiet) setStatus(`報價快取尚未可用，改抓即時資料：${error.message}`);
+    cacheError = error;
   }
 
   try {
     const liveQuotes = await fetchLiveQuotes(codes);
     if (liveQuotes.size > 0) {
-      quotes = liveQuotes;
-      source = liveQuotes.source || "即時報價";
-      cacheUpdatedAt = "";
-    }
-  } catch (error) {
-    if (quotes.size === 0) {
-      setStatus(`即時資料暫時無法讀取：${error.message}`, "warn");
+      applyQuotes({
+        quotes: liveQuotes,
+        source: liveQuotes.source || "即時報價",
+        updatedAt: "",
+        status: `已更新 ${liveQuotes.size} 檔。`
+      });
       return;
     }
-    fallbackMessage = `即時資料暫時無法讀取，先顯示快取：${error.message}`;
+  } catch (error) {
+    const cacheMessage = cacheError ? `快取：${cacheError.message}；` : "";
+    setStatus(`${cacheMessage}即時資料暫時無法讀取：${error.message}`, "warn");
+    return;
   }
 
+  setStatus(cacheError ? `報價快取尚未可用：${cacheError.message}` : "目前沒有可顯示的報價。", "warn");
+}
+
+function applyQuotes({ quotes, source, updatedAt, status }) {
   quotes.forEach((quote, code) => state.quotes.set(code, quote));
-  els.updated.textContent = cacheUpdatedAt ? formatDateTime(cacheUpdatedAt) : new Date().toLocaleTimeString("zh-TW", { hour12: false });
-  els.source.textContent = source || "TWSE MIS";
-  setStatus(fallbackMessage || (quotes.size > 0 ? `已更新 ${quotes.size} 檔。` : "尚未有報價快取，部署後可先手動執行 GitHub Action。"), fallbackMessage ? "warn" : "normal");
+  els.updated.textContent = updatedAt ? formatDateTime(updatedAt) : new Date().toLocaleTimeString("zh-TW", { hour12: false });
+  els.source.textContent = source || "GitHub Actions 快取";
+  setStatus(status);
   render();
 }
 
