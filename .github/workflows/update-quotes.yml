@@ -2,11 +2,20 @@ name: Update stock quotes
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "watchlist.json"
+      - "scripts/fetch-quotes.mjs"
+      - ".github/workflows/update-quotes.yml"
   schedule:
     - cron: "*/5 1-6 * * 1-5"
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-stock-quotes
+  cancel-in-progress: true
 
 jobs:
   update-quotes:

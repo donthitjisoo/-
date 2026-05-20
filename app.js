@@ -35,6 +35,7 @@ const els = {
 render();
 setMarketState();
 refreshQuotes();
+window.setInterval(setMarketState, 60_000);
 window.setInterval(() => refreshQuotes({ quiet: true }), 60_000);
 
 els.addForm.addEventListener("submit", (event) => {
@@ -189,23 +190,41 @@ async function refreshQuotes(options = {}) {
   if (state.stocks.length === 0) return;
   if (!options.quiet) setStatus("更新報價中...");
 
+  const codes = state.stocks.map((stock) => stock.code);
+  let source = "";
+  let cacheUpdatedAt = "";
+  let quotes = new Map();
+  let fallbackMessage = "";
+
   try {
-    let source = "GitHub Actions 快取";
-    let quotes = await fetchCachedQuotes();
-
-    if (quotes.size === 0) {
-      source = "TWSE MIS";
-      quotes = await fetchTwseQuotes(state.stocks.map((stock) => stock.code));
-    }
-
-    quotes.forEach((quote, code) => state.quotes.set(code, quote));
-    els.updated.textContent = new Date().toLocaleTimeString("zh-TW", { hour12: false });
-    els.source.textContent = source;
-    setStatus(quotes.size > 0 ? `已更新 ${quotes.size} 檔。` : "尚未有報價快取，部署後可先手動執行 GitHub Action。");
-    render();
+    const cached = await fetchCachedQuotes();
+    quotes = cached.quotes;
+    source = "GitHub Actions 快取";
+    cacheUpdatedAt = cached.updatedAt;
   } catch (error) {
-    setStatus(`即時資料暫時無法讀取：${error.message}`, "warn");
+    if (!options.quiet) setStatus(`報價快取尚未可用，改抓即時資料：${error.message}`);
   }
+
+  try {
+    const liveQuotes = await fetchTwseQuotes(codes);
+    if (liveQuotes.size > 0) {
+      quotes = liveQuotes;
+      source = "TWSE MIS 即時";
+      cacheUpdatedAt = "";
+    }
+  } catch (error) {
+    if (quotes.size === 0) {
+      setStatus(`即時資料暫時無法讀取：${error.message}`, "warn");
+      return;
+    }
+    fallbackMessage = `即時資料暫時無法讀取，先顯示快取：${error.message}`;
+  }
+
+  quotes.forEach((quote, code) => state.quotes.set(code, quote));
+  els.updated.textContent = cacheUpdatedAt ? formatDateTime(cacheUpdatedAt) : new Date().toLocaleTimeString("zh-TW", { hour12: false });
+  els.source.textContent = source || "TWSE MIS";
+  setStatus(fallbackMessage || (quotes.size > 0 ? `已更新 ${quotes.size} 檔。` : "尚未有報價快取，部署後可先手動執行 GitHub Action。"), fallbackMessage ? "warn" : "normal");
+  render();
 }
 
 async function fetchTwseQuotes(codes) {
@@ -249,7 +268,10 @@ async function fetchCachedQuotes() {
   payload.quotes.forEach((quote) => {
     if (quote.code) quotes.set(quote.code, quote);
   });
-  return quotes;
+  return {
+    quotes,
+    updatedAt: payload.updatedAt || ""
+  };
 }
 
 function exportCsv() {
@@ -336,13 +358,17 @@ function parseCsv(text) {
 }
 
 function setMarketState() {
+  const isOpen = isMarketOpen();
+  els.marketDot.className = `dot ${isOpen ? "open" : "closed"}`;
+  els.marketLabel.textContent = isOpen ? "台股盤中" : "非台股交易時段";
+}
+
+function isMarketOpen() {
   const now = new Date();
   const day = now.getDay();
   const minutes = now.getHours() * 60 + now.getMinutes();
   const isWeekday = day >= 1 && day <= 5;
-  const isOpen = isWeekday && minutes >= 9 * 60 && minutes <= 13 * 60 + 30;
-  els.marketDot.className = `dot ${isOpen ? "open" : "closed"}`;
-  els.marketLabel.textContent = isOpen ? "台股盤中" : "非台股交易時段";
+  return isWeekday && minutes >= 9 * 60 && minutes <= 13 * 60 + 30;
 }
 
 function setStatus(message, type = "normal") {
@@ -382,6 +408,18 @@ function formatPercent(value) {
 function formatVolume(value) {
   const number = numberOrNull(value);
   return number === null ? "-" : number.toLocaleString("zh-TW");
+}
+
+function formatDateTime(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleString("zh-TW", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  });
 }
 
 function csvCell(value) {
