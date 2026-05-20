@@ -6,9 +6,8 @@ on:
     branches: [main]
     paths:
       - "src/**"
-      - "data/**"
+      - "data/fundamentals/**"
       - "scripts/**"
-      - "public/**"
       - "package.json"
       - "package-lock.json"
       - "vite.config.ts"
@@ -39,18 +38,25 @@ jobs:
       - run: npm ci
       - name: Generate static financial JSON
         run: npm run update:data
-      - name: Commit updated static data
+      - run: npm run build
+      - name: Sync build for branch-based GitHub Pages
         run: |
-          if git diff --quiet public/data quotes.json; then
-            echo "No data changes."
+          cp dist/index.html index.html
+          rm -rf assets
+          mkdir -p assets data
+          cp -R dist/assets/* assets/
+          cp dist/data/*.json data/
+      - name: Commit generated data and branch Pages build
+        run: |
+          if git diff --quiet public/data data/*.json quotes.json index.html assets; then
+            echo "No generated changes."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add public/data quotes.json
-            git commit -m "Update financial data"
+            git add public/data data/*.json quotes.json index.html assets
+            git commit -m "Update generated financial site"
             git push
           fi
-      - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

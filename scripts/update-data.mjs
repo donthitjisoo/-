@@ -31,6 +31,10 @@ await writeJson(new URL("stocks.json", publicDataDir), marketSnapshot);
 await writeJson(new URL("fundamentals.json", publicDataDir), normalizeFundamentals(fundamentals, quoteMap));
 await writeJson(new URL("history.json", publicDataDir), history);
 await writeJson(new URL("recommendation-analytics.json", publicDataDir), recommendationAnalytics);
+await writeJson(new URL("../data/stocks.json", import.meta.url), marketSnapshot);
+await writeJson(new URL("../data/fundamentals.json", import.meta.url), normalizeFundamentals(fundamentals, quoteMap));
+await writeJson(new URL("../data/history.json", import.meta.url), history);
+await writeJson(new URL("../data/recommendation-analytics.json", import.meta.url), recommendationAnalytics);
 
 // Compatibility for the older non-React app and quick inspection.
 await writeJson(new URL("../quotes.json", import.meta.url), {
