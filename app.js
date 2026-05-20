@@ -206,10 +206,10 @@ async function refreshQuotes(options = {}) {
   }
 
   try {
-    const liveQuotes = await fetchTwseQuotes(codes);
+    const liveQuotes = await fetchLiveQuotes(codes);
     if (liveQuotes.size > 0) {
       quotes = liveQuotes;
-      source = "TWSE MIS 即時";
+      source = liveQuotes.source || "即時報價";
       cacheUpdatedAt = "";
     }
   } catch (error) {
@@ -225,6 +225,38 @@ async function refreshQuotes(options = {}) {
   els.source.textContent = source || "TWSE MIS";
   setStatus(fallbackMessage || (quotes.size > 0 ? `已更新 ${quotes.size} 檔。` : "尚未有報價快取，部署後可先手動執行 GitHub Action。"), fallbackMessage ? "warn" : "normal");
   render();
+}
+
+async function fetchLiveQuotes(codes) {
+  const providers = [
+    { name: "TWSE MIS 即時", fetchQuotes: fetchTwseQuotes },
+    { name: "Yahoo Finance 即時", fetchQuotes: fetchYahooQuotes }
+  ];
+  const quotes = new Map();
+  const sources = [];
+  const failures = [];
+
+  for (const provider of providers) {
+    const missingCodes = codes.filter((code) => !quotes.has(code));
+    if (missingCodes.length === 0) break;
+
+    try {
+      const providerQuotes = await provider.fetchQuotes(missingCodes);
+      providerQuotes.forEach((quote, code) => {
+        if (!quotes.has(code)) quotes.set(code, quote);
+      });
+      if (providerQuotes.size > 0) sources.push(provider.name);
+    } catch (error) {
+      failures.push(`${provider.name}: ${error.message}`);
+    }
+  }
+
+  if (quotes.size === 0 && failures.length > 0) {
+    throw new Error(failures.join("；"));
+  }
+
+  quotes.source = sources.join(" + ");
+  return quotes;
 }
 
 async function fetchTwseQuotes(codes) {
@@ -256,6 +288,60 @@ async function fetchTwseQuotes(codes) {
     });
   });
   return quotes;
+}
+
+async function fetchYahooQuotes(codes) {
+  const entries = await Promise.all(codes.map(fetchYahooQuote));
+  return new Map(entries.filter(Boolean).map((quote) => [quote.code, quote]));
+}
+
+async function fetchYahooQuote(code) {
+  for (const suffix of [".TW", ".TWO"]) {
+    const quote = await fetchYahooSymbol(code, `${code}${suffix}`);
+    if (quote) return quote;
+  }
+  return null;
+}
+
+async function fetchYahooSymbol(code, symbol) {
+  let payload = null;
+
+  for (const host of ["query1.finance.yahoo.com", "query2.finance.yahoo.com"]) {
+    const url = `https://${host}/v8/finance/chart/${encodeURIComponent(symbol)}?interval=1m&range=1d&_=${Date.now()}`;
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) continue;
+
+    payload = await response.json();
+    break;
+  }
+
+  if (!payload) return null;
+
+  const result = payload?.chart?.result?.[0];
+  if (!result) return null;
+
+  const meta = result.meta || {};
+  const quote = result.indicators?.quote?.[0] || {};
+  const close = lastNumber(quote.close);
+  const last = numberOrNull(meta.regularMarketPrice) ?? close;
+  if (last === null) return null;
+
+  const previous = numberOrNull(meta.chartPreviousClose) ?? numberOrNull(meta.previousClose);
+  const changePercent = previous ? ((last - previous) / previous) * 100 : null;
+  const timestamp = lastNumber(result.timestamp);
+
+  return {
+    code,
+    name: meta.shortName || meta.symbol || "",
+    last,
+    changePercent,
+    volume: numberOrNull(meta.regularMarketVolume) ?? lastNumber(quote.volume),
+    open: firstNumber(quote.open),
+    high: maxNumber(quote.high),
+    low: minNumber(quote.low),
+    time: timestamp ? new Date(timestamp * 1000).toISOString() : "",
+    source: "Yahoo Finance"
+  };
 }
 
 async function fetchCachedQuotes() {
@@ -408,6 +494,24 @@ function formatPercent(value) {
 function formatVolume(value) {
   const number = numberOrNull(value);
   return number === null ? "-" : number.toLocaleString("zh-TW");
+}
+
+function firstNumber(values = []) {
+  return values.map(numberOrNull).find((value) => value !== null) ?? null;
+}
+
+function lastNumber(values = []) {
+  return [...values].reverse().map(numberOrNull).find((value) => value !== null) ?? null;
+}
+
+function maxNumber(values = []) {
+  const numbers = values.map(numberOrNull).filter((value) => value !== null);
+  return numbers.length > 0 ? Math.max(...numbers) : null;
+}
+
+function minNumber(values = []) {
+  const numbers = values.map(numberOrNull).filter((value) => value !== null);
+  return numbers.length > 0 ? Math.min(...numbers) : null;
 }
 
 function formatDateTime(value) {

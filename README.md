@@ -21,10 +21,10 @@
 
 ## 自動更新報價
 
-瀏覽器直接讀 TWSE MIS 可能會被 CORS 擋住，所以專案內建 GitHub Actions：
+瀏覽器直接讀即時報價可能會被 CORS 擋住，所以專案同時支援前端即時抓取與 GitHub Actions 快取：
 
 - `.github/workflows/update-quotes.yml`：台股交易日約每 5 分鐘更新一次。
-- `scripts/fetch-quotes.mjs`：讀取 `watchlist.json`，抓取報價後寫入 `quotes.json`。
+- `scripts/fetch-quotes.mjs`：讀取 `watchlist.json`，依序嘗試 TWSE MIS 與 Yahoo Finance，抓取報價後寫入 `quotes.json`。
 - `quotes.json`：網頁會在直接抓報價失敗時讀取這個快取檔。
 
 要調整雲端追蹤清單，請編輯 `watchlist.json` 後推上 GitHub。網頁上的「加入」會存在個人瀏覽器，適合臨時觀察；若要讓 GitHub Actions 也更新該股票，仍需把代號加入 `watchlist.json`。
@@ -41,4 +41,4 @@ code,name,target,note
 
 ## 資料源提醒
 
-目前前端會先嘗試讀取 `https://mis.twse.com.tw/stock/api/getStockInfo.jsp`，失敗時改讀 GitHub Actions 產生的 `quotes.json`。這適合作為個人追蹤工具的起點；如果要公開提供多人自動更新，需確認交易所授權、流量限制與資料延遲規範，或改接正式市場資料供應商。
+目前前端會依序嘗試 TWSE MIS 與 Yahoo Finance chart JSON，失敗時改讀 GitHub Actions 產生的 `quotes.json`。這適合作為個人追蹤工具的起點；如果要公開提供多人自動更新，需確認交易所與資料平台的授權、流量限制與資料延遲規範，或改接正式市場資料供應商。
