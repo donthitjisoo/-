@@ -26,7 +26,8 @@ body {
 }
 
 button,
-input {
+input,
+select {
   font: inherit;
 }
 
@@ -116,9 +117,41 @@ main {
 
 .add-form {
   display: grid;
-  grid-template-columns: 130px minmax(150px, 1fr) 130px auto;
+  grid-template-columns: minmax(180px, 1fr) 130px 130px auto;
   gap: 10px;
   align-items: end;
+}
+
+.list-bar {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.list-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.list-tabs button {
+  min-height: 34px;
+  padding: 0 12px;
+}
+
+.list-tabs button.active {
+  border-color: var(--accent);
+  background: #e8f3f1;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.list-form {
+  display: grid;
+  grid-template-columns: minmax(120px, 180px) auto;
+  gap: 8px;
 }
 
 label {
@@ -138,7 +171,18 @@ input {
   padding: 8px 10px;
 }
 
-input:focus {
+select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--ink);
+  padding: 8px 10px;
+}
+
+input:focus,
+select:focus {
   outline: 2px solid rgba(15, 118, 110, 0.22);
   border-color: var(--accent);
 }
@@ -234,7 +278,7 @@ input:focus {
 
 table {
   width: 100%;
-  min-width: 980px;
+  min-width: 1080px;
   border-collapse: collapse;
 }
 
@@ -297,6 +341,10 @@ tbody tr:hover {
   min-width: 180px;
 }
 
+.rating-input {
+  min-width: 110px;
+}
+
 .remove-btn {
   min-height: 32px;
   color: var(--danger);
@@ -316,8 +364,15 @@ tbody tr:hover {
 
   .toolbar,
   .add-form,
+  .list-bar,
+  .list-form,
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .list-bar {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .actions {

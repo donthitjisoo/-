@@ -20,18 +20,33 @@
 
     <main>
       <section class="toolbar" aria-label="追蹤工具列">
+        <div class="list-bar">
+          <div id="list-tabs" class="list-tabs" role="tablist" aria-label="選股清單"></div>
+          <form id="list-form" class="list-form">
+            <input id="list-name" placeholder="新增清單" autocomplete="off">
+            <button type="submit">新增</button>
+          </form>
+        </div>
+
         <form id="add-form" class="add-form">
           <label>
-            股票代號
-            <input id="stock-code" inputmode="numeric" maxlength="6" placeholder="2330" autocomplete="off">
+            代號或名稱
+            <input id="stock-query" list="stock-options" placeholder="2327 或 國巨" autocomplete="off">
+            <datalist id="stock-options"></datalist>
           </label>
           <label>
-            名稱
-            <input id="stock-name" placeholder="台積電" autocomplete="off">
-          </label>
-          <label>
-            觀察價
+            目標價
             <input id="target-price" inputmode="decimal" placeholder="可空白">
+          </label>
+          <label>
+            評等
+            <select id="rating">
+              <option value="">未評</option>
+              <option value="強力買進">強力買進</option>
+              <option value="買進">買進</option>
+              <option value="觀察">觀察</option>
+              <option value="保守">保守</option>
+            </select>
           </label>
           <button type="submit">加入</button>
         </form>
@@ -64,7 +79,7 @@
       <section class="sheet-section">
         <div class="sheet-head">
           <div>
-            <h2>觀察清單</h2>
+            <h2 id="active-list-title">觀察清單</h2>
             <p id="status-line">資料會存在這台電腦的瀏覽器中。</p>
           </div>
           <label class="search">
@@ -83,7 +98,8 @@
                 <th data-sort="changePercent">漲跌幅</th>
                 <th data-sort="volume">總量</th>
                 <th>開高低</th>
-                <th>觀察價</th>
+                <th>目標價</th>
+                <th>評等</th>
                 <th>筆記</th>
                 <th aria-label="操作"></th>
               </tr>
@@ -103,6 +119,15 @@
         <td class="volume-cell numeric"></td>
         <td class="ohl-cell"></td>
         <td><input class="target-input" inputmode="decimal" aria-label="觀察價"></td>
+        <td>
+          <select class="rating-input" aria-label="評等">
+            <option value="">未評</option>
+            <option value="強力買進">強力買進</option>
+            <option value="買進">買進</option>
+            <option value="觀察">觀察</option>
+            <option value="保守">保守</option>
+          </select>
+        </td>
         <td><input class="note-input" aria-label="筆記"></td>
         <td><button class="remove-btn" type="button" aria-label="移除">刪除</button></td>
       </tr>

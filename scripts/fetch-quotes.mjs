@@ -1,61 +1,110 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const watchlist = JSON.parse(await readFile(new URL("../watchlist.json", import.meta.url), "utf8"));
-const codes = [...new Set(watchlist.map((stock) => String(stock.code || "").trim()).filter(Boolean))];
+const watchedCodes = uniqueCodes(watchlist.map((stock) => stock.code));
+const dailyQuotes = await fetchDailyQuotes();
+const quoteMap = new Map(dailyQuotes.map((quote) => [quote.code, quote]));
 
-if (codes.length === 0) {
-  await writeQuotes([], "none");
-  process.exit(0);
+if (watchedCodes.length > 0) {
+  const liveQuotes = await fetchLiveQuotes(watchedCodes);
+  liveQuotes.forEach((quote, code) => quoteMap.set(code, { ...quoteMap.get(code), ...quote }));
 }
 
-const providers = [
-  { name: "TWSE MIS", fetchQuotes: fetchTwseQuotes },
-  { name: "Yahoo Finance", fetchQuotes: fetchYahooQuotes }
-];
-const quotes = new Map();
-const sources = [];
-const failures = [];
+await writeQuotes([...quoteMap.values()].sort((a, b) => a.code.localeCompare(b.code)), "TWSE/TPEx daily + watched live");
 
-for (const provider of providers) {
-  const missingCodes = codes.filter((code) => !quotes.has(code));
-  if (missingCodes.length === 0) break;
+async function fetchDailyQuotes() {
+  const [listed, otc] = await Promise.all([fetchListedDaily(), fetchOtcDaily()]);
+  return [...listed, ...otc].filter((quote) => /^\d{4}$/.test(quote.code));
+}
 
-  try {
-    const providerQuotes = await provider.fetchQuotes(missingCodes);
-    providerQuotes.forEach((quote, code) => {
-      if (!quotes.has(code)) quotes.set(code, quote);
-    });
-    if (providerQuotes.size > 0) sources.push(provider.name);
-  } catch (error) {
-    failures.push(`${provider.name}: ${error.message}`);
+async function fetchListedDaily() {
+  const response = await fetchJson("https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL");
+  return response
+    .map((item) => {
+      const last = cleanPrice(item.ClosingPrice);
+      const previous = numberOrNull(item.OpeningPrice);
+      const changePercent = previous && last ? ((last - previous) / previous) * 100 : null;
+      return {
+        code: String(item.Code || "").trim(),
+        name: String(item.Name || "").trim(),
+        last,
+        changePercent,
+        volume: numberOrNull(item.TradeVolume),
+        open: cleanPrice(item.OpeningPrice),
+        high: cleanPrice(item.HighestPrice),
+        low: cleanPrice(item.LowestPrice),
+        time: String(item.Date || "").trim(),
+        source: "TWSE 日行情"
+      };
+    })
+    .filter((quote) => quote.code && quote.name && quote.last !== null);
+}
+
+async function fetchOtcDaily() {
+  const response = await fetchJson("https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes");
+  return response
+    .map((item) => {
+      const last = cleanPrice(item.Close);
+      const previous = numberOrNull(item.Open);
+      const changePercent = previous && last ? ((last - previous) / previous) * 100 : null;
+      return {
+        code: String(item.SecuritiesCompanyCode || "").trim(),
+        name: String(item.CompanyName || "").trim(),
+        last,
+        changePercent,
+        volume: numberOrNull(item.TradingShares),
+        open: cleanPrice(item.Open),
+        high: cleanPrice(item.High),
+        low: cleanPrice(item.Low),
+        time: String(item.Date || "").trim(),
+        source: "TPEx 日行情"
+      };
+    })
+    .filter((quote) => quote.code && quote.name && quote.last !== null);
+}
+
+async function fetchLiveQuotes(stockCodes) {
+  const providers = [
+    { name: "TWSE MIS", fetchQuotes: fetchTwseQuotes },
+    { name: "Yahoo Finance", fetchQuotes: fetchYahooQuotes }
+  ];
+  const quotes = new Map();
+
+  for (const provider of providers) {
+    const missingCodes = stockCodes.filter((code) => !quotes.has(code));
+    if (missingCodes.length === 0) break;
+
+    try {
+      const providerQuotes = await provider.fetchQuotes(missingCodes);
+      providerQuotes.forEach((quote, code) => {
+        if (!quotes.has(code)) quotes.set(code, quote);
+      });
+    } catch (error) {
+      console.warn(`${provider.name} failed: ${error.message}`);
+    }
   }
+
+  return quotes;
 }
-
-const quoteList = codes.map((code) => quotes.get(code)).filter(Boolean);
-
-if (quoteList.length === 0 && failures.length > 0) {
-  throw new Error(`All quote providers failed. ${failures.join(" | ")}`);
-}
-
-await writeQuotes(quoteList, sources.join(" + ") || "no live source");
 
 async function fetchTwseQuotes(stockCodes) {
-  const channels = stockCodes.flatMap((code) => [`tse_${code}.tw`, `otc_${code}.tw`]).join("|");
-  const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${encodeURIComponent(channels)}&json=1&delay=0&_=${Date.now()}`;
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": "Mozilla/5.0 stock-tracker/1.0",
-      referer: "https://mis.twse.com.tw/stock/index.jsp"
-    }
-  });
+  const quotes = new Map();
+  for (const group of chunk(stockCodes, 80)) {
+    const channels = group.flatMap((code) => [`tse_${code}.tw`, `otc_${code}.tw`]).join("|");
+    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${encodeURIComponent(channels)}&json=1&delay=0&_=${Date.now()}`;
+    const response = await fetch(url, {
+      headers: {
+        "user-agent": "Mozilla/5.0 stock-tracker/1.0",
+        referer: "https://mis.twse.com.tw/stock/index.jsp"
+      }
+    });
 
-  if (!response.ok) {
-    throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    const items = Array.isArray(payload.msgArray) ? payload.msgArray : [];
+    items.map(toTwseQuote).filter((quote) => quote.code).forEach((quote) => quotes.set(quote.code, quote));
   }
-
-  const payload = await response.json();
-  const items = Array.isArray(payload.msgArray) ? payload.msgArray : [];
-  return new Map(items.map(toTwseQuote).filter((quote) => quote.code).map((quote) => [quote.code, quote]));
+  return quotes;
 }
 
 async function fetchYahooQuotes(stockCodes) {
@@ -135,6 +184,16 @@ function toTwseQuote(item) {
   };
 }
 
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0 stock-tracker/1.0"
+    }
+  });
+  if (!response.ok) throw new Error(`${url} failed: HTTP ${response.status}`);
+  return response.json();
+}
+
 async function writeQuotes(quotes, source) {
   await writeFile(
     new URL("../quotes.json", import.meta.url),
@@ -148,6 +207,22 @@ async function writeQuotes(quotes, source) {
       2
     )}\n`
   );
+}
+
+function uniqueCodes(values) {
+  return [...new Set(values.map((value) => String(value || "").match(/\d{4,6}/)?.[0]).filter(Boolean))];
+}
+
+function chunk(values, size) {
+  const chunks = [];
+  for (let index = 0; index < values.length; index += size) chunks.push(values.slice(index, index + size));
+  return chunks;
+}
+
+function cleanPrice(value) {
+  const text = String(value || "").replace(/,/g, "").trim();
+  if (!text || text === "--") return null;
+  return numberOrNull(text);
 }
 
 function firstValid(...values) {
