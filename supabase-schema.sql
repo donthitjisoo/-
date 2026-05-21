@@ -19,6 +19,12 @@ create table if not exists public.stock_recommendations (
   unique(sheet_id, symbol)
 );
 
+create index if not exists stock_recommendations_sheet_id_idx
+  on public.stock_recommendations(sheet_id);
+
+create index if not exists stock_recommendations_symbol_idx
+  on public.stock_recommendations(symbol);
+
 alter table public.stock_sheets enable row level security;
 alter table public.stock_recommendations enable row level security;
 
@@ -41,6 +47,20 @@ create policy "public read stock recommendations" on public.stock_recommendation
 create policy "public insert stock recommendations" on public.stock_recommendations for insert with check (true);
 create policy "public update stock recommendations" on public.stock_recommendations for update using (true) with check (true);
 create policy "public delete stock recommendations" on public.stock_recommendations for delete using (true);
+
+do $$
+begin
+  alter publication supabase_realtime add table public.stock_sheets;
+exception
+  when duplicate_object then null;
+end $$;
+
+do $$
+begin
+  alter publication supabase_realtime add table public.stock_recommendations;
+exception
+  when duplicate_object then null;
+end $$;
 
 insert into public.stock_sheets (id, name)
 values

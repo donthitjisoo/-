@@ -110,3 +110,12 @@ cp .env.example .env
 ```
 
 注意：目前 schema 是公開讀寫，適合你說的「大家都可以改、所有人同步看到」。若之後要做登入權限，再收緊 RLS policy。
+
+上線檢查：
+
+1. Supabase SQL Editor 執行 `supabase-schema.sql`。
+2. GitHub Variables 設定 `VITE_SUPABASE_URL` 和 `VITE_SUPABASE_ANON_KEY`。
+3. 手動執行 GitHub Actions：`Update financial data and deploy`。
+4. 打開兩個瀏覽器視窗，其中一個新增股票，另一個會透過 Supabase Realtime 自動更新。
+
+如果畫面狀態顯示 `本機 · 本機模式`，代表網站 build 時沒有讀到 Supabase 變數，會只存在目前瀏覽器。
