@@ -15,7 +15,8 @@ on:
       - ".github/workflows/update-data.yml"
       - "watchlist.json"
   schedule:
-    - cron: "*/5 1-6 * * 1-5"
+    # 15:00 Asia/Taipei on weekdays, after the regular Taiwan market close.
+    - cron: "0 7 * * 1-5"
 
 permissions:
   contents: write
@@ -39,15 +40,13 @@ jobs:
       - name: Generate static financial JSON
         run: npm run update:data
       - run: npm run build
-        env:
-          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
       - name: Sync build for branch-based GitHub Pages
         run: |
           cp dist/index.html index.html
           rm -rf assets
           mkdir -p assets data
           cp -R dist/assets/* assets/
+          rm -f data/stocks.json data/history.json data/recommendation-analytics.json
           cp dist/data/*.json data/
       - name: Commit generated data and branch Pages build
         run: |

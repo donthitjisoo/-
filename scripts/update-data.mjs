@@ -3,14 +3,12 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
 const publicDataDir = new URL("../public/data/", import.meta.url);
 const fundamentalsSource = new URL("../data/fundamentals/fundamentals.json", import.meta.url);
-const recommendationAnalyticsSource = new URL("../public/data/recommendation-analytics.json", import.meta.url);
 
 await mkdir(publicDataDir, { recursive: true });
 
 const watchlist = await readJson(new URL("../watchlist.json", import.meta.url), []);
 const watchedCodes = uniqueCodes(watchlist.map((stock) => stock.code));
 const fundamentals = await readJson(fundamentalsSource, {});
-const recommendationAnalytics = await readJson(recommendationAnalyticsSource, {});
 
 const dailyQuotes = await fetchDailyQuotes();
 const quoteMap = new Map(dailyQuotes.map((quote) => [quote.symbol, quote]));
@@ -30,11 +28,9 @@ const marketSnapshot = {
 await writeJson(new URL("stocks.json", publicDataDir), marketSnapshot);
 await writeJson(new URL("fundamentals.json", publicDataDir), normalizeFundamentals(fundamentals, quoteMap));
 await writeJson(new URL("history.json", publicDataDir), history);
-await writeJson(new URL("recommendation-analytics.json", publicDataDir), recommendationAnalytics);
 await writeJson(new URL("../data/stocks.json", import.meta.url), marketSnapshot);
 await writeJson(new URL("../data/fundamentals.json", import.meta.url), normalizeFundamentals(fundamentals, quoteMap));
 await writeJson(new URL("../data/history.json", import.meta.url), history);
-await writeJson(new URL("../data/recommendation-analytics.json", import.meta.url), recommendationAnalytics);
 
 // Compatibility for the older non-React app and quick inspection.
 await writeJson(new URL("../quotes.json", import.meta.url), {

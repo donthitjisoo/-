@@ -6,6 +6,8 @@ export interface Stock {
   recommendationPrice: number;
   recommendationDate: string;
   analyst: string;
+  targetReached: boolean;
+  reachedDays?: number;
   epsEstimate: number;
   pe: number;
   forwardPe: number;
@@ -56,6 +58,17 @@ export interface RecommendationInput {
   analyst: string;
   rating: string;
   note?: string;
+  targetReached?: boolean;
+  reachedDays?: number;
+}
+
+export interface RecommendationCsvRecord {
+  date: string;
+  symbol: string;
+  targetPrice: number;
+  recommender: string;
+  targetReached: boolean;
+  reachedDays?: number;
 }
 
 export interface StockSheet {
@@ -72,6 +85,9 @@ export interface StockMetrics {
   daysToTarget: number;
   daysToTargetSimple: number;
   daysToTargetVolatilityAdjusted: number;
+  elapsedTradingDays: number;
+  targetReached: boolean;
+  reachedDays?: number;
   pe: number;
   forwardPe: number;
   epsEstimate: number;
@@ -79,21 +95,10 @@ export interface StockMetrics {
   momentumScore: number;
 }
 
-export interface RecommendationAnalytics {
-  analyst: string;
-  successRate: number;
-  avgReturn: number;
-  avgDaysToTarget: number;
-  hitRate: number;
-  recommendationAlpha: number;
-  sampleSize: number;
-}
-
 export interface StockAnalysisRow {
   stock: Stock;
   recommendation: RecommendationInput;
   metrics: StockMetrics;
-  analytics?: RecommendationAnalytics;
   history: HistoricalPrice[];
 }
 
@@ -107,5 +112,4 @@ export interface StaticDataBundle {
   market: MarketDataSnapshot;
   fundamentals: Record<string, FundamentalData>;
   history: Record<string, HistoricalPrice[]>;
-  recommendationAnalytics: Record<string, RecommendationAnalytics>;
 }

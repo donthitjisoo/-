@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T08:44:26.136Z",
+  "updatedAt": "2026-05-21T18:07:38.421Z",
   "source": "TWSE/TPEx OpenAPI + watched live quotes via GitHub Actions",
   "quotes": [
     {
@@ -10867,7 +10867,7 @@
       "name": "天良",
       "last": 57.2,
       "changePercent": 10.000000000000005,
-      "volume": 281161,
+      "volume": 1211161,
       "open": 57.2,
       "high": 57.2,
       "low": 57.2,

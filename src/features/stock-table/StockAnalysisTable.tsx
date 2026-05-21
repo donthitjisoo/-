@@ -1,4 +1,3 @@
-import { Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { useVirtualRows } from "../../hooks/useVirtualRows";
 import type { StockAnalysisRow } from "../../types/stock";
@@ -6,22 +5,35 @@ import { classForSignedValue, formatDate, formatNumber, formatPercent } from "..
 
 interface StockAnalysisTableProps {
   rows: StockAnalysisRow[];
-  onRemove: (symbol: string) => void;
 }
 
 const ROW_HEIGHT = 54;
 const VIEWPORT_HEIGHT = 560;
 
-export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) {
+type SortKey = "symbol" | "currentPrice" | "targetPrice" | "potentialReturn" | "recommendationReturn" | "daysToTarget" | "pe";
+
+export function StockAnalysisTable({ rows }: StockAnalysisTableProps) {
   const [filter, setFilter] = useState("");
+  const [sortKey, setSortKey] = useState<SortKey>("symbol");
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
   const filteredRows = useMemo(() => {
     const keyword = filter.trim().toLowerCase();
-    if (!keyword) return rows;
-    return rows.filter(({ stock, recommendation }) =>
+    const nextRows = keyword
+      ? rows.filter(({ stock, recommendation }) =>
       `${stock.symbol} ${stock.name} ${stock.analyst} ${recommendation.rating}`.toLowerCase().includes(keyword)
-    );
-  }, [filter, rows]);
+    )
+      : rows;
+    return [...nextRows].sort((a, b) => compareRows(a, b, sortKey, sortDirection));
+  }, [filter, rows, sortDirection, sortKey]);
   const virtual = useVirtualRows(filteredRows, ROW_HEIGHT, VIEWPORT_HEIGHT);
+
+  function changeSort(nextKey: SortKey) {
+    if (nextKey === sortKey) setSortDirection((current) => (current === "asc" ? "desc" : "asc"));
+    else {
+      setSortKey(nextKey);
+      setSortDirection("asc");
+    }
+  }
 
   return (
     <section className="sheet-section">
@@ -40,21 +52,22 @@ export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) 
         <table>
           <thead>
             <tr>
-              <th>代號</th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("symbol")}>代號</button></th>
               <th>名稱</th>
-              <th>現價</th>
-              <th>目標價</th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("currentPrice")}>現價</button></th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("targetPrice")}>目標價</button></th>
               <th>距離目標</th>
-              <th>潛在報酬</th>
-              <th>推薦後報酬</th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("potentialReturn")}>潛在報酬</button></th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("recommendationReturn")}>即時報酬</button></th>
               <th>推薦時差</th>
               <th>推薦日期</th>
-              <th>交易日</th>
-              <th>PE</th>
+              <th>已過交易日</th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("daysToTarget")}>達標天數</button></th>
+              <th><button type="button" className="th-button" onClick={() => changeSort("pe")}>PE</button></th>
               <th>Forward PE</th>
               <th>EPS_估</th>
               <th>推薦人</th>
-              <th aria-label="操作" />
+              <th>達標</th>
             </tr>
           </thead>
           <tbody style={{ height: virtual.totalHeight }}>
@@ -70,16 +83,13 @@ export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) 
                 <td className={classForSignedValue(row.metrics.recommendationReturn)}>{formatPercent(row.metrics.recommendationReturn)}</td>
                 <td className={classForSignedValue(row.metrics.recommendationUpside)}>{formatPercent(row.metrics.recommendationUpside)}</td>
                 <td>{formatDate(row.stock.recommendationDate)}</td>
+                <td className="numeric">{row.metrics.elapsedTradingDays}</td>
                 <td className="numeric">{row.metrics.daysToTarget}</td>
                 <td className="numeric">{formatNumber(row.metrics.pe)}</td>
                 <td className="numeric">{formatNumber(row.metrics.forwardPe)}</td>
                 <td className="numeric">{formatNumber(row.metrics.epsEstimate)}</td>
                 <td>{row.stock.analyst}</td>
-                <td>
-                  <button type="button" className="icon-button danger" onClick={() => onRemove(row.stock.symbol)} aria-label={`移除 ${row.stock.symbol}`}>
-                    <Trash2 size={16} />
-                  </button>
-                </td>
+                <td>{row.metrics.targetReached ? "已達標" : "未達標"}</td>
               </tr>
             ))}
           </tbody>
@@ -87,4 +97,24 @@ export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) 
       </div>
     </section>
   );
+}
+
+function compareRows(a: StockAnalysisRow, b: StockAnalysisRow, key: SortKey, direction: "asc" | "desc"): number {
+  const multiplier = direction === "asc" ? 1 : -1;
+  const valueA = valueForSort(a, key);
+  const valueB = valueForSort(b, key);
+  if (valueA > valueB) return multiplier;
+  if (valueA < valueB) return -multiplier;
+  return a.stock.symbol.localeCompare(b.stock.symbol) * multiplier;
+}
+
+function valueForSort(row: StockAnalysisRow, key: SortKey): string | number {
+  if (key === "symbol") return row.stock.symbol;
+  if (key === "currentPrice") return row.stock.currentPrice;
+  if (key === "targetPrice") return row.stock.targetPrice;
+  if (key === "potentialReturn") return row.metrics.potentialReturn;
+  if (key === "recommendationReturn") return row.metrics.recommendationReturn;
+  if (key === "daysToTarget") return row.metrics.daysToTarget;
+  if (key === "pe") return row.metrics.pe;
+  return row.stock.symbol;
 }

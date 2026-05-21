@@ -76,6 +76,17 @@ export function calculateActualDaysToTarget(targetPrice: number, recommendationD
   return hitIndex >= 0 ? hitIndex + 1 : null;
 }
 
+export function calculateElapsedTradingDays(recommendationDate: string, history: HistoricalPrice[]): number {
+  if (!recommendationDate) return 0;
+  return sortHistory(history).filter((point) => point.date >= recommendationDate).length;
+}
+
+export function findHistoricalCloseOnOrBeforeDate(recommendationDate: string, history: HistoricalPrice[]): number | null {
+  if (!recommendationDate) return null;
+  const sorted = sortHistory(history).filter((point) => point.date <= recommendationDate);
+  return sorted.at(-1)?.close ?? null;
+}
+
 export function calculateAverageDailyMove(history: HistoricalPrice[]): number {
   if (history.length < 2) return 0;
   const moves: number[] = [];

@@ -2,7 +2,6 @@ import type {
   FundamentalData,
   HistoricalPrice,
   MarketDataSnapshot,
-  RecommendationAnalytics,
   StaticDataBundle,
   StockQuote
 } from "../types/stock";
@@ -10,18 +9,16 @@ import type {
 const DATA_BASE_URL = `${import.meta.env.BASE_URL}data`;
 
 export async function loadStaticData(): Promise<StaticDataBundle> {
-  const [market, fundamentals, history, recommendationAnalytics] = await Promise.all([
+  const [market, fundamentals, history] = await Promise.all([
     fetchJson<MarketDataSnapshot>(`${DATA_BASE_URL}/stocks.json`),
     fetchJson<Record<string, FundamentalData>>(`${DATA_BASE_URL}/fundamentals.json`),
-    fetchJson<Record<string, HistoricalPrice[]>>(`${DATA_BASE_URL}/history.json`),
-    fetchJson<Record<string, RecommendationAnalytics>>(`${DATA_BASE_URL}/recommendation-analytics.json`)
+    fetchJson<Record<string, HistoricalPrice[]>>(`${DATA_BASE_URL}/history.json`)
   ]);
 
   return {
     market: normalizeMarketSnapshot(market),
     fundamentals,
-    history,
-    recommendationAnalytics
+    history
   };
 }
 

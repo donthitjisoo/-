@@ -152,6 +152,29 @@ main {
   gap: 8px;
 }
 
+.csv-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.csv-actions button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-inline: 14px;
+}
+
+.csv-actions span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hidden-file {
+  display: none;
+}
+
 .add-form {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) repeat(5, minmax(110px, 150px)) auto;
@@ -203,6 +226,10 @@ select:focus {
   border-radius: 8px;
   overflow: hidden;
   background: var(--line);
+}
+
+.dashboard {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .stats > div {
@@ -279,6 +306,15 @@ th {
   font-weight: 650;
 }
 
+.th-button {
+  min-height: auto;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-weight: inherit;
+}
+
 tbody tr:hover {
   background: #fbfcfa;
 }
@@ -309,6 +345,7 @@ td:nth-child(n + 3) {
   }
 
   .add-form,
+  .csv-actions,
   .list-form,
   .stats {
     grid-template-columns: 1fr;

@@ -1,32 +1,21 @@
-import { Plus } from "lucide-react";
-import { FormEvent, useMemo, useState } from "react";
-import type { RecommendationInput, StockQuote, StockSheet } from "../../types/stock";
+import { Download, Upload } from "lucide-react";
+import { ChangeEvent, FormEvent, useRef, useState } from "react";
+import type { StockAnalysisRow, StockSheet } from "../../types/stock";
+import { rowsToRecommendationCsv } from "../../lib/recommendationCsv";
 
 interface StockToolbarProps {
   sheets: StockSheet[];
   activeSheet: StockSheet;
-  quotes: StockQuote[];
+  rows: StockAnalysisRow[];
   onAddSheet: (name: string) => void;
   onSelectSheet: (id: string) => void;
-  onUpsertRecommendation: (recommendation: RecommendationInput) => void;
+  onImportCsv: (file: File) => Promise<number>;
 }
 
-export function StockToolbar({
-  sheets,
-  activeSheet,
-  quotes,
-  onAddSheet,
-  onSelectSheet,
-  onUpsertRecommendation
-}: StockToolbarProps) {
+export function StockToolbar({ sheets, activeSheet, rows, onAddSheet, onSelectSheet, onImportCsv }: StockToolbarProps) {
   const [sheetName, setSheetName] = useState("");
-  const [query, setQuery] = useState("");
-  const [targetPrice, setTargetPrice] = useState("");
-  const [recommendationPrice, setRecommendationPrice] = useState("");
-  const [recommendationDate, setRecommendationDate] = useState(new Date().toISOString().slice(0, 10));
-  const [rating, setRating] = useState("觀察");
-  const [analyst, setAnalyst] = useState("Kevin");
-  const quoteIndex = useMemo(() => quotes.map((quote) => `${quote.symbol} ${quote.name}`).slice(0, 3500), [quotes]);
+  const [message, setMessage] = useState("");
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   function submitSheet(event: FormEvent) {
     event.preventDefault();
@@ -36,23 +25,27 @@ export function StockToolbar({
     setSheetName("");
   }
 
-  function submitRecommendation(event: FormEvent) {
-    event.preventDefault();
-    const quote = resolveQuote(query, quotes);
-    if (!quote) return;
-    const target = Number(targetPrice) || quote.currentPrice;
-    onUpsertRecommendation({
-      symbol: quote.symbol,
-      targetPrice: target,
-      recommendationPrice: Number(recommendationPrice) || quote.currentPrice,
-      recommendationDate,
-      analyst: analyst.trim() || "未指定",
-      rating,
-      note: ""
-    });
-    setQuery("");
-    setTargetPrice("");
-    setRecommendationPrice("");
+  async function importCsv(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    try {
+      const count = await onImportCsv(file);
+      setMessage(`已匯入 ${count} 筆推薦到「${activeSheet.name}」。`);
+    } catch (error) {
+      setMessage((error as Error).message);
+    } finally {
+      event.target.value = "";
+    }
+  }
+
+  function exportCsv() {
+    const blob = new Blob([rowsToRecommendationCsv(rows)], { type: "text/csv;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${activeSheet.name}-recommendations.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
   }
 
   return (
@@ -71,58 +64,23 @@ export function StockToolbar({
           ))}
         </div>
         <form className="list-form" onSubmit={submitSheet}>
-          <input value={sheetName} onChange={(event) => setSheetName(event.target.value)} placeholder="新增清單" />
+          <input value={sheetName} onChange={(event) => setSheetName(event.target.value)} placeholder="新增 watchlist" />
           <button type="submit">新增</button>
         </form>
       </div>
 
-      <form className="add-form analytics-form" onSubmit={submitRecommendation}>
-        <label>
-          代號或名稱
-          <input list="stock-options" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="2327 或 國巨" />
-          <datalist id="stock-options">
-            {quoteIndex.map((value) => (
-              <option key={value} value={value} />
-            ))}
-          </datalist>
-        </label>
-        <label>
-          目標價
-          <input value={targetPrice} onChange={(event) => setTargetPrice(event.target.value)} inputMode="decimal" />
-        </label>
-        <label>
-          推薦價
-          <input value={recommendationPrice} onChange={(event) => setRecommendationPrice(event.target.value)} inputMode="decimal" />
-        </label>
-        <label>
-          推薦日期
-          <input type="date" value={recommendationDate} onChange={(event) => setRecommendationDate(event.target.value)} />
-        </label>
-        <label>
-          評等
-          <select value={rating} onChange={(event) => setRating(event.target.value)}>
-            <option>強力買進</option>
-            <option>買進</option>
-            <option>觀察</option>
-            <option>保守</option>
-          </select>
-        </label>
-        <label>
-          推薦人
-          <input value={analyst} onChange={(event) => setAnalyst(event.target.value)} />
-        </label>
-        <button type="submit" className="primary-button">
-          <Plus size={16} />
-          加入
+      <div className="csv-actions">
+        <input ref={fileInputRef} className="hidden-file" type="file" accept=".csv,text/csv" onChange={importCsv} />
+        <button type="button" className="primary-button" onClick={() => fileInputRef.current?.click()}>
+          <Upload size={16} />
+          匯入 CSV
         </button>
-      </form>
+        <button type="button" onClick={exportCsv}>
+          <Download size={16} />
+          匯出 CSV
+        </button>
+        <span>{message || "CSV 欄位固定：date, symbol, target_price, recommender, target_reached, reached_days"}</span>
+      </div>
     </section>
   );
-}
-
-function resolveQuote(query: string, quotes: StockQuote[]): StockQuote | undefined {
-  const normalized = query.trim().toLowerCase();
-  const code = normalized.match(/\d{4,6}/)?.[0];
-  if (code) return quotes.find((quote) => quote.symbol === code);
-  return quotes.find((quote) => quote.name.toLowerCase().includes(normalized));
 }
