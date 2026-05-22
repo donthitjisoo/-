@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 42 45% 93%;
+  --foreground: 24 38% 17%;
+  --card: 38 42% 86%;
+  --card-foreground: 24 38% 17%;
+  --primary: 152 45% 24%;
+  --primary-foreground: 48 56% 94%;
+  --muted: 37 32% 78%;
+  --muted-foreground: 25 22% 36%;
+  --border: 34 29% 70%;
+  --input: 39 38% 89%;
+  --ring: 152 45% 24%;
+  --success: 150 50% 28%;
+  --danger: 358 58% 43%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(135deg, rgba(245, 238, 219, 0.9), rgba(222, 207, 177, 0.75)),
+    hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: Arial, "Noto Sans TC", "PingFang TC", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
