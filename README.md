@@ -1,117 +1,189 @@
-# 個人投資管理 Web App
+# 飆股推薦追蹤 Dashboard
 
-Next.js 15 + TypeScript 投資管理 dashboard。資料來源改成 GitHub repo 內的 CSV 檔，後端 API Routes 負責讀取 CSV、查詢台股報價、辨識上市/上櫃、計算持倉與推薦績效。
+這個專案已改成 **Cloudflare Pages + GitHub Actions + 靜態資料架構**。
 
-你可以維持原本工作流：在 Google Sheets 手動整理資料，下載 CSV，覆蓋 repo 內的 CSV 後 push 到 GitHub。App 不需要連 Google Sheets API。
+不使用 Vercel、不使用 database、不使用 websocket、不使用 server、不使用 realtime streaming。  
+CSV 是唯一推薦來源，GitHub Actions 每日更新市場資料並輸出靜態 JSON，Cloudflare Pages 只部署 React/Vite 產出的 `dist/`。
 
-> 這個版本有 Next.js API Routes，所以仍建議部署到 Vercel、Render、Fly.io，或任何可執行 Next.js server 的 Node.js 平台。GitHub Pages 只能放靜態頁，不能跑 API Routes。
+## 架構
 
-## CSV 資料檔
-
-### `data/recommendations.csv`
-
-推薦股票資料。
-
-```csv
-id,date,symbol,target_price,recommended_price,recommender,note
-rec_001,2026-05-22,2330,1180,950,Tom,AI server supply chain
-rec_002,2026-05-22,3661,520,410,Alice,TPEX semiconductor
+```txt
+GitHub Repo
+  ↓
+data/**/*.csv
+  ↓
+GitHub Actions: npm run update:data
+  ↓
+public/data/*.json
+  ↓
+Cloudflare Pages: npm run build
+  ↓
+dist/
 ```
 
-### `data/portfolio.csv`
+前端只讀：
 
-個人持倉資料。格式固定，不再使用 `account`。
+- `public/data/stocks.json`
+- `public/data/analytics.json`
+- `public/data/leaderboard.json`
+- `public/data/history.json`
 
-```csv
-id,symbol,shares,avg_cost,broker
-holding_001,2330,1000,850,富邦
-holding_002,3661,200,390,永豐
-```
+## CSV 格式
 
-### `data/price_history.csv`
-
-歷史價格資料，用來判斷推薦是否達標與幾個交易日達標。若 CSV 沒有足夠歷史資料，後端會嘗試從 Yahoo Finance chart endpoint 補日線。
+推薦 CSV 格式固定：
 
 ```csv
-date,symbol,open,high,low,close,volume
-2026-05-22,2330,950,990,945,980,45000000
-2026-05-22,3661,410,450,405,440,3500000
+date,symbol,target_price,recommender,target_reached,reached_days
+2026-05-22,2330,1180,Tom,false,
+2026-05-22,3661,520,Alice,true,7
 ```
 
-## 功能
+主推薦來源：
 
-- Dashboard：總資產、今日損益、未實現損益、持倉數量、推薦數量、已達標推薦
-- 從 GitHub CSV 讀取持倉與推薦資料
-- API Routes 保留 CRUD 介面，方便之後替換成正式後端
-- 自動補齊股票名稱、現行股價、上市/上櫃、Yahoo ticker
-- 自動計算推薦時差、當下潛在報酬、實時潛在報酬、是否達標、達標交易日
-- 搜尋股票代號/名稱
-- 推薦人、市場別、達標狀態篩選
-- 依市值、未實現損益、潛在報酬排序
+```txt
+data/recommendations.csv
+```
 
-## 執行
+多 watchlists：
+
+```txt
+data/watchlists/AI.csv
+data/watchlists/半導體.csv
+```
+
+新的股票只能透過修改 CSV 新增。系統不會自動新增推薦股票，也不會同步外部 watchlist。
+
+## 每日更新
+
+`.github/workflows/update-data.yml` 會在台灣時間週一到週五 15:10 自動執行，也可以在 GitHub Actions 手動 Run workflow。
+
+流程：
+
+1. `npm ci`
+2. `npm run update:data`
+3. 查詢上市/上櫃、Yahoo ticker、股價、EPS、PE、Forward PE
+4. 計算推薦衍生欄位與 dashboard analytics
+5. 產生 `public/data/*.json`
+6. `npm run build`
+7. commit 產生後的 JSON 回 repo
+8. Cloudflare Pages 因 main branch push 自動部署
+
+## 達標邏輯
+
+如果：
+
+- `current_price >= target_price`
+- 且 CSV 原本 `target_reached = false`
+
+則輸出 JSON 時：
+
+- `targetReached = true`
+- `reachedDays = 從推薦日至今天的交易日數`
+
+如果 CSV 原本已達標：
+
+- 不覆蓋 `reached_days`
+- 保留第一次達標紀錄
+
+## 前端功能
+
+- 深色 / 淺色模式
+- 多 watchlists tabs
+- Table view
+- Search
+- Filtering
+- Sorting
+- CSV Upload，本地預覽用
+- Export CSV
+- Analytics dashboard
+- Leaderboard
+
+前端不做大量金融計算。`analytics.json` 和 `leaderboard.json` 由 GitHub Actions 預先產生，React 只負責 render。
+
+## 本機開發
 
 ```bash
 npm install
+npm run update:data
 npm run dev
 ```
 
-開啟 [http://localhost:3000](http://localhost:3000)。
+開啟：
 
-## API
-
-- `GET /api/dashboard`
-- `GET /api/holdings`
-- `POST /api/holdings`
-- `PUT /api/holdings/:id`
-- `DELETE /api/holdings/:id`
-- `GET /api/recommendations`
-- `POST /api/recommendations`
-- `PUT /api/recommendations/:id`
-- `DELETE /api/recommendations/:id`
-- `GET /api/prices?symbols=2330,3661`
-
-目前 CRUD 會寫入本機 `data/*.csv`。部署到 Vercel 這類 serverless 平台時，檔案系統不適合當永久資料庫，所以正式資料更新建議仍用「下載 CSV → push GitHub → redeploy」流程。之後若要接正式後端，只要替換 `lib/csvStore.ts`。
-
-## 台股上市 / 上櫃辨識
-
-`lib/twStockResolver.ts` 會優先用快取和內建常用股 fallback，再嘗試 TWSE/TPEX OpenAPI：
-
-- 上市：`2330` → `2330.TW`
-- 上櫃：`3661` → `3661.TWO`
-
-解析結果格式：
-
-```ts
-{
-  symbol: "3661",
-  yahooSymbol: "3661.TWO",
-  market: "TPEX",
-  marketName: "上櫃"
-}
+```txt
+http://127.0.0.1:5173
 ```
 
-## 模組
-
-- `lib/csvStore.ts`：CSV 讀寫資料層
-- `lib/priceProvider.ts`：報價 provider、cache、Yahoo Finance chart adapter
-- `lib/twStockResolver.ts`：上市/上櫃辨識與 Yahoo ticker 轉換
-- `lib/calculations.ts`：持倉與推薦績效計算
-- `lib/investmentService.ts`：API 使用的 application service
-- `lib/types.ts`：完整 TypeScript models
-- `components/investment-dashboard.tsx`：Dashboard、篩選、CRUD UI
-
-## 部署
-
-Vercel 最簡單：
-
-1. 匯入 GitHub repo
-2. 確認 `data/*.csv` 已更新
-3. Deploy
-
-其他 Node.js 平台：
+Production build：
 
 ```bash
 npm run build
-npm run start
+npm run preview
 ```
+
+## Cloudflare Pages 設定
+
+Cloudflare 官方文件列出的 React/Vite 設定是：
+
+- Build command：`npm run build`
+- Build output directory：`dist`
+
+設定步驟：
+
+1. 到 Cloudflare Dashboard
+2. 進入 Workers & Pages
+3. Create application
+4. Pages
+5. Connect to Git
+6. 選擇你的 GitHub repo
+7. Framework preset 選 `React (Vite)`
+8. Build command 填 `npm run build`
+9. Build output directory 填 `dist`
+10. Production branch 選 `main`
+11. Deploy
+
+Cloudflare Pages GitHub integration 會在你 push 到 connected branch 時自動部署。
+
+官方參考：
+
+- Cloudflare Pages build configuration: https://developers.cloudflare.com/pages/configuration/build-configuration/
+- Cloudflare Pages GitHub integration: https://developers.cloudflare.com/pages/configuration/git-integration/github-integration/
+- Cloudflare Pages Git integration guide: https://developers.cloudflare.com/pages/get-started/git-integration/
+
+## GitHub Actions 設定
+
+這個專案不需要 secrets 就能跑。
+
+如果之後要換成正式付費股價 API，可以在 GitHub repo：
+
+```txt
+Settings → Secrets and variables → Actions
+```
+
+新增：
+
+```bash
+MARKET_DATA_API_KEY=
+```
+
+目前 `.env.example` 只保留這個 optional 範例。
+
+## 免費部署流程
+
+1. 在 Google Sheets 或 Excel 編輯推薦資料
+2. 下載成 CSV
+3. 覆蓋 `data/recommendations.csv` 或 `data/watchlists/*.csv`
+4. push 到 GitHub main
+5. GitHub Actions 更新 `public/data/*.json`
+6. Cloudflare Pages 自動部署 `dist/`
+
+## 重要檔案
+
+- `scripts/update-data.mjs`：每日資料更新 pipeline
+- `data/recommendations.csv`：主要推薦 CSV
+- `data/watchlists/*.csv`：多 watchlists
+- `public/data/stocks.json`：前端主要表格資料
+- `public/data/analytics.json`：Dashboard 指標
+- `public/data/leaderboard.json`：推薦人排行榜
+- `public/data/history.json`：歷史價格
+- `src/App.tsx`：靜態 Dashboard UI

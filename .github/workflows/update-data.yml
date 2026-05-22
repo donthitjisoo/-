@@ -1,0 +1,53 @@
+name: Update static stock data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/**/*.csv"
+      - "scripts/update-data.mjs"
+      - "src/**"
+      - "package.json"
+      - "package-lock.json"
+      - "vite.config.ts"
+      - "tsconfig.json"
+      - ".github/workflows/update-data.yml"
+  schedule:
+    # 15:10 Asia/Taipei on weekdays, after the regular Taiwan market close.
+    - cron: "10 7 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-static-stock-data
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      - name: Generate static JSON data
+        run: npm run update:data
+      - name: Validate static build
+        run: npm run build
+      - name: Commit generated JSON
+        run: |
+          if git diff --quiet public/data package-lock.json; then
+            echo "No generated data changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data package-lock.json
+            git commit -m "Update static stock data"
+            git push
+          fi
