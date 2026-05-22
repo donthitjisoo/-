@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T16:20:20.214Z",
+  "generatedAt": "2026-05-22T16:22:03.115Z",
   "watchlists": [
     {
       "id": "default",
@@ -973,7 +973,7 @@
           "change": 48.5,
           "changePercent": 20.68230277185501,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 28.091872791519435,
@@ -996,7 +996,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.495Z"
+          "updatedAt": "2026-05-22T16:21:47.631Z"
         },
         {
           "id": "3443-2026-05-22-1",
@@ -1017,7 +1017,7 @@
           "change": 535,
           "changePercent": 11.617806731813246,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 17.509727626459142,
@@ -1040,7 +1040,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.793Z"
+          "updatedAt": "2026-05-22T16:21:47.001Z"
         },
         {
           "id": "4541-2026-05-21-2",
@@ -1085,7 +1085,7 @@
             "Yahoo Finance: Yahoo fundamentals 4541 HTTP 401",
             "TradingView: TradingView 4541 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.974Z"
+          "updatedAt": "2026-05-22T16:21:47.166Z"
         },
         {
           "id": "3088-2026-05-21-3",
@@ -1130,7 +1130,7 @@
             "Yahoo Finance: Yahoo fundamentals 3088 HTTP 401",
             "TradingView: TradingView 3088 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.531Z"
+          "updatedAt": "2026-05-22T16:21:46.801Z"
         },
         {
           "id": "2645-2026-05-21-4",
@@ -1174,7 +1174,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.347Z"
+          "updatedAt": "2026-05-22T16:21:46.570Z"
         },
         {
           "id": "3702-2026-05-20-5",
@@ -1195,7 +1195,7 @@
           "change": -1,
           "changePercent": -0.8403361344537815,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.8403361344537815,
           "remainingUpsidePct": 21.1864406779661,
@@ -1218,7 +1218,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.914Z"
+          "updatedAt": "2026-05-22T16:21:47.123Z"
         },
         {
           "id": "1476-2026-05-20-6",
@@ -1262,7 +1262,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.590Z"
+          "updatedAt": "2026-05-22T16:21:45.917Z"
         },
         {
           "id": "2949-2026-05-20-7",
@@ -1307,7 +1307,7 @@
             "Yahoo Finance: Yahoo fundamentals 2949 HTTP 401",
             "TradingView: TradingView 2949 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.428Z"
+          "updatedAt": "2026-05-22T16:21:46.734Z"
         },
         {
           "id": "8111-2026-05-20-8",
@@ -1352,7 +1352,7 @@
             "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
             "TradingView: TradingView 8111 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.841Z"
+          "updatedAt": "2026-05-22T16:21:48.008Z"
         },
         {
           "id": "2891-2026-05-20-9",
@@ -1373,7 +1373,7 @@
           "change": -0.19999923706054545,
           "changePercent": -0.3460194458485542,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -0.3460194458485542,
           "remainingUpsidePct": 2.430555555555553,
@@ -1396,7 +1396,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.442Z"
+          "updatedAt": "2026-05-22T16:21:46.696Z"
         },
         {
           "id": "6902-2026-05-19-10",
@@ -1440,7 +1440,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.723Z"
+          "updatedAt": "2026-05-22T16:21:47.896Z"
         },
         {
           "id": "2359-2026-05-19-11",
@@ -1461,7 +1461,7 @@
           "change": 13.5,
           "changePercent": 10.588235294117647,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 4.444444444444445,
           "remainingUpsidePct": 28.368794326241137,
@@ -1484,7 +1484,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.914Z"
+          "updatedAt": "2026-05-22T16:21:46.224Z"
         },
         {
           "id": "5388-2026-05-19-12",
@@ -1505,7 +1505,7 @@
           "change": 3.299996948242182,
           "changePercent": 4.03422594758848,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 7.0440251572326975,
           "remainingUpsidePct": 17.50881316098708,
@@ -1528,7 +1528,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.253Z"
+          "updatedAt": "2026-05-22T16:21:47.446Z"
         },
         {
           "id": "1503-2026-05-18-13",
@@ -1572,7 +1572,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.590Z"
+          "updatedAt": "2026-05-22T16:21:45.946Z"
         },
         {
           "id": "6414-2026-05-18-14",
@@ -1593,7 +1593,7 @@
           "change": 19,
           "changePercent": 5.731523378582202,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 9.190031152647975,
           "remainingUpsidePct": -0.14265335235378032,
@@ -1616,7 +1616,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.564Z"
+          "updatedAt": "2026-05-22T16:21:47.714Z"
         },
         {
           "id": "2890-2026-05-18-15",
@@ -1660,7 +1660,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.409Z"
+          "updatedAt": "2026-05-22T16:21:46.690Z"
         },
         {
           "id": "6177-2026-05-18-16",
@@ -1704,7 +1704,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.407Z"
+          "updatedAt": "2026-05-22T16:21:47.547Z"
         },
         {
           "id": "8462-2026-05-15-17",
@@ -1725,7 +1725,7 @@
           "change": 0.5,
           "changePercent": 0.36231884057971014,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.464788732394366,
           "remainingUpsidePct": 12.63537906137184,
@@ -1748,7 +1748,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.931Z"
+          "updatedAt": "2026-05-22T16:21:48.085Z"
         },
         {
           "id": "2034-2026-05-15-18",
@@ -1769,7 +1769,7 @@
           "change": 7.629394538355427e-7,
           "changePercent": 0.000003853229713299759,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.2518910856868394,
           "remainingUpsidePct": 11.111111111111107,
@@ -1792,7 +1792,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.694Z"
+          "updatedAt": "2026-05-22T16:21:46.010Z"
         },
         {
           "id": "1326-2026-05-15-19",
@@ -1836,7 +1836,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.578Z"
+          "updatedAt": "2026-05-22T16:21:45.925Z"
         },
         {
           "id": "2480-2026-05-15-20",
@@ -1857,7 +1857,7 @@
           "change": 3,
           "changePercent": 2.04778156996587,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.6734006734006733,
           "remainingUpsidePct": 17.05685618729097,
@@ -1880,7 +1880,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.315Z"
+          "updatedAt": "2026-05-22T16:21:46.504Z"
         },
         {
           "id": "6664-2026-05-15-21",
@@ -1925,7 +1925,7 @@
             "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
             "TradingView: TradingView 6664 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.658Z"
+          "updatedAt": "2026-05-22T16:21:47.831Z"
         },
         {
           "id": "2327-2026-05-15-22",
@@ -1946,7 +1946,7 @@
           "change": 109,
           "changePercent": 20.961538461538463,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 38.090010976948406,
           "remainingUpsidePct": -3.0206677265500796,
@@ -1969,7 +1969,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.820Z"
+          "updatedAt": "2026-05-22T16:21:46.141Z"
         },
         {
           "id": "2317-2026-05-15-23",
@@ -1990,7 +1990,7 @@
           "change": 10,
           "changePercent": 4.166666666666666,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.6036217303822937,
           "remainingUpsidePct": 4,
@@ -2013,7 +2013,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.822Z"
+          "updatedAt": "2026-05-22T16:21:46.125Z"
         },
         {
           "id": "2515-2026-05-15-24",
@@ -2034,7 +2034,7 @@
           "change": 0.7499996185302731,
           "changePercent": 5.952377744632968,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 8.979591836734691,
           "remainingUpsidePct": 4.868913857677906,
@@ -2057,7 +2057,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.275Z"
+          "updatedAt": "2026-05-22T16:21:46.514Z"
         },
         {
           "id": "2891-2026-05-15-25",
@@ -2078,7 +2078,7 @@
           "change": -0.19999923706054545,
           "changePercent": -0.3460194458485542,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 5.109490514455791,
           "remainingUpsidePct": 2.430555555555553,
@@ -2101,7 +2101,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.442Z"
+          "updatedAt": "2026-05-22T16:21:46.696Z"
         },
         {
           "id": "5534-2026-05-15-26",
@@ -2122,7 +2122,7 @@
           "change": -0.09999847412109375,
           "changePercent": -0.13227311658653615,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.048496749358101,
           "remainingUpsidePct": 9.933774834437086,
@@ -2145,7 +2145,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.316Z"
+          "updatedAt": "2026-05-22T16:21:47.465Z"
         },
         {
           "id": "7769-2026-05-14-27",
@@ -2189,7 +2189,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.777Z"
+          "updatedAt": "2026-05-22T16:21:47.936Z"
         },
         {
           "id": "6223-2026-05-14-28",
@@ -2210,7 +2210,7 @@
           "change": 355,
           "changePercent": 6.25,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -4.054054054054054,
           "remainingUpsidePct": 34.217067108533556,
@@ -2234,7 +2234,7 @@
             "Yahoo Finance: Yahoo fundamentals 6223 HTTP 401",
             "TradingView: TradingView 6223 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.482Z"
+          "updatedAt": "2026-05-22T16:21:47.634Z"
         },
         {
           "id": "2762-2026-05-14-29",
@@ -2255,7 +2255,7 @@
           "change": -0.19999847412108807,
           "changePercent": -0.24067205510644066,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -1.1918969102407593,
           "remainingUpsidePct": 17.008443908323272,
@@ -2278,7 +2278,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.347Z"
+          "updatedAt": "2026-05-22T16:21:46.593Z"
         },
         {
           "id": "4571-2026-05-14-30",
@@ -2299,7 +2299,7 @@
           "change": 19,
           "changePercent": 9.026128266033254,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 12.224938875305623,
           "remainingUpsidePct": -9.803921568627452,
@@ -2322,7 +2322,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.138Z"
+          "updatedAt": "2026-05-22T16:21:47.204Z"
         },
         {
           "id": "6531-2026-05-13-31",
@@ -2343,7 +2343,7 @@
           "change": -10,
           "changePercent": -1.027749229188078,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -7.403846153846154,
           "remainingUpsidePct": 19.418483904465216,
@@ -2366,7 +2366,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.640Z"
+          "updatedAt": "2026-05-22T16:21:47.792Z"
         },
         {
           "id": "4966-2026-05-13-32",
@@ -2387,7 +2387,7 @@
           "change": 38,
           "changePercent": 5.019815059445178,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.73053152039555,
           "remainingUpsidePct": 13.20754716981132,
@@ -2411,7 +2411,7 @@
             "Yahoo Finance: Yahoo fundamentals 4966 HTTP 401",
             "TradingView: TradingView 4966 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.071Z"
+          "updatedAt": "2026-05-22T16:21:47.286Z"
         },
         {
           "id": "2615-2026-05-13-33",
@@ -2432,7 +2432,7 @@
           "change": 3.2000015258789034,
           "changePercent": 3.9457479483184206,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 13.458945541733195,
           "remainingUpsidePct": 5.575326215895615,
@@ -2455,7 +2455,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.307Z"
+          "updatedAt": "2026-05-22T16:21:46.605Z"
         },
         {
           "id": "7750-2026-05-13-34",
@@ -2476,7 +2476,7 @@
           "change": -15,
           "changePercent": -0.6237006237006237,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -13.5623869801085,
           "remainingUpsidePct": 67.36401673640168,
@@ -2499,7 +2499,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.763Z"
+          "updatedAt": "2026-05-22T16:21:47.933Z"
         },
         {
           "id": "6166-2026-05-13-35",
@@ -2543,7 +2543,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.360Z"
+          "updatedAt": "2026-05-22T16:21:47.547Z"
         },
         {
           "id": "3702-2026-05-13-36",
@@ -2564,7 +2564,7 @@
           "change": -1,
           "changePercent": -0.8403361344537815,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 6.787330316742081,
           "remainingUpsidePct": 21.1864406779661,
@@ -2587,7 +2587,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.914Z"
+          "updatedAt": "2026-05-22T16:21:47.123Z"
         },
         {
           "id": "2404-2026-05-13-37",
@@ -2608,7 +2608,7 @@
           "change": 130,
           "changePercent": 12.682926829268293,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 12.682926829268293,
           "remainingUpsidePct": 16.017316017316016,
@@ -2631,7 +2631,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.182Z"
+          "updatedAt": "2026-05-22T16:21:46.402Z"
         },
         {
           "id": "5536-2026-05-13-38",
@@ -2652,7 +2652,7 @@
           "change": 11,
           "changePercent": 1.2008733624454149,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -2.4210526315789473,
           "remainingUpsidePct": 28.37108953613808,
@@ -2676,7 +2676,7 @@
             "Yahoo Finance: Yahoo fundamentals 5536 HTTP 401",
             "TradingView: TradingView 5536 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.397Z"
+          "updatedAt": "2026-05-22T16:21:47.465Z"
         },
         {
           "id": "1605-2026-05-12-39",
@@ -2697,7 +2697,7 @@
           "change": 3.4000015258789062,
           "changePercent": 10.271908406694228,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 5.797101449275362,
           "remainingUpsidePct": 23.28767123287671,
@@ -2720,7 +2720,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.591Z"
+          "updatedAt": "2026-05-22T16:21:45.916Z"
         },
         {
           "id": "8069-2026-05-12-40",
@@ -2741,7 +2741,7 @@
           "change": -6,
           "changePercent": -2.608695652173913,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 14.578005115089516,
           "remainingUpsidePct": 6.25,
@@ -2765,7 +2765,7 @@
             "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
             "TradingView: TradingView 8069 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.915Z"
+          "updatedAt": "2026-05-22T16:21:47.986Z"
         },
         {
           "id": "2049-2026-05-12-41",
@@ -2809,7 +2809,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.696Z"
+          "updatedAt": "2026-05-22T16:21:46.008Z"
         },
         {
           "id": "6415-2026-05-12-42",
@@ -2853,7 +2853,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.576Z"
+          "updatedAt": "2026-05-22T16:21:47.818Z"
         },
         {
           "id": "2385-2026-05-12-43",
@@ -2874,7 +2874,7 @@
           "change": 3,
           "changePercent": 2.3346303501945527,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -2.5925925925925926,
           "remainingUpsidePct": 17.870722433460077,
@@ -2897,7 +2897,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.019Z"
+          "updatedAt": "2026-05-22T16:21:46.321Z"
         },
         {
           "id": "4566-2026-05-12-44",
@@ -2918,7 +2918,7 @@
           "change": 2.700000000000003,
           "changePercent": 4.462809917355377,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -3.951372235822946,
           "remainingUpsidePct": 20.25316455696202,
@@ -2941,7 +2941,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.996Z"
+          "updatedAt": "2026-05-22T16:21:47.201Z"
         },
         {
           "id": "7734-2026-05-12-45",
@@ -2986,7 +2986,7 @@
             "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
             "TradingView: TradingView 7734 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.753Z"
+          "updatedAt": "2026-05-22T16:21:47.925Z"
         },
         {
           "id": "3680-2026-05-12-46",
@@ -3031,7 +3031,7 @@
             "Yahoo Finance: Yahoo fundamentals 3680 HTTP 401",
             "TradingView: TradingView 3680 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.897Z"
+          "updatedAt": "2026-05-22T16:21:47.115Z"
         },
         {
           "id": "4961-2026-05-12-47",
@@ -3075,7 +3075,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.063Z"
+          "updatedAt": "2026-05-22T16:21:47.254Z"
         },
         {
           "id": "2408-2026-05-12-48",
@@ -3096,7 +3096,7 @@
           "change": 35.5,
           "changePercent": 12.909090909090908,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -3.2710280373831773,
           "remainingUpsidePct": 31.07890499194847,
@@ -3119,7 +3119,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.088Z"
+          "updatedAt": "2026-05-22T16:21:46.402Z"
         },
         {
           "id": "1802-2026-05-12-49",
@@ -3140,7 +3140,7 @@
           "change": 6.599998474121094,
           "changePercent": 10.328635863096428,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.8438797285480683,
           "remainingUpsidePct": 9.219858156028367,
@@ -3163,7 +3163,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.683Z"
+          "updatedAt": "2026-05-22T16:21:46.012Z"
         },
         {
           "id": "4551-2026-05-11-50",
@@ -3184,7 +3184,7 @@
           "change": 7,
           "changePercent": 4.713804713804714,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 4.713804713804714,
           "remainingUpsidePct": -1.607717041800643,
@@ -3207,7 +3207,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.981Z"
+          "updatedAt": "2026-05-22T16:21:47.193Z"
         },
         {
           "id": "6829-2026-05-11-51",
@@ -3252,7 +3252,7 @@
             "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
             "TradingView: TradingView 6829 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.699Z"
+          "updatedAt": "2026-05-22T16:21:47.859Z"
         },
         {
           "id": "2344-2026-05-11-52",
@@ -3273,7 +3273,7 @@
           "change": 9.5,
           "changePercent": 8.225108225108226,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 6.382978723404255,
           "remainingUpsidePct": 9.6,
@@ -3296,7 +3296,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.901Z"
+          "updatedAt": "2026-05-22T16:21:46.205Z"
         },
         {
           "id": "3596-2026-05-11-53",
@@ -3340,7 +3340,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.897Z"
+          "updatedAt": "2026-05-22T16:21:47.053Z"
         },
         {
           "id": "2049-2026-05-11-54",
@@ -3384,7 +3384,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.696Z"
+          "updatedAt": "2026-05-22T16:21:46.008Z"
         },
         {
           "id": "2451-2026-05-11-55",
@@ -3428,7 +3428,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.172Z"
+          "updatedAt": "2026-05-22T16:21:46.503Z"
         },
         {
           "id": "8210-2026-05-11-56",
@@ -3449,7 +3449,7 @@
           "change": 60,
           "changePercent": 4.669260700389105,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -13.504823151125404,
           "remainingUpsidePct": 26.394052044609666,
@@ -3472,7 +3472,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.850Z"
+          "updatedAt": "2026-05-22T16:21:48.016Z"
         },
         {
           "id": "1519-2026-05-11-57",
@@ -3516,7 +3516,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.589Z"
+          "updatedAt": "2026-05-22T16:21:45.910Z"
         },
         {
           "id": "5289-2026-05-11-58",
@@ -3537,7 +3537,7 @@
           "change": 50,
           "changePercent": 2.9850746268656714,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -1.9886363636363635,
           "remainingUpsidePct": 20.869565217391305,
@@ -3561,7 +3561,7 @@
             "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
             "TradingView: TradingView 5289 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.173Z"
+          "updatedAt": "2026-05-22T16:21:47.366Z"
         },
         {
           "id": "2395-2026-05-08-59",
@@ -3605,7 +3605,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.082Z"
+          "updatedAt": "2026-05-22T16:21:46.399Z"
         },
         {
           "id": "6285-2026-05-08-60",
@@ -3626,7 +3626,7 @@
           "change": 17,
           "changePercent": 6.093189964157706,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 19.5959595959596,
           "remainingUpsidePct": -8.783783783783784,
@@ -3649,7 +3649,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.540Z"
+          "updatedAt": "2026-05-22T16:21:47.676Z"
         },
         {
           "id": "3034-2026-05-08-61",
@@ -3670,7 +3670,7 @@
           "change": 13,
           "changePercent": 2.751322751322751,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.5100401606425704,
           "remainingUpsidePct": 6.694129763130793,
@@ -3693,7 +3693,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.510Z"
+          "updatedAt": "2026-05-22T16:21:46.782Z"
         },
         {
           "id": "6526-2026-05-08-62",
@@ -3714,7 +3714,7 @@
           "change": 21,
           "changePercent": 2.9829545454545454,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -3.718459495351926,
           "remainingUpsidePct": 11.724137931034482,
@@ -3737,7 +3737,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.609Z"
+          "updatedAt": "2026-05-22T16:21:47.785Z"
         },
         {
           "id": "2383-2026-05-08-63",
@@ -3781,7 +3781,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.012Z"
+          "updatedAt": "2026-05-22T16:21:46.310Z"
         },
         {
           "id": "2303-2026-05-08-64",
@@ -3802,7 +3802,7 @@
           "change": 6,
           "changePercent": 5.555555555555555,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 24.863084544886156,
           "remainingUpsidePct": 5.263157894736842,
@@ -3825,7 +3825,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.777Z"
+          "updatedAt": "2026-05-22T16:21:46.100Z"
         },
         {
           "id": "2606-2026-05-07-65",
@@ -3846,7 +3846,7 @@
           "change": 0.9000000000000057,
           "changePercent": 1.3953488372093112,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.46083184778901365,
           "remainingUpsidePct": 19.26605504587155,
@@ -3869,7 +3869,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.277Z"
+          "updatedAt": "2026-05-22T16:21:46.566Z"
         },
         {
           "id": "3260-2026-05-07-66",
@@ -3890,7 +3890,7 @@
           "change": 12,
           "changePercent": 2.9593094944512948,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -9.534127843987,
           "remainingUpsidePct": 27.18562874251497,
@@ -3914,7 +3914,7 @@
             "Yahoo Finance: Yahoo fundamentals 3260 HTTP 401",
             "TradingView: TradingView 3260 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.699Z"
+          "updatedAt": "2026-05-22T16:21:46.935Z"
         },
         {
           "id": "5388-2026-05-07-67",
@@ -3935,7 +3935,7 @@
           "change": 3.299996948242182,
           "changePercent": 4.03422594758848,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 5.977580032155562,
           "remainingUpsidePct": 17.50881316098708,
@@ -3958,7 +3958,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.253Z"
+          "updatedAt": "2026-05-22T16:21:47.446Z"
         },
         {
           "id": "8299-2026-05-07-68",
@@ -4003,7 +4003,7 @@
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
             "TradingView: TradingView 8299 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.936Z"
+          "updatedAt": "2026-05-22T16:21:48.084Z"
         },
         {
           "id": "3661-2026-05-07-69",
@@ -4047,7 +4047,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.874Z"
+          "updatedAt": "2026-05-22T16:21:47.054Z"
         },
         {
           "id": "2884-2026-05-07-70",
@@ -4068,7 +4068,7 @@
           "change": -0.4000007629394524,
           "changePercent": -1.261832029376776,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.492207202956876,
           "remainingUpsidePct": 15.015974440894567,
@@ -4091,7 +4091,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.362Z"
+          "updatedAt": "2026-05-22T16:21:46.662Z"
         },
         {
           "id": "3162-2026-05-06-71",
@@ -4136,7 +4136,7 @@
             "Yahoo Finance: Yahoo fundamentals 3162 HTTP 401",
             "TradingView: TradingView 3162 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.622Z"
+          "updatedAt": "2026-05-22T16:21:46.872Z"
         },
         {
           "id": "4540-2026-05-06-72",
@@ -4180,7 +4180,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.971Z"
+          "updatedAt": "2026-05-22T16:21:47.132Z"
         },
         {
           "id": "4991-2026-05-06-73",
@@ -4225,7 +4225,7 @@
             "Yahoo Finance: Yahoo fundamentals 4991 HTTP 401",
             "TradingView: TradingView 4991 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.142Z"
+          "updatedAt": "2026-05-22T16:21:47.303Z"
         },
         {
           "id": "3044-2026-05-06-74",
@@ -4246,7 +4246,7 @@
           "change": 28,
           "changePercent": 6.054054054054054,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0.5122950819672131,
           "remainingUpsidePct": 25.382262996941897,
@@ -4269,7 +4269,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.614Z"
+          "updatedAt": "2026-05-22T16:21:46.785Z"
         },
         {
           "id": "5347-2026-05-06-75",
@@ -4290,7 +4290,7 @@
           "change": 3,
           "changePercent": 1.8867924528301887,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -4.142011834319527,
           "remainingUpsidePct": 1.8518518518518516,
@@ -4314,7 +4314,7 @@
             "Yahoo Finance: Yahoo fundamentals 5347 HTTP 401",
             "TradingView: TradingView 5347 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.233Z"
+          "updatedAt": "2026-05-22T16:21:47.399Z"
         },
         {
           "id": "3264-2026-05-05-76",
@@ -4359,7 +4359,7 @@
             "Yahoo Finance: Yahoo fundamentals 3264 HTTP 401",
             "TradingView: TradingView 3264 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.718Z"
+          "updatedAt": "2026-05-22T16:21:46.955Z"
         },
         {
           "id": "2449-2026-05-05-77",
@@ -4403,7 +4403,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.125Z"
+          "updatedAt": "2026-05-22T16:21:46.410Z"
         },
         {
           "id": "2360-2026-05-05-78",
@@ -4424,7 +4424,7 @@
           "change": 205,
           "changePercent": 9.927360774818402,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 1.5659955257270695,
           "remainingUpsidePct": 37.22466960352423,
@@ -4447,7 +4447,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.986Z"
+          "updatedAt": "2026-05-22T16:21:46.299Z"
         },
         {
           "id": "2454-2026-05-05-79",
@@ -4468,7 +4468,7 @@
           "change": 630,
           "changePercent": 19.5046439628483,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 22.345483359746435,
           "remainingUpsidePct": 0.2590673575129534,
@@ -4491,7 +4491,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.182Z"
+          "updatedAt": "2026-05-22T16:21:46.464Z"
         },
         {
           "id": "4979-2026-05-05-80",
@@ -4512,7 +4512,7 @@
           "change": 68,
           "changePercent": 12.099644128113878,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -12.256267409470752,
           "remainingUpsidePct": 38.095238095238095,
@@ -4536,7 +4536,7 @@
             "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
             "TradingView: TradingView 4979 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.139Z"
+          "updatedAt": "2026-05-22T16:21:47.295Z"
         },
         {
           "id": "2345-2026-05-05-81",
@@ -4557,7 +4557,7 @@
           "change": 115,
           "changePercent": 4.8832271762208075,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.002004008016032,
           "remainingUpsidePct": 21.45748987854251,
@@ -4580,7 +4580,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.891Z"
+          "updatedAt": "2026-05-22T16:21:46.224Z"
         },
         {
           "id": "3105-2026-05-04-82",
@@ -4601,7 +4601,7 @@
           "change": 84.5,
           "changePercent": 18.924972004479283,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 1.3358778625954197,
           "remainingUpsidePct": 14.87758945386064,
@@ -4625,7 +4625,7 @@
             "Yahoo Finance: Yahoo fundamentals 3105 HTTP 401",
             "TradingView: TradingView 3105 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.614Z"
+          "updatedAt": "2026-05-22T16:21:46.837Z"
         },
         {
           "id": "2480-2026-05-04-83",
@@ -4646,7 +4646,7 @@
           "change": 3,
           "changePercent": 2.04778156996587,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 2.04778156996587,
           "remainingUpsidePct": 17.05685618729097,
@@ -4669,7 +4669,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.315Z"
+          "updatedAt": "2026-05-22T16:21:46.504Z"
         },
         {
           "id": "8996-2026-05-04-84",
@@ -4690,7 +4690,7 @@
           "change": 176,
           "changePercent": 17.706237424547282,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -6.024096385542169,
           "remainingUpsidePct": 38.46153846153847,
@@ -4713,7 +4713,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.952Z"
+          "updatedAt": "2026-05-22T16:21:48.099Z"
         },
         {
           "id": "2439-2026-05-04-85",
@@ -4757,7 +4757,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.111Z"
+          "updatedAt": "2026-05-22T16:21:46.405Z"
         }
       ]
     },
@@ -5129,7 +5129,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6209 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.446Z"
+          "updatedAt": "2026-05-22T16:21:47.640Z"
         },
         {
           "id": "6290-2026-05-15-1",
@@ -5174,7 +5174,7 @@
             "Yahoo Finance: Yahoo fundamentals 6290 HTTP 401",
             "TradingView: TradingView 6290 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.540Z"
+          "updatedAt": "2026-05-22T16:21:47.716Z"
         },
         {
           "id": "6862-2026-05-15-2",
@@ -5195,7 +5195,7 @@
           "change": 23,
           "changePercent": 13.855421686746988,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 17.391304347826086,
           "remainingUpsidePct": 11.11111111111111,
@@ -5218,7 +5218,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6862 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.720Z"
+          "updatedAt": "2026-05-22T16:21:47.888Z"
         },
         {
           "id": "3665-2026-05-15-3",
@@ -5239,7 +5239,7 @@
           "change": 260,
           "changePercent": 13.231552162849871,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 6.205250596658711,
           "remainingUpsidePct": 34.831460674157306,
@@ -5262,7 +5262,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.896Z"
+          "updatedAt": "2026-05-22T16:21:47.087Z"
         },
         {
           "id": "3008-2026-05-15-4",
@@ -5306,7 +5306,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.504Z"
+          "updatedAt": "2026-05-22T16:21:46.755Z"
         },
         {
           "id": "5328-2026-05-14-5",
@@ -5351,7 +5351,7 @@
             "Yahoo Finance: Yahoo fundamentals 5328 HTTP 401",
             "TradingView: TradingView 5328 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.226Z"
+          "updatedAt": "2026-05-22T16:21:47.369Z"
         },
         {
           "id": "3090-2026-05-14-6",
@@ -5395,7 +5395,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3090 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.598Z"
+          "updatedAt": "2026-05-22T16:21:46.818Z"
         },
         {
           "id": "2472-2026-05-12-7",
@@ -5439,7 +5439,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.199Z"
+          "updatedAt": "2026-05-22T16:21:46.503Z"
         },
         {
           "id": "5269-2026-05-12-8",
@@ -5483,7 +5483,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5269 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.154Z"
+          "updatedAt": "2026-05-22T16:21:47.346Z"
         },
         {
           "id": "7769-2026-05-12-9",
@@ -5527,7 +5527,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.777Z"
+          "updatedAt": "2026-05-22T16:21:47.936Z"
         },
         {
           "id": "8299-2026-05-09-10",
@@ -5572,7 +5572,7 @@
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
             "TradingView: TradingView 8299 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.936Z"
+          "updatedAt": "2026-05-22T16:21:48.084Z"
         },
         {
           "id": "5289-2026-05-09-11",
@@ -5593,7 +5593,7 @@
           "change": 50,
           "changePercent": 2.9850746268656714,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 15.942028985507244,
@@ -5617,7 +5617,7 @@
             "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
             "TradingView: TradingView 5289 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.173Z"
+          "updatedAt": "2026-05-22T16:21:47.366Z"
         },
         {
           "id": "3376-2026-05-09-12",
@@ -5638,7 +5638,7 @@
           "change": 7.5,
           "changePercent": 3.7037037037037033,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 14.285714285714285,
@@ -5661,7 +5661,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.791Z"
+          "updatedAt": "2026-05-22T16:21:46.973Z"
         },
         {
           "id": "2454-2026-05-09-13",
@@ -5682,7 +5682,7 @@
           "change": 630,
           "changePercent": 19.5046439628483,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 6.336088154269973,
           "remainingUpsidePct": 29.533678756476682,
@@ -5705,7 +5705,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.182Z"
+          "updatedAt": "2026-05-22T16:21:46.464Z"
         },
         {
           "id": "2395-2026-05-06-14",
@@ -5749,7 +5749,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.082Z"
+          "updatedAt": "2026-05-22T16:21:46.399Z"
         },
         {
           "id": "3443-2026-05-06-15",
@@ -5770,7 +5770,7 @@
           "change": 535,
           "changePercent": 11.617806731813246,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 3.733602421796166,
           "remainingUpsidePct": 29.688715953307394,
@@ -5793,7 +5793,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.793Z"
+          "updatedAt": "2026-05-22T16:21:47.001Z"
         },
         {
           "id": "3443-2026-04-27-16",
@@ -5814,7 +5814,7 @@
           "change": 535,
           "changePercent": 11.617806731813246,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 29.96207332490518,
           "remainingUpsidePct": -10.505836575875486,
@@ -5837,7 +5837,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.793Z"
+          "updatedAt": "2026-05-22T16:21:47.001Z"
         },
         {
           "id": "4967-2026-04-27-17",
@@ -5858,7 +5858,7 @@
           "change": 9.5,
           "changePercent": 3.6398467432950192,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -4.753521126760563,
           "remainingUpsidePct": 597.9667282809612,
@@ -5881,7 +5881,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4967 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.095Z"
+          "updatedAt": "2026-05-22T16:21:47.285Z"
         },
         {
           "id": "2330-2026-04-27-18",
@@ -5902,7 +5902,7 @@
           "change": 70,
           "changePercent": 3.203661327231121,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -0.44150110375275936,
           "remainingUpsidePct": 8.647450110864744,
@@ -5925,7 +5925,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.882Z"
+          "updatedAt": "2026-05-22T16:21:46.205Z"
         },
         {
           "id": "8271-2026-04-27-19",
@@ -5969,7 +5969,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8271 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.859Z"
+          "updatedAt": "2026-05-22T16:21:48.024Z"
         },
         {
           "id": "5904-2026-04-27-20",
@@ -5990,7 +5990,7 @@
           "change": 11,
           "changePercent": 1.9748653500897666,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 8.812260536398467,
           "remainingUpsidePct": 10.915492957746478,
@@ -6014,7 +6014,7 @@
             "Yahoo Finance: Yahoo fundamentals 5904 HTTP 401",
             "TradingView: TradingView 5904 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.354Z"
+          "updatedAt": "2026-05-22T16:21:47.538Z"
         },
         {
           "id": "6187-2026-04-27-21",
@@ -6059,7 +6059,7 @@
             "Yahoo Finance: Yahoo fundamentals 6187 HTTP 401",
             "TradingView: TradingView 6187 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.415Z"
+          "updatedAt": "2026-05-22T16:21:47.554Z"
         },
         {
           "id": "6789-2026-04-25-22",
@@ -6080,7 +6080,7 @@
           "change": 37,
           "changePercent": 7.129094412331407,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 43.884892086330936,
@@ -6103,7 +6103,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6789 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.682Z"
+          "updatedAt": "2026-05-22T16:21:47.856Z"
         },
         {
           "id": "6449-2026-04-25-23",
@@ -6147,7 +6147,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6449 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.584Z"
+          "updatedAt": "2026-05-22T16:21:47.725Z"
         },
         {
           "id": "4958-2026-04-24-24",
@@ -6191,7 +6191,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4958 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.052Z"
+          "updatedAt": "2026-05-22T16:21:47.227Z"
         },
         {
           "id": "2330-2026-04-23-25",
@@ -6212,7 +6212,7 @@
           "change": 70,
           "changePercent": 3.203661327231121,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 8.413461538461538,
           "remainingUpsidePct": 3.325942350332594,
@@ -6235,7 +6235,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.882Z"
+          "updatedAt": "2026-05-22T16:21:46.205Z"
         },
         {
           "id": "2308-2026-04-23-26",
@@ -6279,7 +6279,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2308 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.795Z"
+          "updatedAt": "2026-05-22T16:21:46.111Z"
         },
         {
           "id": "5340-2026-04-23-27",
@@ -6324,7 +6324,7 @@
             "Yahoo Finance: Yahoo fundamentals 5340 HTTP 401",
             "TradingView: TradingView 5340 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.233Z"
+          "updatedAt": "2026-05-22T16:21:47.382Z"
         },
         {
           "id": "4979-2026-04-23-28",
@@ -6345,7 +6345,7 @@
           "change": 68,
           "changePercent": 12.099644128113878,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 11.11111111111111,
           "remainingUpsidePct": 11.11111111111111,
@@ -6369,7 +6369,7 @@
             "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
             "TradingView: TradingView 4979 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.139Z"
+          "updatedAt": "2026-05-22T16:21:47.295Z"
         }
       ]
     },
@@ -7345,7 +7345,7 @@
           "change": 48.5,
           "changePercent": 20.68230277185501,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 28.091872791519435,
@@ -7368,7 +7368,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.495Z"
+          "updatedAt": "2026-05-22T16:21:47.631Z"
         },
         {
           "id": "3443-2026-05-22-1",
@@ -7389,7 +7389,7 @@
           "change": 535,
           "changePercent": 11.617806731813246,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0,
           "remainingUpsidePct": 17.509727626459142,
@@ -7412,7 +7412,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.793Z"
+          "updatedAt": "2026-05-22T16:21:47.001Z"
         },
         {
           "id": "4541-2026-05-21-2",
@@ -7457,7 +7457,7 @@
             "Yahoo Finance: Yahoo fundamentals 4541 HTTP 401",
             "TradingView: TradingView 4541 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.974Z"
+          "updatedAt": "2026-05-22T16:21:47.166Z"
         },
         {
           "id": "3088-2026-05-21-3",
@@ -7502,7 +7502,7 @@
             "Yahoo Finance: Yahoo fundamentals 3088 HTTP 401",
             "TradingView: TradingView 3088 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.531Z"
+          "updatedAt": "2026-05-22T16:21:46.801Z"
         },
         {
           "id": "2645-2026-05-21-4",
@@ -7546,7 +7546,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.347Z"
+          "updatedAt": "2026-05-22T16:21:46.570Z"
         },
         {
           "id": "3702-2026-05-20-5",
@@ -7567,7 +7567,7 @@
           "change": -1,
           "changePercent": -0.8403361344537815,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.8403361344537815,
           "remainingUpsidePct": 21.1864406779661,
@@ -7590,7 +7590,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.914Z"
+          "updatedAt": "2026-05-22T16:21:47.123Z"
         },
         {
           "id": "1476-2026-05-20-6",
@@ -7634,7 +7634,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.590Z"
+          "updatedAt": "2026-05-22T16:21:45.917Z"
         },
         {
           "id": "2949-2026-05-20-7",
@@ -7679,7 +7679,7 @@
             "Yahoo Finance: Yahoo fundamentals 2949 HTTP 401",
             "TradingView: TradingView 2949 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.428Z"
+          "updatedAt": "2026-05-22T16:21:46.734Z"
         },
         {
           "id": "8111-2026-05-20-8",
@@ -7724,7 +7724,7 @@
             "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
             "TradingView: TradingView 8111 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.841Z"
+          "updatedAt": "2026-05-22T16:21:48.008Z"
         },
         {
           "id": "2891-2026-05-20-9",
@@ -7745,7 +7745,7 @@
           "change": -0.19999923706054545,
           "changePercent": -0.3460194458485542,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -0.3460194458485542,
           "remainingUpsidePct": 2.430555555555553,
@@ -7768,7 +7768,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.442Z"
+          "updatedAt": "2026-05-22T16:21:46.696Z"
         },
         {
           "id": "6902-2026-05-19-10",
@@ -7812,7 +7812,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.723Z"
+          "updatedAt": "2026-05-22T16:21:47.896Z"
         },
         {
           "id": "2359-2026-05-19-11",
@@ -7833,7 +7833,7 @@
           "change": 13.5,
           "changePercent": 10.588235294117647,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 4.444444444444445,
           "remainingUpsidePct": 28.368794326241137,
@@ -7856,7 +7856,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.914Z"
+          "updatedAt": "2026-05-22T16:21:46.224Z"
         },
         {
           "id": "5388-2026-05-19-12",
@@ -7877,7 +7877,7 @@
           "change": 3.299996948242182,
           "changePercent": 4.03422594758848,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 7.0440251572326975,
           "remainingUpsidePct": 17.50881316098708,
@@ -7900,7 +7900,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.253Z"
+          "updatedAt": "2026-05-22T16:21:47.446Z"
         },
         {
           "id": "1503-2026-05-18-13",
@@ -7944,7 +7944,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.590Z"
+          "updatedAt": "2026-05-22T16:21:45.946Z"
         },
         {
           "id": "6414-2026-05-18-14",
@@ -7965,7 +7965,7 @@
           "change": 19,
           "changePercent": 5.731523378582202,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 9.190031152647975,
           "remainingUpsidePct": -0.14265335235378032,
@@ -7988,7 +7988,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.564Z"
+          "updatedAt": "2026-05-22T16:21:47.714Z"
         },
         {
           "id": "2890-2026-05-18-15",
@@ -8032,7 +8032,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.409Z"
+          "updatedAt": "2026-05-22T16:21:46.690Z"
         },
         {
           "id": "6177-2026-05-18-16",
@@ -8076,7 +8076,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.407Z"
+          "updatedAt": "2026-05-22T16:21:47.547Z"
         },
         {
           "id": "8462-2026-05-15-17",
@@ -8097,7 +8097,7 @@
           "change": 0.5,
           "changePercent": 0.36231884057971014,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.464788732394366,
           "remainingUpsidePct": 12.63537906137184,
@@ -8120,7 +8120,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.931Z"
+          "updatedAt": "2026-05-22T16:21:48.085Z"
         },
         {
           "id": "2034-2026-05-15-18",
@@ -8141,7 +8141,7 @@
           "change": 7.629394538355427e-7,
           "changePercent": 0.000003853229713299759,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.2518910856868394,
           "remainingUpsidePct": 11.111111111111107,
@@ -8164,7 +8164,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.694Z"
+          "updatedAt": "2026-05-22T16:21:46.010Z"
         },
         {
           "id": "1326-2026-05-15-19",
@@ -8208,7 +8208,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.578Z"
+          "updatedAt": "2026-05-22T16:21:45.925Z"
         },
         {
           "id": "2480-2026-05-15-20",
@@ -8229,7 +8229,7 @@
           "change": 3,
           "changePercent": 2.04778156996587,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.6734006734006733,
           "remainingUpsidePct": 17.05685618729097,
@@ -8252,7 +8252,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.315Z"
+          "updatedAt": "2026-05-22T16:21:46.504Z"
         },
         {
           "id": "6664-2026-05-15-21",
@@ -8297,7 +8297,7 @@
             "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
             "TradingView: TradingView 6664 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.658Z"
+          "updatedAt": "2026-05-22T16:21:47.831Z"
         },
         {
           "id": "2327-2026-05-15-22",
@@ -8318,7 +8318,7 @@
           "change": 109,
           "changePercent": 20.961538461538463,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 38.090010976948406,
           "remainingUpsidePct": -3.0206677265500796,
@@ -8341,7 +8341,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.820Z"
+          "updatedAt": "2026-05-22T16:21:46.141Z"
         },
         {
           "id": "2317-2026-05-15-23",
@@ -8362,7 +8362,7 @@
           "change": 10,
           "changePercent": 4.166666666666666,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.6036217303822937,
           "remainingUpsidePct": 4,
@@ -8385,7 +8385,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.822Z"
+          "updatedAt": "2026-05-22T16:21:46.125Z"
         },
         {
           "id": "2515-2026-05-15-24",
@@ -8406,7 +8406,7 @@
           "change": 0.7499996185302731,
           "changePercent": 5.952377744632968,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 8.979591836734691,
           "remainingUpsidePct": 4.868913857677906,
@@ -8429,7 +8429,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.275Z"
+          "updatedAt": "2026-05-22T16:21:46.514Z"
         },
         {
           "id": "2891-2026-05-15-25",
@@ -8450,7 +8450,7 @@
           "change": -0.19999923706054545,
           "changePercent": -0.3460194458485542,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 5.109490514455791,
           "remainingUpsidePct": 2.430555555555553,
@@ -8473,7 +8473,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.442Z"
+          "updatedAt": "2026-05-22T16:21:46.696Z"
         },
         {
           "id": "5534-2026-05-15-26",
@@ -8494,7 +8494,7 @@
           "change": -0.09999847412109375,
           "changePercent": -0.13227311658653615,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.048496749358101,
           "remainingUpsidePct": 9.933774834437086,
@@ -8517,7 +8517,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.316Z"
+          "updatedAt": "2026-05-22T16:21:47.465Z"
         },
         {
           "id": "7769-2026-05-14-27",
@@ -8561,7 +8561,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.777Z"
+          "updatedAt": "2026-05-22T16:21:47.936Z"
         },
         {
           "id": "6223-2026-05-14-28",
@@ -8582,7 +8582,7 @@
           "change": 355,
           "changePercent": 6.25,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -4.054054054054054,
           "remainingUpsidePct": 34.217067108533556,
@@ -8606,7 +8606,7 @@
             "Yahoo Finance: Yahoo fundamentals 6223 HTTP 401",
             "TradingView: TradingView 6223 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.482Z"
+          "updatedAt": "2026-05-22T16:21:47.634Z"
         },
         {
           "id": "2762-2026-05-14-29",
@@ -8627,7 +8627,7 @@
           "change": -0.19999847412108807,
           "changePercent": -0.24067205510644066,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -1.1918969102407593,
           "remainingUpsidePct": 17.008443908323272,
@@ -8650,7 +8650,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.347Z"
+          "updatedAt": "2026-05-22T16:21:46.593Z"
         },
         {
           "id": "4571-2026-05-14-30",
@@ -8671,7 +8671,7 @@
           "change": 19,
           "changePercent": 9.026128266033254,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 12.224938875305623,
           "remainingUpsidePct": -9.803921568627452,
@@ -8694,7 +8694,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.138Z"
+          "updatedAt": "2026-05-22T16:21:47.204Z"
         },
         {
           "id": "6531-2026-05-13-31",
@@ -8715,7 +8715,7 @@
           "change": -10,
           "changePercent": -1.027749229188078,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -7.403846153846154,
           "remainingUpsidePct": 19.418483904465216,
@@ -8738,7 +8738,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.640Z"
+          "updatedAt": "2026-05-22T16:21:47.792Z"
         },
         {
           "id": "4966-2026-05-13-32",
@@ -8759,7 +8759,7 @@
           "change": 38,
           "changePercent": 5.019815059445178,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.73053152039555,
           "remainingUpsidePct": 13.20754716981132,
@@ -8783,7 +8783,7 @@
             "Yahoo Finance: Yahoo fundamentals 4966 HTTP 401",
             "TradingView: TradingView 4966 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.071Z"
+          "updatedAt": "2026-05-22T16:21:47.286Z"
         },
         {
           "id": "2615-2026-05-13-33",
@@ -8804,7 +8804,7 @@
           "change": 3.2000015258789034,
           "changePercent": 3.9457479483184206,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 13.458945541733195,
           "remainingUpsidePct": 5.575326215895615,
@@ -8827,7 +8827,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.307Z"
+          "updatedAt": "2026-05-22T16:21:46.605Z"
         },
         {
           "id": "7750-2026-05-13-34",
@@ -8848,7 +8848,7 @@
           "change": -15,
           "changePercent": -0.6237006237006237,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -13.5623869801085,
           "remainingUpsidePct": 67.36401673640168,
@@ -8871,7 +8871,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.763Z"
+          "updatedAt": "2026-05-22T16:21:47.933Z"
         },
         {
           "id": "6166-2026-05-13-35",
@@ -8915,7 +8915,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.360Z"
+          "updatedAt": "2026-05-22T16:21:47.547Z"
         },
         {
           "id": "3702-2026-05-13-36",
@@ -8936,7 +8936,7 @@
           "change": -1,
           "changePercent": -0.8403361344537815,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 6.787330316742081,
           "remainingUpsidePct": 21.1864406779661,
@@ -8959,7 +8959,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.914Z"
+          "updatedAt": "2026-05-22T16:21:47.123Z"
         },
         {
           "id": "2404-2026-05-13-37",
@@ -8980,7 +8980,7 @@
           "change": 130,
           "changePercent": 12.682926829268293,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 12.682926829268293,
           "remainingUpsidePct": 16.017316017316016,
@@ -9003,7 +9003,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.182Z"
+          "updatedAt": "2026-05-22T16:21:46.402Z"
         },
         {
           "id": "5536-2026-05-13-38",
@@ -9024,7 +9024,7 @@
           "change": 11,
           "changePercent": 1.2008733624454149,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -2.4210526315789473,
           "remainingUpsidePct": 28.37108953613808,
@@ -9048,7 +9048,7 @@
             "Yahoo Finance: Yahoo fundamentals 5536 HTTP 401",
             "TradingView: TradingView 5536 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.397Z"
+          "updatedAt": "2026-05-22T16:21:47.465Z"
         },
         {
           "id": "1605-2026-05-12-39",
@@ -9069,7 +9069,7 @@
           "change": 3.4000015258789062,
           "changePercent": 10.271908406694228,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 5.797101449275362,
           "remainingUpsidePct": 23.28767123287671,
@@ -9092,7 +9092,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.591Z"
+          "updatedAt": "2026-05-22T16:21:45.916Z"
         },
         {
           "id": "8069-2026-05-12-40",
@@ -9113,7 +9113,7 @@
           "change": -6,
           "changePercent": -2.608695652173913,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 14.578005115089516,
           "remainingUpsidePct": 6.25,
@@ -9137,7 +9137,7 @@
             "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
             "TradingView: TradingView 8069 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.915Z"
+          "updatedAt": "2026-05-22T16:21:47.986Z"
         },
         {
           "id": "2049-2026-05-12-41",
@@ -9181,7 +9181,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.696Z"
+          "updatedAt": "2026-05-22T16:21:46.008Z"
         },
         {
           "id": "6415-2026-05-12-42",
@@ -9225,7 +9225,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.576Z"
+          "updatedAt": "2026-05-22T16:21:47.818Z"
         },
         {
           "id": "2385-2026-05-12-43",
@@ -9246,7 +9246,7 @@
           "change": 3,
           "changePercent": 2.3346303501945527,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -2.5925925925925926,
           "remainingUpsidePct": 17.870722433460077,
@@ -9269,7 +9269,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.019Z"
+          "updatedAt": "2026-05-22T16:21:46.321Z"
         },
         {
           "id": "4566-2026-05-12-44",
@@ -9290,7 +9290,7 @@
           "change": 2.700000000000003,
           "changePercent": 4.462809917355377,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -3.951372235822946,
           "remainingUpsidePct": 20.25316455696202,
@@ -9313,7 +9313,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.996Z"
+          "updatedAt": "2026-05-22T16:21:47.201Z"
         },
         {
           "id": "7734-2026-05-12-45",
@@ -9358,7 +9358,7 @@
             "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
             "TradingView: TradingView 7734 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.753Z"
+          "updatedAt": "2026-05-22T16:21:47.925Z"
         },
         {
           "id": "3680-2026-05-12-46",
@@ -9403,7 +9403,7 @@
             "Yahoo Finance: Yahoo fundamentals 3680 HTTP 401",
             "TradingView: TradingView 3680 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.897Z"
+          "updatedAt": "2026-05-22T16:21:47.115Z"
         },
         {
           "id": "4961-2026-05-12-47",
@@ -9447,7 +9447,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.063Z"
+          "updatedAt": "2026-05-22T16:21:47.254Z"
         },
         {
           "id": "2408-2026-05-12-48",
@@ -9468,7 +9468,7 @@
           "change": 35.5,
           "changePercent": 12.909090909090908,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -3.2710280373831773,
           "remainingUpsidePct": 31.07890499194847,
@@ -9491,7 +9491,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.088Z"
+          "updatedAt": "2026-05-22T16:21:46.402Z"
         },
         {
           "id": "1802-2026-05-12-49",
@@ -9512,7 +9512,7 @@
           "change": 6.599998474121094,
           "changePercent": 10.328635863096428,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -0.8438797285480683,
           "remainingUpsidePct": 9.219858156028367,
@@ -9535,7 +9535,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.683Z"
+          "updatedAt": "2026-05-22T16:21:46.012Z"
         },
         {
           "id": "4551-2026-05-11-50",
@@ -9556,7 +9556,7 @@
           "change": 7,
           "changePercent": 4.713804713804714,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 4.713804713804714,
           "remainingUpsidePct": -1.607717041800643,
@@ -9579,7 +9579,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.981Z"
+          "updatedAt": "2026-05-22T16:21:47.193Z"
         },
         {
           "id": "6829-2026-05-11-51",
@@ -9624,7 +9624,7 @@
             "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
             "TradingView: TradingView 6829 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.699Z"
+          "updatedAt": "2026-05-22T16:21:47.859Z"
         },
         {
           "id": "2344-2026-05-11-52",
@@ -9645,7 +9645,7 @@
           "change": 9.5,
           "changePercent": 8.225108225108226,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 6.382978723404255,
           "remainingUpsidePct": 9.6,
@@ -9668,7 +9668,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.901Z"
+          "updatedAt": "2026-05-22T16:21:46.205Z"
         },
         {
           "id": "3596-2026-05-11-53",
@@ -9712,7 +9712,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.897Z"
+          "updatedAt": "2026-05-22T16:21:47.053Z"
         },
         {
           "id": "2049-2026-05-11-54",
@@ -9756,7 +9756,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.696Z"
+          "updatedAt": "2026-05-22T16:21:46.008Z"
         },
         {
           "id": "2451-2026-05-11-55",
@@ -9800,7 +9800,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.172Z"
+          "updatedAt": "2026-05-22T16:21:46.503Z"
         },
         {
           "id": "8210-2026-05-11-56",
@@ -9821,7 +9821,7 @@
           "change": 60,
           "changePercent": 4.669260700389105,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -13.504823151125404,
           "remainingUpsidePct": 26.394052044609666,
@@ -9844,7 +9844,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.850Z"
+          "updatedAt": "2026-05-22T16:21:48.016Z"
         },
         {
           "id": "1519-2026-05-11-57",
@@ -9888,7 +9888,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.589Z"
+          "updatedAt": "2026-05-22T16:21:45.910Z"
         },
         {
           "id": "5289-2026-05-11-58",
@@ -9909,7 +9909,7 @@
           "change": 50,
           "changePercent": 2.9850746268656714,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -1.9886363636363635,
           "remainingUpsidePct": 20.869565217391305,
@@ -9933,7 +9933,7 @@
             "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
             "TradingView: TradingView 5289 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.173Z"
+          "updatedAt": "2026-05-22T16:21:47.366Z"
         },
         {
           "id": "2395-2026-05-08-59",
@@ -9977,7 +9977,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.082Z"
+          "updatedAt": "2026-05-22T16:21:46.399Z"
         },
         {
           "id": "6285-2026-05-08-60",
@@ -9998,7 +9998,7 @@
           "change": 17,
           "changePercent": 6.093189964157706,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 19.5959595959596,
           "remainingUpsidePct": -8.783783783783784,
@@ -10021,7 +10021,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.540Z"
+          "updatedAt": "2026-05-22T16:21:47.676Z"
         },
         {
           "id": "3034-2026-05-08-61",
@@ -10042,7 +10042,7 @@
           "change": 13,
           "changePercent": 2.751322751322751,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.5100401606425704,
           "remainingUpsidePct": 6.694129763130793,
@@ -10065,7 +10065,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.510Z"
+          "updatedAt": "2026-05-22T16:21:46.782Z"
         },
         {
           "id": "6526-2026-05-08-62",
@@ -10086,7 +10086,7 @@
           "change": 21,
           "changePercent": 2.9829545454545454,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -3.718459495351926,
           "remainingUpsidePct": 11.724137931034482,
@@ -10109,7 +10109,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.609Z"
+          "updatedAt": "2026-05-22T16:21:47.785Z"
         },
         {
           "id": "2383-2026-05-08-63",
@@ -10153,7 +10153,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.012Z"
+          "updatedAt": "2026-05-22T16:21:46.310Z"
         },
         {
           "id": "2303-2026-05-08-64",
@@ -10174,7 +10174,7 @@
           "change": 6,
           "changePercent": 5.555555555555555,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 24.863084544886156,
           "remainingUpsidePct": 5.263157894736842,
@@ -10197,7 +10197,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.777Z"
+          "updatedAt": "2026-05-22T16:21:46.100Z"
         },
         {
           "id": "2606-2026-05-07-65",
@@ -10218,7 +10218,7 @@
           "change": 0.9000000000000057,
           "changePercent": 1.3953488372093112,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 0.46083184778901365,
           "remainingUpsidePct": 19.26605504587155,
@@ -10241,7 +10241,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.277Z"
+          "updatedAt": "2026-05-22T16:21:46.566Z"
         },
         {
           "id": "3260-2026-05-07-66",
@@ -10262,7 +10262,7 @@
           "change": 12,
           "changePercent": 2.9593094944512948,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -9.534127843987,
           "remainingUpsidePct": 27.18562874251497,
@@ -10286,7 +10286,7 @@
             "Yahoo Finance: Yahoo fundamentals 3260 HTTP 401",
             "TradingView: TradingView 3260 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.699Z"
+          "updatedAt": "2026-05-22T16:21:46.935Z"
         },
         {
           "id": "5388-2026-05-07-67",
@@ -10307,7 +10307,7 @@
           "change": 3.299996948242182,
           "changePercent": 4.03422594758848,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 5.977580032155562,
           "remainingUpsidePct": 17.50881316098708,
@@ -10330,7 +10330,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.253Z"
+          "updatedAt": "2026-05-22T16:21:47.446Z"
         },
         {
           "id": "8299-2026-05-07-68",
@@ -10375,7 +10375,7 @@
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
             "TradingView: TradingView 8299 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.936Z"
+          "updatedAt": "2026-05-22T16:21:48.084Z"
         },
         {
           "id": "3661-2026-05-07-69",
@@ -10419,7 +10419,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.874Z"
+          "updatedAt": "2026-05-22T16:21:47.054Z"
         },
         {
           "id": "2884-2026-05-07-70",
@@ -10440,7 +10440,7 @@
           "change": -0.4000007629394524,
           "changePercent": -1.261832029376776,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -2.492207202956876,
           "remainingUpsidePct": 15.015974440894567,
@@ -10463,7 +10463,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.362Z"
+          "updatedAt": "2026-05-22T16:21:46.662Z"
         },
         {
           "id": "3162-2026-05-06-71",
@@ -10508,7 +10508,7 @@
             "Yahoo Finance: Yahoo fundamentals 3162 HTTP 401",
             "TradingView: TradingView 3162 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.622Z"
+          "updatedAt": "2026-05-22T16:21:46.872Z"
         },
         {
           "id": "4540-2026-05-06-72",
@@ -10552,7 +10552,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.971Z"
+          "updatedAt": "2026-05-22T16:21:47.132Z"
         },
         {
           "id": "4991-2026-05-06-73",
@@ -10597,7 +10597,7 @@
             "Yahoo Finance: Yahoo fundamentals 4991 HTTP 401",
             "TradingView: TradingView 4991 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.142Z"
+          "updatedAt": "2026-05-22T16:21:47.303Z"
         },
         {
           "id": "3044-2026-05-06-74",
@@ -10618,7 +10618,7 @@
           "change": 28,
           "changePercent": 6.054054054054054,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 0.5122950819672131,
           "remainingUpsidePct": 25.382262996941897,
@@ -10641,7 +10641,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.614Z"
+          "updatedAt": "2026-05-22T16:21:46.785Z"
         },
         {
           "id": "5347-2026-05-06-75",
@@ -10662,7 +10662,7 @@
           "change": 3,
           "changePercent": 1.8867924528301887,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -4.142011834319527,
           "remainingUpsidePct": 1.8518518518518516,
@@ -10686,7 +10686,7 @@
             "Yahoo Finance: Yahoo fundamentals 5347 HTTP 401",
             "TradingView: TradingView 5347 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.233Z"
+          "updatedAt": "2026-05-22T16:21:47.399Z"
         },
         {
           "id": "3264-2026-05-05-76",
@@ -10731,7 +10731,7 @@
             "Yahoo Finance: Yahoo fundamentals 3264 HTTP 401",
             "TradingView: TradingView 3264 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.718Z"
+          "updatedAt": "2026-05-22T16:21:46.955Z"
         },
         {
           "id": "2449-2026-05-05-77",
@@ -10775,7 +10775,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.125Z"
+          "updatedAt": "2026-05-22T16:21:46.410Z"
         },
         {
           "id": "2360-2026-05-05-78",
@@ -10796,7 +10796,7 @@
           "change": 205,
           "changePercent": 9.927360774818402,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 1.5659955257270695,
           "remainingUpsidePct": 37.22466960352423,
@@ -10819,7 +10819,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.986Z"
+          "updatedAt": "2026-05-22T16:21:46.299Z"
         },
         {
           "id": "2454-2026-05-05-79",
@@ -10840,7 +10840,7 @@
           "change": 630,
           "changePercent": 19.5046439628483,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 22.345483359746435,
           "remainingUpsidePct": 0.2590673575129534,
@@ -10863,7 +10863,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.182Z"
+          "updatedAt": "2026-05-22T16:21:46.464Z"
         },
         {
           "id": "4979-2026-05-05-80",
@@ -10884,7 +10884,7 @@
           "change": 68,
           "changePercent": 12.099644128113878,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -12.256267409470752,
           "remainingUpsidePct": 38.095238095238095,
@@ -10908,7 +10908,7 @@
             "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
             "TradingView: TradingView 4979 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:55.139Z"
+          "updatedAt": "2026-05-22T16:21:47.295Z"
         },
         {
           "id": "2345-2026-05-05-81",
@@ -10929,7 +10929,7 @@
           "change": 115,
           "changePercent": 4.8832271762208075,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": -1.002004008016032,
           "remainingUpsidePct": 21.45748987854251,
@@ -10952,7 +10952,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:53.891Z"
+          "updatedAt": "2026-05-22T16:21:46.224Z"
         },
         {
           "id": "3105-2026-05-04-82",
@@ -10973,7 +10973,7 @@
           "change": 84.5,
           "changePercent": 18.924972004479283,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": 1.3358778625954197,
           "remainingUpsidePct": 14.87758945386064,
@@ -10997,7 +10997,7 @@
             "Yahoo Finance: Yahoo fundamentals 3105 HTTP 401",
             "TradingView: TradingView 3105 HTTP 404"
           ],
-          "updatedAt": "2026-05-22T16:19:54.614Z"
+          "updatedAt": "2026-05-22T16:21:46.837Z"
         },
         {
           "id": "2480-2026-05-04-83",
@@ -11018,7 +11018,7 @@
           "change": 3,
           "changePercent": 2.04778156996587,
           "eps": 3,
-          "pe": 7,
+          "pe": null,
           "forwardPe": null,
           "recommendationReturnPct": 2.04778156996587,
           "remainingUpsidePct": 17.05685618729097,
@@ -11041,7 +11041,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.315Z"
+          "updatedAt": "2026-05-22T16:21:46.504Z"
         },
         {
           "id": "8996-2026-05-04-84",
@@ -11062,7 +11062,7 @@
           "change": 176,
           "changePercent": 17.706237424547282,
           "eps": 3,
-          "pe": null,
+          "pe": 7,
           "forwardPe": null,
           "recommendationReturnPct": -6.024096385542169,
           "remainingUpsidePct": 38.46153846153847,
@@ -11085,7 +11085,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:55.952Z"
+          "updatedAt": "2026-05-22T16:21:48.099Z"
         },
         {
           "id": "2439-2026-05-04-85",
@@ -11129,7 +11129,7 @@
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401"
           ],
-          "updatedAt": "2026-05-22T16:19:54.111Z"
+          "updatedAt": "2026-05-22T16:21:46.405Z"
         }
       ]
     }
@@ -11154,7 +11154,7 @@
       "change": 48.5,
       "changePercent": 20.68230277185501,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 28.091872791519435,
@@ -11177,7 +11177,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.495Z",
+      "updatedAt": "2026-05-22T16:21:47.631Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11200,7 +11200,7 @@
       "change": 535,
       "changePercent": 11.617806731813246,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 17.509727626459142,
@@ -11223,7 +11223,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.793Z",
+      "updatedAt": "2026-05-22T16:21:47.001Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11270,7 +11270,7 @@
         "Yahoo Finance: Yahoo fundamentals 4541 HTTP 401",
         "TradingView: TradingView 4541 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.974Z",
+      "updatedAt": "2026-05-22T16:21:47.166Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11317,7 +11317,7 @@
         "Yahoo Finance: Yahoo fundamentals 3088 HTTP 401",
         "TradingView: TradingView 3088 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.531Z",
+      "updatedAt": "2026-05-22T16:21:46.801Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11363,7 +11363,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.347Z",
+      "updatedAt": "2026-05-22T16:21:46.570Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11386,7 +11386,7 @@
       "change": -1,
       "changePercent": -0.8403361344537815,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.8403361344537815,
       "remainingUpsidePct": 21.1864406779661,
@@ -11409,7 +11409,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.914Z",
+      "updatedAt": "2026-05-22T16:21:47.123Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11455,7 +11455,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.590Z",
+      "updatedAt": "2026-05-22T16:21:45.917Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11502,7 +11502,7 @@
         "Yahoo Finance: Yahoo fundamentals 2949 HTTP 401",
         "TradingView: TradingView 2949 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.428Z",
+      "updatedAt": "2026-05-22T16:21:46.734Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11549,7 +11549,7 @@
         "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
         "TradingView: TradingView 8111 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.841Z",
+      "updatedAt": "2026-05-22T16:21:48.008Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11572,7 +11572,7 @@
       "change": -0.19999923706054545,
       "changePercent": -0.3460194458485542,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -0.3460194458485542,
       "remainingUpsidePct": 2.430555555555553,
@@ -11595,7 +11595,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.442Z",
+      "updatedAt": "2026-05-22T16:21:46.696Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11641,7 +11641,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.723Z",
+      "updatedAt": "2026-05-22T16:21:47.896Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11664,7 +11664,7 @@
       "change": 13.5,
       "changePercent": 10.588235294117647,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 4.444444444444445,
       "remainingUpsidePct": 28.368794326241137,
@@ -11687,7 +11687,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.914Z",
+      "updatedAt": "2026-05-22T16:21:46.224Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11710,7 +11710,7 @@
       "change": 3.299996948242182,
       "changePercent": 4.03422594758848,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 7.0440251572326975,
       "remainingUpsidePct": 17.50881316098708,
@@ -11733,7 +11733,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.253Z",
+      "updatedAt": "2026-05-22T16:21:47.446Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11779,7 +11779,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.590Z",
+      "updatedAt": "2026-05-22T16:21:45.946Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11802,7 +11802,7 @@
       "change": 19,
       "changePercent": 5.731523378582202,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 9.190031152647975,
       "remainingUpsidePct": -0.14265335235378032,
@@ -11825,7 +11825,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.564Z",
+      "updatedAt": "2026-05-22T16:21:47.714Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11871,7 +11871,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.409Z",
+      "updatedAt": "2026-05-22T16:21:46.690Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11917,7 +11917,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.407Z",
+      "updatedAt": "2026-05-22T16:21:47.547Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11940,7 +11940,7 @@
       "change": 0.5,
       "changePercent": 0.36231884057971014,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.464788732394366,
       "remainingUpsidePct": 12.63537906137184,
@@ -11963,7 +11963,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.931Z",
+      "updatedAt": "2026-05-22T16:21:48.085Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11986,7 +11986,7 @@
       "change": 7.629394538355427e-7,
       "changePercent": 0.000003853229713299759,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.2518910856868394,
       "remainingUpsidePct": 11.111111111111107,
@@ -12009,7 +12009,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.694Z",
+      "updatedAt": "2026-05-22T16:21:46.010Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12055,7 +12055,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.578Z",
+      "updatedAt": "2026-05-22T16:21:45.925Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12078,7 +12078,7 @@
       "change": 3,
       "changePercent": 2.04778156996587,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.6734006734006733,
       "remainingUpsidePct": 17.05685618729097,
@@ -12101,7 +12101,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.315Z",
+      "updatedAt": "2026-05-22T16:21:46.504Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12148,7 +12148,7 @@
         "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
         "TradingView: TradingView 6664 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.658Z",
+      "updatedAt": "2026-05-22T16:21:47.831Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12171,7 +12171,7 @@
       "change": 109,
       "changePercent": 20.961538461538463,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 38.090010976948406,
       "remainingUpsidePct": -3.0206677265500796,
@@ -12194,7 +12194,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.820Z",
+      "updatedAt": "2026-05-22T16:21:46.141Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12217,7 +12217,7 @@
       "change": 10,
       "changePercent": 4.166666666666666,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.6036217303822937,
       "remainingUpsidePct": 4,
@@ -12240,7 +12240,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.822Z",
+      "updatedAt": "2026-05-22T16:21:46.125Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12263,7 +12263,7 @@
       "change": 0.7499996185302731,
       "changePercent": 5.952377744632968,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 8.979591836734691,
       "remainingUpsidePct": 4.868913857677906,
@@ -12286,7 +12286,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.275Z",
+      "updatedAt": "2026-05-22T16:21:46.514Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12309,7 +12309,7 @@
       "change": -0.19999923706054545,
       "changePercent": -0.3460194458485542,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 5.109490514455791,
       "remainingUpsidePct": 2.430555555555553,
@@ -12332,7 +12332,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.442Z",
+      "updatedAt": "2026-05-22T16:21:46.696Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12355,7 +12355,7 @@
       "change": -0.09999847412109375,
       "changePercent": -0.13227311658653615,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.048496749358101,
       "remainingUpsidePct": 9.933774834437086,
@@ -12378,7 +12378,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.316Z",
+      "updatedAt": "2026-05-22T16:21:47.465Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12424,7 +12424,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.777Z",
+      "updatedAt": "2026-05-22T16:21:47.936Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12447,7 +12447,7 @@
       "change": 355,
       "changePercent": 6.25,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -4.054054054054054,
       "remainingUpsidePct": 34.217067108533556,
@@ -12471,7 +12471,7 @@
         "Yahoo Finance: Yahoo fundamentals 6223 HTTP 401",
         "TradingView: TradingView 6223 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.482Z",
+      "updatedAt": "2026-05-22T16:21:47.634Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12494,7 +12494,7 @@
       "change": -0.19999847412108807,
       "changePercent": -0.24067205510644066,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -1.1918969102407593,
       "remainingUpsidePct": 17.008443908323272,
@@ -12517,7 +12517,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.347Z",
+      "updatedAt": "2026-05-22T16:21:46.593Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12540,7 +12540,7 @@
       "change": 19,
       "changePercent": 9.026128266033254,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 12.224938875305623,
       "remainingUpsidePct": -9.803921568627452,
@@ -12563,7 +12563,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.138Z",
+      "updatedAt": "2026-05-22T16:21:47.204Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12586,7 +12586,7 @@
       "change": -10,
       "changePercent": -1.027749229188078,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -7.403846153846154,
       "remainingUpsidePct": 19.418483904465216,
@@ -12609,7 +12609,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.640Z",
+      "updatedAt": "2026-05-22T16:21:47.792Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12632,7 +12632,7 @@
       "change": 38,
       "changePercent": 5.019815059445178,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.73053152039555,
       "remainingUpsidePct": 13.20754716981132,
@@ -12656,7 +12656,7 @@
         "Yahoo Finance: Yahoo fundamentals 4966 HTTP 401",
         "TradingView: TradingView 4966 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.071Z",
+      "updatedAt": "2026-05-22T16:21:47.286Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12679,7 +12679,7 @@
       "change": 3.2000015258789034,
       "changePercent": 3.9457479483184206,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 13.458945541733195,
       "remainingUpsidePct": 5.575326215895615,
@@ -12702,7 +12702,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.307Z",
+      "updatedAt": "2026-05-22T16:21:46.605Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12725,7 +12725,7 @@
       "change": -15,
       "changePercent": -0.6237006237006237,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -13.5623869801085,
       "remainingUpsidePct": 67.36401673640168,
@@ -12748,7 +12748,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.763Z",
+      "updatedAt": "2026-05-22T16:21:47.933Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12794,7 +12794,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.360Z",
+      "updatedAt": "2026-05-22T16:21:47.547Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12817,7 +12817,7 @@
       "change": -1,
       "changePercent": -0.8403361344537815,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 6.787330316742081,
       "remainingUpsidePct": 21.1864406779661,
@@ -12840,7 +12840,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.914Z",
+      "updatedAt": "2026-05-22T16:21:47.123Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12863,7 +12863,7 @@
       "change": 130,
       "changePercent": 12.682926829268293,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 12.682926829268293,
       "remainingUpsidePct": 16.017316017316016,
@@ -12886,7 +12886,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.182Z",
+      "updatedAt": "2026-05-22T16:21:46.402Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12909,7 +12909,7 @@
       "change": 11,
       "changePercent": 1.2008733624454149,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -2.4210526315789473,
       "remainingUpsidePct": 28.37108953613808,
@@ -12933,7 +12933,7 @@
         "Yahoo Finance: Yahoo fundamentals 5536 HTTP 401",
         "TradingView: TradingView 5536 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.397Z",
+      "updatedAt": "2026-05-22T16:21:47.465Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12956,7 +12956,7 @@
       "change": 3.4000015258789062,
       "changePercent": 10.271908406694228,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 5.797101449275362,
       "remainingUpsidePct": 23.28767123287671,
@@ -12979,7 +12979,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.591Z",
+      "updatedAt": "2026-05-22T16:21:45.916Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13002,7 +13002,7 @@
       "change": -6,
       "changePercent": -2.608695652173913,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 14.578005115089516,
       "remainingUpsidePct": 6.25,
@@ -13026,7 +13026,7 @@
         "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
         "TradingView: TradingView 8069 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.915Z",
+      "updatedAt": "2026-05-22T16:21:47.986Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13072,7 +13072,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.696Z",
+      "updatedAt": "2026-05-22T16:21:46.008Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13118,7 +13118,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.576Z",
+      "updatedAt": "2026-05-22T16:21:47.818Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13141,7 +13141,7 @@
       "change": 3,
       "changePercent": 2.3346303501945527,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -2.5925925925925926,
       "remainingUpsidePct": 17.870722433460077,
@@ -13164,7 +13164,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.019Z",
+      "updatedAt": "2026-05-22T16:21:46.321Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13187,7 +13187,7 @@
       "change": 2.700000000000003,
       "changePercent": 4.462809917355377,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -3.951372235822946,
       "remainingUpsidePct": 20.25316455696202,
@@ -13210,7 +13210,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.996Z",
+      "updatedAt": "2026-05-22T16:21:47.201Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13257,7 +13257,7 @@
         "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
         "TradingView: TradingView 7734 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.753Z",
+      "updatedAt": "2026-05-22T16:21:47.925Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13304,7 +13304,7 @@
         "Yahoo Finance: Yahoo fundamentals 3680 HTTP 401",
         "TradingView: TradingView 3680 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.897Z",
+      "updatedAt": "2026-05-22T16:21:47.115Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13350,7 +13350,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.063Z",
+      "updatedAt": "2026-05-22T16:21:47.254Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13373,7 +13373,7 @@
       "change": 35.5,
       "changePercent": 12.909090909090908,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -3.2710280373831773,
       "remainingUpsidePct": 31.07890499194847,
@@ -13396,7 +13396,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.088Z",
+      "updatedAt": "2026-05-22T16:21:46.402Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13419,7 +13419,7 @@
       "change": 6.599998474121094,
       "changePercent": 10.328635863096428,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.8438797285480683,
       "remainingUpsidePct": 9.219858156028367,
@@ -13442,7 +13442,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.683Z",
+      "updatedAt": "2026-05-22T16:21:46.012Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13465,7 +13465,7 @@
       "change": 7,
       "changePercent": 4.713804713804714,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 4.713804713804714,
       "remainingUpsidePct": -1.607717041800643,
@@ -13488,7 +13488,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.981Z",
+      "updatedAt": "2026-05-22T16:21:47.193Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13535,7 +13535,7 @@
         "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
         "TradingView: TradingView 6829 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.699Z",
+      "updatedAt": "2026-05-22T16:21:47.859Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13558,7 +13558,7 @@
       "change": 9.5,
       "changePercent": 8.225108225108226,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 6.382978723404255,
       "remainingUpsidePct": 9.6,
@@ -13581,7 +13581,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.901Z",
+      "updatedAt": "2026-05-22T16:21:46.205Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13627,7 +13627,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.897Z",
+      "updatedAt": "2026-05-22T16:21:47.053Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13673,7 +13673,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.696Z",
+      "updatedAt": "2026-05-22T16:21:46.008Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13719,7 +13719,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.172Z",
+      "updatedAt": "2026-05-22T16:21:46.503Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13742,7 +13742,7 @@
       "change": 60,
       "changePercent": 4.669260700389105,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -13.504823151125404,
       "remainingUpsidePct": 26.394052044609666,
@@ -13765,7 +13765,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.850Z",
+      "updatedAt": "2026-05-22T16:21:48.016Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13811,7 +13811,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.589Z",
+      "updatedAt": "2026-05-22T16:21:45.910Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13834,7 +13834,7 @@
       "change": 50,
       "changePercent": 2.9850746268656714,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -1.9886363636363635,
       "remainingUpsidePct": 20.869565217391305,
@@ -13858,7 +13858,7 @@
         "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
         "TradingView: TradingView 5289 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.173Z",
+      "updatedAt": "2026-05-22T16:21:47.366Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13904,7 +13904,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.082Z",
+      "updatedAt": "2026-05-22T16:21:46.399Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13927,7 +13927,7 @@
       "change": 17,
       "changePercent": 6.093189964157706,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 19.5959595959596,
       "remainingUpsidePct": -8.783783783783784,
@@ -13950,7 +13950,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.540Z",
+      "updatedAt": "2026-05-22T16:21:47.676Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13973,7 +13973,7 @@
       "change": 13,
       "changePercent": 2.751322751322751,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.5100401606425704,
       "remainingUpsidePct": 6.694129763130793,
@@ -13996,7 +13996,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.510Z",
+      "updatedAt": "2026-05-22T16:21:46.782Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14019,7 +14019,7 @@
       "change": 21,
       "changePercent": 2.9829545454545454,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -3.718459495351926,
       "remainingUpsidePct": 11.724137931034482,
@@ -14042,7 +14042,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.609Z",
+      "updatedAt": "2026-05-22T16:21:47.785Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14088,7 +14088,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.012Z",
+      "updatedAt": "2026-05-22T16:21:46.310Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14111,7 +14111,7 @@
       "change": 6,
       "changePercent": 5.555555555555555,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 24.863084544886156,
       "remainingUpsidePct": 5.263157894736842,
@@ -14134,7 +14134,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.777Z",
+      "updatedAt": "2026-05-22T16:21:46.100Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14157,7 +14157,7 @@
       "change": 0.9000000000000057,
       "changePercent": 1.3953488372093112,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.46083184778901365,
       "remainingUpsidePct": 19.26605504587155,
@@ -14180,7 +14180,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.277Z",
+      "updatedAt": "2026-05-22T16:21:46.566Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14203,7 +14203,7 @@
       "change": 12,
       "changePercent": 2.9593094944512948,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -9.534127843987,
       "remainingUpsidePct": 27.18562874251497,
@@ -14227,7 +14227,7 @@
         "Yahoo Finance: Yahoo fundamentals 3260 HTTP 401",
         "TradingView: TradingView 3260 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.699Z",
+      "updatedAt": "2026-05-22T16:21:46.935Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14250,7 +14250,7 @@
       "change": 3.299996948242182,
       "changePercent": 4.03422594758848,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 5.977580032155562,
       "remainingUpsidePct": 17.50881316098708,
@@ -14273,7 +14273,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.253Z",
+      "updatedAt": "2026-05-22T16:21:47.446Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14320,7 +14320,7 @@
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
         "TradingView: TradingView 8299 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.936Z",
+      "updatedAt": "2026-05-22T16:21:48.084Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14366,7 +14366,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.874Z",
+      "updatedAt": "2026-05-22T16:21:47.054Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14389,7 +14389,7 @@
       "change": -0.4000007629394524,
       "changePercent": -1.261832029376776,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.492207202956876,
       "remainingUpsidePct": 15.015974440894567,
@@ -14412,7 +14412,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.362Z",
+      "updatedAt": "2026-05-22T16:21:46.662Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14459,7 +14459,7 @@
         "Yahoo Finance: Yahoo fundamentals 3162 HTTP 401",
         "TradingView: TradingView 3162 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.622Z",
+      "updatedAt": "2026-05-22T16:21:46.872Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14505,7 +14505,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.971Z",
+      "updatedAt": "2026-05-22T16:21:47.132Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14552,7 +14552,7 @@
         "Yahoo Finance: Yahoo fundamentals 4991 HTTP 401",
         "TradingView: TradingView 4991 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.142Z",
+      "updatedAt": "2026-05-22T16:21:47.303Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14575,7 +14575,7 @@
       "change": 28,
       "changePercent": 6.054054054054054,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0.5122950819672131,
       "remainingUpsidePct": 25.382262996941897,
@@ -14598,7 +14598,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.614Z",
+      "updatedAt": "2026-05-22T16:21:46.785Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14621,7 +14621,7 @@
       "change": 3,
       "changePercent": 1.8867924528301887,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -4.142011834319527,
       "remainingUpsidePct": 1.8518518518518516,
@@ -14645,7 +14645,7 @@
         "Yahoo Finance: Yahoo fundamentals 5347 HTTP 401",
         "TradingView: TradingView 5347 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.233Z",
+      "updatedAt": "2026-05-22T16:21:47.399Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14692,7 +14692,7 @@
         "Yahoo Finance: Yahoo fundamentals 3264 HTTP 401",
         "TradingView: TradingView 3264 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.718Z",
+      "updatedAt": "2026-05-22T16:21:46.955Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14738,7 +14738,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.125Z",
+      "updatedAt": "2026-05-22T16:21:46.410Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14761,7 +14761,7 @@
       "change": 205,
       "changePercent": 9.927360774818402,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 1.5659955257270695,
       "remainingUpsidePct": 37.22466960352423,
@@ -14784,7 +14784,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.986Z",
+      "updatedAt": "2026-05-22T16:21:46.299Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14807,7 +14807,7 @@
       "change": 630,
       "changePercent": 19.5046439628483,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 22.345483359746435,
       "remainingUpsidePct": 0.2590673575129534,
@@ -14830,7 +14830,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.182Z",
+      "updatedAt": "2026-05-22T16:21:46.464Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14853,7 +14853,7 @@
       "change": 68,
       "changePercent": 12.099644128113878,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -12.256267409470752,
       "remainingUpsidePct": 38.095238095238095,
@@ -14877,7 +14877,7 @@
         "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
         "TradingView: TradingView 4979 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.139Z",
+      "updatedAt": "2026-05-22T16:21:47.295Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14900,7 +14900,7 @@
       "change": 115,
       "changePercent": 4.8832271762208075,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.002004008016032,
       "remainingUpsidePct": 21.45748987854251,
@@ -14923,7 +14923,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.891Z",
+      "updatedAt": "2026-05-22T16:21:46.224Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14946,7 +14946,7 @@
       "change": 84.5,
       "changePercent": 18.924972004479283,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 1.3358778625954197,
       "remainingUpsidePct": 14.87758945386064,
@@ -14970,7 +14970,7 @@
         "Yahoo Finance: Yahoo fundamentals 3105 HTTP 401",
         "TradingView: TradingView 3105 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.614Z",
+      "updatedAt": "2026-05-22T16:21:46.837Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14993,7 +14993,7 @@
       "change": 3,
       "changePercent": 2.04778156996587,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 2.04778156996587,
       "remainingUpsidePct": 17.05685618729097,
@@ -15016,7 +15016,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.315Z",
+      "updatedAt": "2026-05-22T16:21:46.504Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15039,7 +15039,7 @@
       "change": 176,
       "changePercent": 17.706237424547282,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -6.024096385542169,
       "remainingUpsidePct": 38.46153846153847,
@@ -15062,7 +15062,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.952Z",
+      "updatedAt": "2026-05-22T16:21:48.099Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15108,7 +15108,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.111Z",
+      "updatedAt": "2026-05-22T16:21:46.405Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15154,7 +15154,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6209 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.446Z",
+      "updatedAt": "2026-05-22T16:21:47.640Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15201,7 +15201,7 @@
         "Yahoo Finance: Yahoo fundamentals 6290 HTTP 401",
         "TradingView: TradingView 6290 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.540Z",
+      "updatedAt": "2026-05-22T16:21:47.716Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15224,7 +15224,7 @@
       "change": 23,
       "changePercent": 13.855421686746988,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 17.391304347826086,
       "remainingUpsidePct": 11.11111111111111,
@@ -15247,7 +15247,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6862 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.720Z",
+      "updatedAt": "2026-05-22T16:21:47.888Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15270,7 +15270,7 @@
       "change": 260,
       "changePercent": 13.231552162849871,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 6.205250596658711,
       "remainingUpsidePct": 34.831460674157306,
@@ -15293,7 +15293,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.896Z",
+      "updatedAt": "2026-05-22T16:21:47.087Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15339,7 +15339,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.504Z",
+      "updatedAt": "2026-05-22T16:21:46.755Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15386,7 +15386,7 @@
         "Yahoo Finance: Yahoo fundamentals 5328 HTTP 401",
         "TradingView: TradingView 5328 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.226Z",
+      "updatedAt": "2026-05-22T16:21:47.369Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15432,7 +15432,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3090 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.598Z",
+      "updatedAt": "2026-05-22T16:21:46.818Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15478,7 +15478,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.199Z",
+      "updatedAt": "2026-05-22T16:21:46.503Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15524,7 +15524,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5269 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.154Z",
+      "updatedAt": "2026-05-22T16:21:47.346Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15570,7 +15570,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.777Z",
+      "updatedAt": "2026-05-22T16:21:47.936Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15617,7 +15617,7 @@
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
         "TradingView: TradingView 8299 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.936Z",
+      "updatedAt": "2026-05-22T16:21:48.084Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15640,7 +15640,7 @@
       "change": 50,
       "changePercent": 2.9850746268656714,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 15.942028985507244,
@@ -15664,7 +15664,7 @@
         "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
         "TradingView: TradingView 5289 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.173Z",
+      "updatedAt": "2026-05-22T16:21:47.366Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15687,7 +15687,7 @@
       "change": 7.5,
       "changePercent": 3.7037037037037033,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 14.285714285714285,
@@ -15710,7 +15710,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.791Z",
+      "updatedAt": "2026-05-22T16:21:46.973Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15733,7 +15733,7 @@
       "change": 630,
       "changePercent": 19.5046439628483,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 6.336088154269973,
       "remainingUpsidePct": 29.533678756476682,
@@ -15756,7 +15756,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.182Z",
+      "updatedAt": "2026-05-22T16:21:46.464Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15802,7 +15802,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.082Z",
+      "updatedAt": "2026-05-22T16:21:46.399Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15825,7 +15825,7 @@
       "change": 535,
       "changePercent": 11.617806731813246,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 3.733602421796166,
       "remainingUpsidePct": 29.688715953307394,
@@ -15848,7 +15848,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.793Z",
+      "updatedAt": "2026-05-22T16:21:47.001Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15871,7 +15871,7 @@
       "change": 535,
       "changePercent": 11.617806731813246,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 29.96207332490518,
       "remainingUpsidePct": -10.505836575875486,
@@ -15894,7 +15894,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.793Z",
+      "updatedAt": "2026-05-22T16:21:47.001Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15917,7 +15917,7 @@
       "change": 9.5,
       "changePercent": 3.6398467432950192,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -4.753521126760563,
       "remainingUpsidePct": 597.9667282809612,
@@ -15940,7 +15940,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4967 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.095Z",
+      "updatedAt": "2026-05-22T16:21:47.285Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15963,7 +15963,7 @@
       "change": 70,
       "changePercent": 3.203661327231121,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -0.44150110375275936,
       "remainingUpsidePct": 8.647450110864744,
@@ -15986,7 +15986,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.882Z",
+      "updatedAt": "2026-05-22T16:21:46.205Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16032,7 +16032,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8271 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.859Z",
+      "updatedAt": "2026-05-22T16:21:48.024Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16055,7 +16055,7 @@
       "change": 11,
       "changePercent": 1.9748653500897666,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 8.812260536398467,
       "remainingUpsidePct": 10.915492957746478,
@@ -16079,7 +16079,7 @@
         "Yahoo Finance: Yahoo fundamentals 5904 HTTP 401",
         "TradingView: TradingView 5904 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.354Z",
+      "updatedAt": "2026-05-22T16:21:47.538Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16126,7 +16126,7 @@
         "Yahoo Finance: Yahoo fundamentals 6187 HTTP 401",
         "TradingView: TradingView 6187 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.415Z",
+      "updatedAt": "2026-05-22T16:21:47.554Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16149,7 +16149,7 @@
       "change": 37,
       "changePercent": 7.129094412331407,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 43.884892086330936,
@@ -16172,7 +16172,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6789 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.682Z",
+      "updatedAt": "2026-05-22T16:21:47.856Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16218,7 +16218,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6449 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.584Z",
+      "updatedAt": "2026-05-22T16:21:47.725Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16264,7 +16264,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4958 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.052Z",
+      "updatedAt": "2026-05-22T16:21:47.227Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16287,7 +16287,7 @@
       "change": 70,
       "changePercent": 3.203661327231121,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 8.413461538461538,
       "remainingUpsidePct": 3.325942350332594,
@@ -16310,7 +16310,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.882Z",
+      "updatedAt": "2026-05-22T16:21:46.205Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16356,7 +16356,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2308 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.795Z",
+      "updatedAt": "2026-05-22T16:21:46.111Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16403,7 +16403,7 @@
         "Yahoo Finance: Yahoo fundamentals 5340 HTTP 401",
         "TradingView: TradingView 5340 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.233Z",
+      "updatedAt": "2026-05-22T16:21:47.382Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16426,7 +16426,7 @@
       "change": 68,
       "changePercent": 12.099644128113878,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 11.11111111111111,
       "remainingUpsidePct": 11.11111111111111,
@@ -16450,7 +16450,7 @@
         "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
         "TradingView: TradingView 4979 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.139Z",
+      "updatedAt": "2026-05-22T16:21:47.295Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16473,7 +16473,7 @@
       "change": 48.5,
       "changePercent": 20.68230277185501,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 28.091872791519435,
@@ -16496,7 +16496,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.495Z",
+      "updatedAt": "2026-05-22T16:21:47.631Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16519,7 +16519,7 @@
       "change": 535,
       "changePercent": 11.617806731813246,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0,
       "remainingUpsidePct": 17.509727626459142,
@@ -16542,7 +16542,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.793Z",
+      "updatedAt": "2026-05-22T16:21:47.001Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16589,7 +16589,7 @@
         "Yahoo Finance: Yahoo fundamentals 4541 HTTP 401",
         "TradingView: TradingView 4541 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.974Z",
+      "updatedAt": "2026-05-22T16:21:47.166Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16636,7 +16636,7 @@
         "Yahoo Finance: Yahoo fundamentals 3088 HTTP 401",
         "TradingView: TradingView 3088 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.531Z",
+      "updatedAt": "2026-05-22T16:21:46.801Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16682,7 +16682,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.347Z",
+      "updatedAt": "2026-05-22T16:21:46.570Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16705,7 +16705,7 @@
       "change": -1,
       "changePercent": -0.8403361344537815,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.8403361344537815,
       "remainingUpsidePct": 21.1864406779661,
@@ -16728,7 +16728,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.914Z",
+      "updatedAt": "2026-05-22T16:21:47.123Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16774,7 +16774,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.590Z",
+      "updatedAt": "2026-05-22T16:21:45.917Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16821,7 +16821,7 @@
         "Yahoo Finance: Yahoo fundamentals 2949 HTTP 401",
         "TradingView: TradingView 2949 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.428Z",
+      "updatedAt": "2026-05-22T16:21:46.734Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16868,7 +16868,7 @@
         "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
         "TradingView: TradingView 8111 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.841Z",
+      "updatedAt": "2026-05-22T16:21:48.008Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16891,7 +16891,7 @@
       "change": -0.19999923706054545,
       "changePercent": -0.3460194458485542,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -0.3460194458485542,
       "remainingUpsidePct": 2.430555555555553,
@@ -16914,7 +16914,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.442Z",
+      "updatedAt": "2026-05-22T16:21:46.696Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16960,7 +16960,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.723Z",
+      "updatedAt": "2026-05-22T16:21:47.896Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16983,7 +16983,7 @@
       "change": 13.5,
       "changePercent": 10.588235294117647,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 4.444444444444445,
       "remainingUpsidePct": 28.368794326241137,
@@ -17006,7 +17006,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.914Z",
+      "updatedAt": "2026-05-22T16:21:46.224Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17029,7 +17029,7 @@
       "change": 3.299996948242182,
       "changePercent": 4.03422594758848,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 7.0440251572326975,
       "remainingUpsidePct": 17.50881316098708,
@@ -17052,7 +17052,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.253Z",
+      "updatedAt": "2026-05-22T16:21:47.446Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17098,7 +17098,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.590Z",
+      "updatedAt": "2026-05-22T16:21:45.946Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17121,7 +17121,7 @@
       "change": 19,
       "changePercent": 5.731523378582202,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 9.190031152647975,
       "remainingUpsidePct": -0.14265335235378032,
@@ -17144,7 +17144,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.564Z",
+      "updatedAt": "2026-05-22T16:21:47.714Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17190,7 +17190,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.409Z",
+      "updatedAt": "2026-05-22T16:21:46.690Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17236,7 +17236,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.407Z",
+      "updatedAt": "2026-05-22T16:21:47.547Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17259,7 +17259,7 @@
       "change": 0.5,
       "changePercent": 0.36231884057971014,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.464788732394366,
       "remainingUpsidePct": 12.63537906137184,
@@ -17282,7 +17282,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.931Z",
+      "updatedAt": "2026-05-22T16:21:48.085Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17305,7 +17305,7 @@
       "change": 7.629394538355427e-7,
       "changePercent": 0.000003853229713299759,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.2518910856868394,
       "remainingUpsidePct": 11.111111111111107,
@@ -17328,7 +17328,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.694Z",
+      "updatedAt": "2026-05-22T16:21:46.010Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17374,7 +17374,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.578Z",
+      "updatedAt": "2026-05-22T16:21:45.925Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17397,7 +17397,7 @@
       "change": 3,
       "changePercent": 2.04778156996587,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.6734006734006733,
       "remainingUpsidePct": 17.05685618729097,
@@ -17420,7 +17420,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.315Z",
+      "updatedAt": "2026-05-22T16:21:46.504Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17467,7 +17467,7 @@
         "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
         "TradingView: TradingView 6664 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.658Z",
+      "updatedAt": "2026-05-22T16:21:47.831Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17490,7 +17490,7 @@
       "change": 109,
       "changePercent": 20.961538461538463,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 38.090010976948406,
       "remainingUpsidePct": -3.0206677265500796,
@@ -17513,7 +17513,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.820Z",
+      "updatedAt": "2026-05-22T16:21:46.141Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17536,7 +17536,7 @@
       "change": 10,
       "changePercent": 4.166666666666666,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.6036217303822937,
       "remainingUpsidePct": 4,
@@ -17559,7 +17559,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.822Z",
+      "updatedAt": "2026-05-22T16:21:46.125Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17582,7 +17582,7 @@
       "change": 0.7499996185302731,
       "changePercent": 5.952377744632968,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 8.979591836734691,
       "remainingUpsidePct": 4.868913857677906,
@@ -17605,7 +17605,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.275Z",
+      "updatedAt": "2026-05-22T16:21:46.514Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17628,7 +17628,7 @@
       "change": -0.19999923706054545,
       "changePercent": -0.3460194458485542,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 5.109490514455791,
       "remainingUpsidePct": 2.430555555555553,
@@ -17651,7 +17651,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.442Z",
+      "updatedAt": "2026-05-22T16:21:46.696Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17674,7 +17674,7 @@
       "change": -0.09999847412109375,
       "changePercent": -0.13227311658653615,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.048496749358101,
       "remainingUpsidePct": 9.933774834437086,
@@ -17697,7 +17697,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.316Z",
+      "updatedAt": "2026-05-22T16:21:47.465Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17743,7 +17743,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.777Z",
+      "updatedAt": "2026-05-22T16:21:47.936Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17766,7 +17766,7 @@
       "change": 355,
       "changePercent": 6.25,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -4.054054054054054,
       "remainingUpsidePct": 34.217067108533556,
@@ -17790,7 +17790,7 @@
         "Yahoo Finance: Yahoo fundamentals 6223 HTTP 401",
         "TradingView: TradingView 6223 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.482Z",
+      "updatedAt": "2026-05-22T16:21:47.634Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17813,7 +17813,7 @@
       "change": -0.19999847412108807,
       "changePercent": -0.24067205510644066,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -1.1918969102407593,
       "remainingUpsidePct": 17.008443908323272,
@@ -17836,7 +17836,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.347Z",
+      "updatedAt": "2026-05-22T16:21:46.593Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17859,7 +17859,7 @@
       "change": 19,
       "changePercent": 9.026128266033254,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 12.224938875305623,
       "remainingUpsidePct": -9.803921568627452,
@@ -17882,7 +17882,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.138Z",
+      "updatedAt": "2026-05-22T16:21:47.204Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17905,7 +17905,7 @@
       "change": -10,
       "changePercent": -1.027749229188078,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -7.403846153846154,
       "remainingUpsidePct": 19.418483904465216,
@@ -17928,7 +17928,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.640Z",
+      "updatedAt": "2026-05-22T16:21:47.792Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17951,7 +17951,7 @@
       "change": 38,
       "changePercent": 5.019815059445178,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.73053152039555,
       "remainingUpsidePct": 13.20754716981132,
@@ -17975,7 +17975,7 @@
         "Yahoo Finance: Yahoo fundamentals 4966 HTTP 401",
         "TradingView: TradingView 4966 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.071Z",
+      "updatedAt": "2026-05-22T16:21:47.286Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17998,7 +17998,7 @@
       "change": 3.2000015258789034,
       "changePercent": 3.9457479483184206,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 13.458945541733195,
       "remainingUpsidePct": 5.575326215895615,
@@ -18021,7 +18021,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.307Z",
+      "updatedAt": "2026-05-22T16:21:46.605Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18044,7 +18044,7 @@
       "change": -15,
       "changePercent": -0.6237006237006237,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -13.5623869801085,
       "remainingUpsidePct": 67.36401673640168,
@@ -18067,7 +18067,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.763Z",
+      "updatedAt": "2026-05-22T16:21:47.933Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18113,7 +18113,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.360Z",
+      "updatedAt": "2026-05-22T16:21:47.547Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18136,7 +18136,7 @@
       "change": -1,
       "changePercent": -0.8403361344537815,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 6.787330316742081,
       "remainingUpsidePct": 21.1864406779661,
@@ -18159,7 +18159,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.914Z",
+      "updatedAt": "2026-05-22T16:21:47.123Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18182,7 +18182,7 @@
       "change": 130,
       "changePercent": 12.682926829268293,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 12.682926829268293,
       "remainingUpsidePct": 16.017316017316016,
@@ -18205,7 +18205,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.182Z",
+      "updatedAt": "2026-05-22T16:21:46.402Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18228,7 +18228,7 @@
       "change": 11,
       "changePercent": 1.2008733624454149,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -2.4210526315789473,
       "remainingUpsidePct": 28.37108953613808,
@@ -18252,7 +18252,7 @@
         "Yahoo Finance: Yahoo fundamentals 5536 HTTP 401",
         "TradingView: TradingView 5536 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.397Z",
+      "updatedAt": "2026-05-22T16:21:47.465Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18275,7 +18275,7 @@
       "change": 3.4000015258789062,
       "changePercent": 10.271908406694228,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 5.797101449275362,
       "remainingUpsidePct": 23.28767123287671,
@@ -18298,7 +18298,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.591Z",
+      "updatedAt": "2026-05-22T16:21:45.916Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18321,7 +18321,7 @@
       "change": -6,
       "changePercent": -2.608695652173913,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 14.578005115089516,
       "remainingUpsidePct": 6.25,
@@ -18345,7 +18345,7 @@
         "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
         "TradingView: TradingView 8069 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.915Z",
+      "updatedAt": "2026-05-22T16:21:47.986Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18391,7 +18391,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.696Z",
+      "updatedAt": "2026-05-22T16:21:46.008Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18437,7 +18437,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.576Z",
+      "updatedAt": "2026-05-22T16:21:47.818Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18460,7 +18460,7 @@
       "change": 3,
       "changePercent": 2.3346303501945527,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -2.5925925925925926,
       "remainingUpsidePct": 17.870722433460077,
@@ -18483,7 +18483,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.019Z",
+      "updatedAt": "2026-05-22T16:21:46.321Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18506,7 +18506,7 @@
       "change": 2.700000000000003,
       "changePercent": 4.462809917355377,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -3.951372235822946,
       "remainingUpsidePct": 20.25316455696202,
@@ -18529,7 +18529,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.996Z",
+      "updatedAt": "2026-05-22T16:21:47.201Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18576,7 +18576,7 @@
         "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
         "TradingView: TradingView 7734 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.753Z",
+      "updatedAt": "2026-05-22T16:21:47.925Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18623,7 +18623,7 @@
         "Yahoo Finance: Yahoo fundamentals 3680 HTTP 401",
         "TradingView: TradingView 3680 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.897Z",
+      "updatedAt": "2026-05-22T16:21:47.115Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18669,7 +18669,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.063Z",
+      "updatedAt": "2026-05-22T16:21:47.254Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18692,7 +18692,7 @@
       "change": 35.5,
       "changePercent": 12.909090909090908,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -3.2710280373831773,
       "remainingUpsidePct": 31.07890499194847,
@@ -18715,7 +18715,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.088Z",
+      "updatedAt": "2026-05-22T16:21:46.402Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18738,7 +18738,7 @@
       "change": 6.599998474121094,
       "changePercent": 10.328635863096428,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -0.8438797285480683,
       "remainingUpsidePct": 9.219858156028367,
@@ -18761,7 +18761,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.683Z",
+      "updatedAt": "2026-05-22T16:21:46.012Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18784,7 +18784,7 @@
       "change": 7,
       "changePercent": 4.713804713804714,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 4.713804713804714,
       "remainingUpsidePct": -1.607717041800643,
@@ -18807,7 +18807,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.981Z",
+      "updatedAt": "2026-05-22T16:21:47.193Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18854,7 +18854,7 @@
         "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
         "TradingView: TradingView 6829 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.699Z",
+      "updatedAt": "2026-05-22T16:21:47.859Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18877,7 +18877,7 @@
       "change": 9.5,
       "changePercent": 8.225108225108226,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 6.382978723404255,
       "remainingUpsidePct": 9.6,
@@ -18900,7 +18900,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.901Z",
+      "updatedAt": "2026-05-22T16:21:46.205Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18946,7 +18946,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.897Z",
+      "updatedAt": "2026-05-22T16:21:47.053Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18992,7 +18992,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.696Z",
+      "updatedAt": "2026-05-22T16:21:46.008Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19038,7 +19038,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.172Z",
+      "updatedAt": "2026-05-22T16:21:46.503Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19061,7 +19061,7 @@
       "change": 60,
       "changePercent": 4.669260700389105,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -13.504823151125404,
       "remainingUpsidePct": 26.394052044609666,
@@ -19084,7 +19084,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.850Z",
+      "updatedAt": "2026-05-22T16:21:48.016Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19130,7 +19130,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.589Z",
+      "updatedAt": "2026-05-22T16:21:45.910Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19153,7 +19153,7 @@
       "change": 50,
       "changePercent": 2.9850746268656714,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -1.9886363636363635,
       "remainingUpsidePct": 20.869565217391305,
@@ -19177,7 +19177,7 @@
         "Yahoo Finance: Yahoo fundamentals 5289 HTTP 401",
         "TradingView: TradingView 5289 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.173Z",
+      "updatedAt": "2026-05-22T16:21:47.366Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19223,7 +19223,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.082Z",
+      "updatedAt": "2026-05-22T16:21:46.399Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19246,7 +19246,7 @@
       "change": 17,
       "changePercent": 6.093189964157706,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 19.5959595959596,
       "remainingUpsidePct": -8.783783783783784,
@@ -19269,7 +19269,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.540Z",
+      "updatedAt": "2026-05-22T16:21:47.676Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19292,7 +19292,7 @@
       "change": 13,
       "changePercent": 2.751322751322751,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.5100401606425704,
       "remainingUpsidePct": 6.694129763130793,
@@ -19315,7 +19315,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.510Z",
+      "updatedAt": "2026-05-22T16:21:46.782Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19338,7 +19338,7 @@
       "change": 21,
       "changePercent": 2.9829545454545454,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -3.718459495351926,
       "remainingUpsidePct": 11.724137931034482,
@@ -19361,7 +19361,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.609Z",
+      "updatedAt": "2026-05-22T16:21:47.785Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19407,7 +19407,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.012Z",
+      "updatedAt": "2026-05-22T16:21:46.310Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19430,7 +19430,7 @@
       "change": 6,
       "changePercent": 5.555555555555555,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 24.863084544886156,
       "remainingUpsidePct": 5.263157894736842,
@@ -19453,7 +19453,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.777Z",
+      "updatedAt": "2026-05-22T16:21:46.100Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19476,7 +19476,7 @@
       "change": 0.9000000000000057,
       "changePercent": 1.3953488372093112,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 0.46083184778901365,
       "remainingUpsidePct": 19.26605504587155,
@@ -19499,7 +19499,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.277Z",
+      "updatedAt": "2026-05-22T16:21:46.566Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19522,7 +19522,7 @@
       "change": 12,
       "changePercent": 2.9593094944512948,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -9.534127843987,
       "remainingUpsidePct": 27.18562874251497,
@@ -19546,7 +19546,7 @@
         "Yahoo Finance: Yahoo fundamentals 3260 HTTP 401",
         "TradingView: TradingView 3260 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.699Z",
+      "updatedAt": "2026-05-22T16:21:46.935Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19569,7 +19569,7 @@
       "change": 3.299996948242182,
       "changePercent": 4.03422594758848,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 5.977580032155562,
       "remainingUpsidePct": 17.50881316098708,
@@ -19592,7 +19592,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.253Z",
+      "updatedAt": "2026-05-22T16:21:47.446Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19639,7 +19639,7 @@
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
         "TradingView: TradingView 8299 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.936Z",
+      "updatedAt": "2026-05-22T16:21:48.084Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19685,7 +19685,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.874Z",
+      "updatedAt": "2026-05-22T16:21:47.054Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19708,7 +19708,7 @@
       "change": -0.4000007629394524,
       "changePercent": -1.261832029376776,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -2.492207202956876,
       "remainingUpsidePct": 15.015974440894567,
@@ -19731,7 +19731,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.362Z",
+      "updatedAt": "2026-05-22T16:21:46.662Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19778,7 +19778,7 @@
         "Yahoo Finance: Yahoo fundamentals 3162 HTTP 401",
         "TradingView: TradingView 3162 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.622Z",
+      "updatedAt": "2026-05-22T16:21:46.872Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19824,7 +19824,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.971Z",
+      "updatedAt": "2026-05-22T16:21:47.132Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19871,7 +19871,7 @@
         "Yahoo Finance: Yahoo fundamentals 4991 HTTP 401",
         "TradingView: TradingView 4991 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.142Z",
+      "updatedAt": "2026-05-22T16:21:47.303Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19894,7 +19894,7 @@
       "change": 28,
       "changePercent": 6.054054054054054,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 0.5122950819672131,
       "remainingUpsidePct": 25.382262996941897,
@@ -19917,7 +19917,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.614Z",
+      "updatedAt": "2026-05-22T16:21:46.785Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19940,7 +19940,7 @@
       "change": 3,
       "changePercent": 1.8867924528301887,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -4.142011834319527,
       "remainingUpsidePct": 1.8518518518518516,
@@ -19964,7 +19964,7 @@
         "Yahoo Finance: Yahoo fundamentals 5347 HTTP 401",
         "TradingView: TradingView 5347 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.233Z",
+      "updatedAt": "2026-05-22T16:21:47.399Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20011,7 +20011,7 @@
         "Yahoo Finance: Yahoo fundamentals 3264 HTTP 401",
         "TradingView: TradingView 3264 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.718Z",
+      "updatedAt": "2026-05-22T16:21:46.955Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20057,7 +20057,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.125Z",
+      "updatedAt": "2026-05-22T16:21:46.410Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20080,7 +20080,7 @@
       "change": 205,
       "changePercent": 9.927360774818402,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 1.5659955257270695,
       "remainingUpsidePct": 37.22466960352423,
@@ -20103,7 +20103,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.986Z",
+      "updatedAt": "2026-05-22T16:21:46.299Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20126,7 +20126,7 @@
       "change": 630,
       "changePercent": 19.5046439628483,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 22.345483359746435,
       "remainingUpsidePct": 0.2590673575129534,
@@ -20149,7 +20149,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.182Z",
+      "updatedAt": "2026-05-22T16:21:46.464Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20172,7 +20172,7 @@
       "change": 68,
       "changePercent": 12.099644128113878,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -12.256267409470752,
       "remainingUpsidePct": 38.095238095238095,
@@ -20196,7 +20196,7 @@
         "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
         "TradingView: TradingView 4979 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:55.139Z",
+      "updatedAt": "2026-05-22T16:21:47.295Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20219,7 +20219,7 @@
       "change": 115,
       "changePercent": 4.8832271762208075,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": -1.002004008016032,
       "remainingUpsidePct": 21.45748987854251,
@@ -20242,7 +20242,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:53.891Z",
+      "updatedAt": "2026-05-22T16:21:46.224Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20265,7 +20265,7 @@
       "change": 84.5,
       "changePercent": 18.924972004479283,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": 1.3358778625954197,
       "remainingUpsidePct": 14.87758945386064,
@@ -20289,7 +20289,7 @@
         "Yahoo Finance: Yahoo fundamentals 3105 HTTP 401",
         "TradingView: TradingView 3105 HTTP 404"
       ],
-      "updatedAt": "2026-05-22T16:19:54.614Z",
+      "updatedAt": "2026-05-22T16:21:46.837Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20312,7 +20312,7 @@
       "change": 3,
       "changePercent": 2.04778156996587,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "recommendationReturnPct": 2.04778156996587,
       "remainingUpsidePct": 17.05685618729097,
@@ -20335,7 +20335,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.315Z",
+      "updatedAt": "2026-05-22T16:21:46.504Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20358,7 +20358,7 @@
       "change": 176,
       "changePercent": 17.706237424547282,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "recommendationReturnPct": -6.024096385542169,
       "remainingUpsidePct": 38.46153846153847,
@@ -20381,7 +20381,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:55.952Z",
+      "updatedAt": "2026-05-22T16:21:48.099Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20427,7 +20427,7 @@
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401"
       ],
-      "updatedAt": "2026-05-22T16:19:54.111Z",
+      "updatedAt": "2026-05-22T16:21:46.405Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     }

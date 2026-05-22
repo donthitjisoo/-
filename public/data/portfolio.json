@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T16:20:20.214Z",
+  "generatedAt": "2026-05-22T16:22:03.115Z",
   "holdings": [
     {
       "id": "holding1",
@@ -33,7 +33,7 @@
         "TradingView: TradingView 0050 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:56.001Z"
+      "updatedAt": "2026-05-22T16:21:48.129Z"
     },
     {
       "id": "holding2",
@@ -66,7 +66,7 @@
         "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.693Z"
+      "updatedAt": "2026-05-22T16:21:45.999Z"
     },
     {
       "id": "holding3",
@@ -99,7 +99,7 @@
         "Yahoo Finance: Yahoo fundamentals 2301 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.730Z"
+      "updatedAt": "2026-05-22T16:21:46.047Z"
     },
     {
       "id": "holding4",
@@ -132,7 +132,7 @@
         "Yahoo Finance: Yahoo fundamentals 2316 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.786Z"
+      "updatedAt": "2026-05-22T16:21:46.111Z"
     },
     {
       "id": "holding5",
@@ -151,7 +151,7 @@
       "change": 10,
       "changePercent": 4.166666666666666,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 87412,
       "marketValue": 100000,
@@ -165,7 +165,7 @@
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.822Z"
+      "updatedAt": "2026-05-22T16:21:46.125Z"
     },
     {
       "id": "holding6",
@@ -184,7 +184,7 @@
       "change": 109,
       "changePercent": 20.961538461538463,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 44980.8,
       "marketValue": 100640,
@@ -198,7 +198,7 @@
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.820Z"
+      "updatedAt": "2026-05-22T16:21:46.141Z"
     },
     {
       "id": "holding7",
@@ -217,7 +217,7 @@
       "change": 70,
       "changePercent": 3.203661327231121,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 324625,
       "marketValue": 394625,
@@ -231,7 +231,7 @@
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.882Z"
+      "updatedAt": "2026-05-22T16:21:46.205Z"
     },
     {
       "id": "holding8",
@@ -264,7 +264,7 @@
         "Yahoo Finance: Yahoo fundamentals 2357 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.920Z"
+      "updatedAt": "2026-05-22T16:21:46.217Z"
     },
     {
       "id": "holding9",
@@ -283,7 +283,7 @@
       "change": 20.5,
       "changePercent": 6.788079470198675,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 86698.1,
       "marketValue": 114487.5,
@@ -297,7 +297,7 @@
         "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.986Z"
+      "updatedAt": "2026-05-22T16:21:46.297Z"
     },
     {
       "id": "holding10",
@@ -316,7 +316,7 @@
       "change": 26,
       "changePercent": 8.96551724137931,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 49309.2,
       "marketValue": 56880,
@@ -330,7 +330,7 @@
         "Yahoo Finance: Yahoo fundamentals 2382 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.998Z"
+      "updatedAt": "2026-05-22T16:21:46.310Z"
     },
     {
       "id": "holding11",
@@ -349,7 +349,7 @@
       "change": 35.5,
       "changePercent": 12.909090909090908,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 17650,
       "marketValue": 15525,
@@ -363,7 +363,7 @@
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.088Z"
+      "updatedAt": "2026-05-22T16:21:46.402Z"
     },
     {
       "id": "holding12",
@@ -396,7 +396,7 @@
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.125Z"
+      "updatedAt": "2026-05-22T16:21:46.410Z"
     },
     {
       "id": "holding13",
@@ -415,7 +415,7 @@
       "change": 630,
       "changePercent": 19.5046439628483,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 7275,
       "marketValue": 19300,
@@ -429,7 +429,7 @@
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.182Z"
+      "updatedAt": "2026-05-22T16:21:46.464Z"
     },
     {
       "id": "holding14",
@@ -462,7 +462,7 @@
         "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.199Z"
+      "updatedAt": "2026-05-22T16:21:46.503Z"
     },
     {
       "id": "holding15",
@@ -481,7 +481,7 @@
       "change": 0.3499992370605476,
       "changePercent": 1.9230726504871847,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 19300,
       "marketValue": 18550,
@@ -495,7 +495,7 @@
         "Yahoo Finance: Yahoo fundamentals 2610 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.275Z"
+      "updatedAt": "2026-05-22T16:21:46.606Z"
     },
     {
       "id": "holding16",
@@ -514,7 +514,7 @@
       "change": -0.4000007629394524,
       "changePercent": -1.261832029376776,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 16175,
       "marketValue": 15650,
@@ -528,7 +528,7 @@
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.362Z"
+      "updatedAt": "2026-05-22T16:21:46.662Z"
     },
     {
       "id": "holding17",
@@ -547,7 +547,7 @@
       "change": -0.3999992370605483,
       "changePercent": -0.9925539569060399,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 76760,
       "marketValue": 79800,
@@ -561,7 +561,7 @@
         "Yahoo Finance: Yahoo fundamentals 2886 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.403Z"
+      "updatedAt": "2026-05-22T16:21:46.660Z"
     },
     {
       "id": "holding18",
@@ -580,7 +580,7 @@
       "change": -2,
       "changePercent": -0.9009009009009009,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 46750,
       "marketValue": 44000,
@@ -594,7 +594,7 @@
         "Yahoo Finance: Yahoo fundamentals 2912 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.545Z"
+      "updatedAt": "2026-05-22T16:21:46.701Z"
     },
     {
       "id": "holding19",
@@ -627,7 +627,7 @@
         "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.504Z"
+      "updatedAt": "2026-05-22T16:21:46.755Z"
     },
     {
       "id": "holding20",
@@ -646,7 +646,7 @@
       "change": 193,
       "changePercent": 20.27310924369748,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 36360,
       "marketValue": 68700,
@@ -661,7 +661,7 @@
         "TradingView: TradingView 3163 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.627Z"
+      "updatedAt": "2026-05-22T16:21:46.867Z"
     },
     {
       "id": "holding21",
@@ -680,7 +680,7 @@
       "change": 9.5,
       "changePercent": 4.250559284116331,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 15820,
       "marketValue": 16310,
@@ -695,7 +695,7 @@
         "TradingView: TradingView 3227 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.683Z"
+      "updatedAt": "2026-05-22T16:21:46.887Z"
     },
     {
       "id": "holding22",
@@ -728,7 +728,7 @@
         "Yahoo Finance: Yahoo fundamentals 3231 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.731Z"
+      "updatedAt": "2026-05-22T16:21:46.906Z"
     },
     {
       "id": "holding23",
@@ -762,7 +762,7 @@
         "TradingView: TradingView 3293 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.810Z"
+      "updatedAt": "2026-05-22T16:21:46.963Z"
     },
     {
       "id": "holding24",
@@ -781,7 +781,7 @@
       "change": 7.5,
       "changePercent": 3.7037037037037033,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 6270,
       "marketValue": 6300,
@@ -795,7 +795,7 @@
         "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.791Z"
+      "updatedAt": "2026-05-22T16:21:46.973Z"
     },
     {
       "id": "holding25",
@@ -814,7 +814,7 @@
       "change": 195,
       "changePercent": 8.26271186440678,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 11950,
       "marketValue": 12775,
@@ -828,7 +828,7 @@
         "Yahoo Finance: Yahoo fundamentals 3533 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.828Z"
+      "updatedAt": "2026-05-22T16:21:47.037Z"
     },
     {
       "id": "holding26",
@@ -861,7 +861,7 @@
         "Yahoo Finance: Yahoo fundamentals 3583 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.810Z"
+      "updatedAt": "2026-05-22T16:21:47.034Z"
     },
     {
       "id": "holding27",
@@ -880,7 +880,7 @@
       "change": 260,
       "changePercent": 13.231552162849871,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 8240,
       "marketValue": 8900,
@@ -894,7 +894,7 @@
         "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.896Z"
+      "updatedAt": "2026-05-22T16:21:47.087Z"
     },
     {
       "id": "holding28",
@@ -913,7 +913,7 @@
       "change": 85,
       "changePercent": 17.857142857142858,
       "eps": 3,
-      "pe": 7,
+      "pe": null,
       "forwardPe": null,
       "cost": 45760,
       "marketValue": 70125,
@@ -927,7 +927,7 @@
         "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:54.968Z"
+      "updatedAt": "2026-05-22T16:21:47.149Z"
     },
     {
       "id": "holding29",
@@ -946,7 +946,7 @@
       "change": 68,
       "changePercent": 12.099644128113878,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 35569.8,
       "marketValue": 68040,
@@ -961,7 +961,7 @@
         "TradingView: TradingView 4979 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.139Z"
+      "updatedAt": "2026-05-22T16:21:47.295Z"
     },
     {
       "id": "holding30",
@@ -980,7 +980,7 @@
       "change": 23,
       "changePercent": 6.310013717421124,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 29800,
       "marketValue": 38750,
@@ -995,7 +995,7 @@
         "TradingView: TradingView 5439 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.259Z"
+      "updatedAt": "2026-05-22T16:21:47.454Z"
     },
     {
       "id": "holding31",
@@ -1028,7 +1028,7 @@
         "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.326Z"
+      "updatedAt": "2026-05-22T16:21:47.483Z"
     },
     {
       "id": "holding32",
@@ -1062,7 +1062,7 @@
         "TradingView: TradingView 6187 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.415Z"
+      "updatedAt": "2026-05-22T16:21:47.554Z"
     },
     {
       "id": "holding33",
@@ -1095,7 +1095,7 @@
         "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.445Z"
+      "updatedAt": "2026-05-22T16:21:47.572Z"
     },
     {
       "id": "holding34",
@@ -1114,7 +1114,7 @@
       "change": 48.5,
       "changePercent": 20.68230277185501,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 18350.399999999998,
       "marketValue": 33960,
@@ -1128,7 +1128,7 @@
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.495Z"
+      "updatedAt": "2026-05-22T16:21:47.631Z"
     },
     {
       "id": "holding35",
@@ -1162,7 +1162,7 @@
         "TradingView: TradingView 6274 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.508Z"
+      "updatedAt": "2026-05-22T16:21:47.647Z"
     },
     {
       "id": "holding36",
@@ -1181,7 +1181,7 @@
       "change": 20,
       "changePercent": 0.5908419497784343,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 14100,
       "marketValue": 13620,
@@ -1196,7 +1196,7 @@
         "TradingView: TradingView 6510 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.630Z"
+      "updatedAt": "2026-05-22T16:21:47.753Z"
     },
     {
       "id": "holding37",
@@ -1215,7 +1215,7 @@
       "change": 110,
       "changePercent": 8.799999999999999,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 13284,
       "marketValue": 24480,
@@ -1230,7 +1230,7 @@
         "TradingView: TradingView 6640 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.654Z"
+      "updatedAt": "2026-05-22T16:21:47.796Z"
     },
     {
       "id": "holding38",
@@ -1263,7 +1263,7 @@
         "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.713Z"
+      "updatedAt": "2026-05-22T16:21:47.869Z"
     },
     {
       "id": "holding39",
@@ -1296,7 +1296,7 @@
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.777Z"
+      "updatedAt": "2026-05-22T16:21:47.936Z"
     },
     {
       "id": "holding40",
@@ -1315,7 +1315,7 @@
       "change": null,
       "changePercent": null,
       "eps": 3,
-      "pe": null,
+      "pe": 7,
       "forwardPe": null,
       "cost": 588.99,
       "marketValue": 0,
@@ -1337,7 +1337,7 @@
         "TradingView: TradingView 7801 HTTP 404"
       ],
       "source": null,
-      "updatedAt": "2026-05-22T16:19:58.572Z"
+      "updatedAt": "2026-05-22T16:21:50.560Z"
     },
     {
       "id": "holding41",
@@ -1371,7 +1371,7 @@
         "TradingView: TradingView 8299 HTTP 404"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.936Z"
+      "updatedAt": "2026-05-22T16:21:48.084Z"
     }
   ],
   "analytics": {
@@ -1413,7 +1413,7 @@
         "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.693Z"
+      "updatedAt": "2026-05-22T16:21:45.999Z"
     },
     "largestWinner": {
       "id": "holding2",
@@ -1446,7 +1446,7 @@
         "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:53.693Z"
+      "updatedAt": "2026-05-22T16:21:45.999Z"
     },
     "largestLoser": {
       "id": "holding31",
@@ -1479,7 +1479,7 @@
         "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:19:55.326Z"
+      "updatedAt": "2026-05-22T16:21:47.483Z"
     },
     "sectorAllocation": [
       {
@@ -1559,7 +1559,7 @@
           "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:53.693Z"
+        "updatedAt": "2026-05-22T16:21:45.999Z"
       },
       {
         "id": "holding7",
@@ -1578,7 +1578,7 @@
         "change": 70,
         "changePercent": 3.203661327231121,
         "eps": 3,
-        "pe": null,
+        "pe": 7,
         "forwardPe": null,
         "cost": 324625,
         "marketValue": 394625,
@@ -1592,7 +1592,7 @@
           "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:53.882Z"
+        "updatedAt": "2026-05-22T16:21:46.205Z"
       },
       {
         "id": "holding6",
@@ -1611,7 +1611,7 @@
         "change": 109,
         "changePercent": 20.961538461538463,
         "eps": 3,
-        "pe": 7,
+        "pe": null,
         "forwardPe": null,
         "cost": 44980.8,
         "marketValue": 100640,
@@ -1625,7 +1625,7 @@
           "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:53.820Z"
+        "updatedAt": "2026-05-22T16:21:46.141Z"
       },
       {
         "id": "holding29",
@@ -1644,7 +1644,7 @@
         "change": 68,
         "changePercent": 12.099644128113878,
         "eps": 3,
-        "pe": null,
+        "pe": 7,
         "forwardPe": null,
         "cost": 35569.8,
         "marketValue": 68040,
@@ -1659,7 +1659,7 @@
           "TradingView: TradingView 4979 HTTP 404"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:55.139Z"
+        "updatedAt": "2026-05-22T16:21:47.295Z"
       },
       {
         "id": "holding20",
@@ -1678,7 +1678,7 @@
         "change": 193,
         "changePercent": 20.27310924369748,
         "eps": 3,
-        "pe": 7,
+        "pe": null,
         "forwardPe": null,
         "cost": 36360,
         "marketValue": 68700,
@@ -1693,7 +1693,7 @@
           "TradingView: TradingView 3163 HTTP 404"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:54.627Z"
+        "updatedAt": "2026-05-22T16:21:46.867Z"
       },
       {
         "id": "holding9",
@@ -1712,7 +1712,7 @@
         "change": 20.5,
         "changePercent": 6.788079470198675,
         "eps": 3,
-        "pe": 7,
+        "pe": null,
         "forwardPe": null,
         "cost": 86698.1,
         "marketValue": 114487.5,
@@ -1726,7 +1726,7 @@
           "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:53.986Z"
+        "updatedAt": "2026-05-22T16:21:46.297Z"
       },
       {
         "id": "holding28",
@@ -1745,7 +1745,7 @@
         "change": 85,
         "changePercent": 17.857142857142858,
         "eps": 3,
-        "pe": 7,
+        "pe": null,
         "forwardPe": null,
         "cost": 45760,
         "marketValue": 70125,
@@ -1759,7 +1759,7 @@
           "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:54.968Z"
+        "updatedAt": "2026-05-22T16:21:47.149Z"
       },
       {
         "id": "holding33",
@@ -1792,7 +1792,7 @@
           "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:55.445Z"
+        "updatedAt": "2026-05-22T16:21:47.572Z"
       },
       {
         "id": "holding34",
@@ -1811,7 +1811,7 @@
         "change": 48.5,
         "changePercent": 20.68230277185501,
         "eps": 3,
-        "pe": null,
+        "pe": 7,
         "forwardPe": null,
         "cost": 18350.399999999998,
         "marketValue": 33960,
@@ -1825,7 +1825,7 @@
           "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:55.495Z"
+        "updatedAt": "2026-05-22T16:21:47.631Z"
       },
       {
         "id": "holding35",
@@ -1859,7 +1859,7 @@
           "TradingView: TradingView 6274 HTTP 404"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:55.508Z"
+        "updatedAt": "2026-05-22T16:21:47.647Z"
       },
       {
         "id": "holding5",
@@ -1878,7 +1878,7 @@
         "change": 10,
         "changePercent": 4.166666666666666,
         "eps": 3,
-        "pe": 7,
+        "pe": null,
         "forwardPe": null,
         "cost": 87412,
         "marketValue": 100000,
@@ -1892,7 +1892,7 @@
           "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:53.822Z"
+        "updatedAt": "2026-05-22T16:21:46.125Z"
       },
       {
         "id": "holding13",
@@ -1911,7 +1911,7 @@
         "change": 630,
         "changePercent": 19.5046439628483,
         "eps": 3,
-        "pe": null,
+        "pe": 7,
         "forwardPe": null,
         "cost": 7275,
         "marketValue": 19300,
@@ -1925,7 +1925,7 @@
           "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:19:54.182Z"
+        "updatedAt": "2026-05-22T16:21:46.464Z"
       }
     ]
   }
