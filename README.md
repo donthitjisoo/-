@@ -162,6 +162,7 @@ Cloudflare 官方文件列出的 React/Vite 設定是：
 
 - Build command：`npm run build`
 - Build output directory：`dist`
+- Node.js version：`22`
 
 設定步驟：
 
@@ -174,10 +175,55 @@ Cloudflare 官方文件列出的 React/Vite 設定是：
 7. Framework preset 選 `React (Vite)`
 8. Build command 填 `npm run build`
 9. Build output directory 填 `dist`
-10. Production branch 選 `main`
-11. Deploy
+10. Environment variables 新增 `NODE_VERSION=22`
+11. Production branch 選 `main`
+12. Deploy
 
 Cloudflare Pages GitHub integration 會在你 push 到 connected branch 時自動部署。
+
+這個 repo 也放了：
+
+- `.node-version`：讓 Cloudflare / 本機工具優先用 Node 22
+- `public/_redirects`：React SPA refresh 不會 404
+- `public/_headers`：靜態資源與 JSON cache header
+- `wrangler.toml`：標記 Pages output directory 是 `dist`
+
+如果 Cloudflare 後台還是部署失敗，請確認它沒有跑 `npm run deploy` 或 `wrangler deploy`。Cloudflare Pages Git integration 應該只跑：
+
+```bash
+npm run build
+```
+
+output directory 必須是：
+
+```txt
+dist
+```
+
+## 可選：用 GitHub Actions 直傳 Cloudflare Pages
+
+如果你不想用 Cloudflare 後台自動連 Git，也可以用 `.github/workflows/deploy-cloudflare-pages.yml` 手動部署。
+
+需要先到 GitHub repo 設定：
+
+```txt
+Settings → Secrets and variables → Actions
+```
+
+新增 secrets：
+
+```txt
+CLOUDFLARE_API_TOKEN
+CLOUDFLARE_ACCOUNT_ID
+```
+
+新增 repository variable：
+
+```txt
+CLOUDFLARE_PROJECT_NAME
+```
+
+之後到 GitHub Actions 手動執行 `Deploy Cloudflare Pages`。
 
 官方參考：
 
