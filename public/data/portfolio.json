@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T16:22:03.115Z",
+  "generatedAt": "2026-05-22T16:23:26.356Z",
   "holdings": [
     {
       "id": "holding1",
@@ -17,8 +17,8 @@
       "previousClose": 92.5,
       "change": 4.799999999999997,
       "changePercent": 5.189189189189186,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 19320,
       "marketValue": 19460,
@@ -26,14 +26,15 @@
       "unrealizedPnL": 140,
       "unrealizedPnLPct": 0.7246376811594203,
       "weight": 0.3946995461259459,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 0050 HTTP 401",
-        "TradingView: TradingView 0050 HTTP 404"
+        "TradingView: TradingView 0050 HTTP 403",
+        "WantGoo: WantGoo fundamentals 0050 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:48.129Z"
+      "updatedAt": "2026-05-22T16:23:04.173Z"
     },
     {
       "id": "holding2",
@@ -51,7 +52,7 @@
       "previousClose": 46.79999923706055,
       "change": 4.3000007629394545,
       "changePercent": 9.18803596803121,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 1418250,
@@ -60,13 +61,14 @@
       "unrealizedPnL": 1698850,
       "unrealizedPnLPct": 119.78494623655914,
       "weight": 63.222916507152405,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401",
+        "WantGoo: WantGoo fundamentals 1711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:45.999Z"
+      "updatedAt": "2026-05-22T16:23:02.673Z"
     },
     {
       "id": "holding3",
@@ -84,8 +86,8 @@
       "previousClose": 204,
       "change": 3,
       "changePercent": 1.4705882352941175,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 174,
       "marketValue": 207,
@@ -93,13 +95,14 @@
       "unrealizedPnL": 33,
       "unrealizedPnLPct": 18.96551724137931,
       "weight": 0.00419849979692039,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2301 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2301 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2301 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.047Z"
+      "updatedAt": "2026-05-22T16:23:02.597Z"
     },
     {
       "id": "holding4",
@@ -117,8 +120,8 @@
       "previousClose": 137.5,
       "change": 16,
       "changePercent": 11.636363636363637,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 8029.800000000001,
       "marketValue": 9210,
@@ -126,13 +129,14 @@
       "unrealizedPnL": 1180.199999999999,
       "unrealizedPnLPct": 14.697750877979509,
       "weight": 0.1868028170513855,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2316 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2316 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2316 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.111Z"
+      "updatedAt": "2026-05-22T16:23:02.665Z"
     },
     {
       "id": "holding5",
@@ -150,7 +154,7 @@
       "previousClose": 240,
       "change": 10,
       "changePercent": 4.166666666666666,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 87412,
@@ -159,13 +163,14 @@
       "unrealizedPnL": 12588,
       "unrealizedPnLPct": 14.400768773166156,
       "weight": 2.028260771459126,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.125Z"
+      "updatedAt": "2026-05-22T16:23:02.725Z"
     },
     {
       "id": "holding6",
@@ -183,7 +188,7 @@
       "previousClose": 520,
       "change": 109,
       "changePercent": 20.961538461538463,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 44980.8,
@@ -192,13 +197,14 @@
       "unrealizedPnL": 55659.2,
       "unrealizedPnLPct": 123.7399068046811,
       "weight": 2.041241640396464,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.141Z"
+      "updatedAt": "2026-05-22T16:23:02.706Z"
     },
     {
       "id": "holding7",
@@ -216,8 +222,8 @@
       "previousClose": 2185,
       "change": 70,
       "changePercent": 3.203661327231121,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 324625,
       "marketValue": 394625,
@@ -225,13 +231,14 @@
       "unrealizedPnL": 70000,
       "unrealizedPnLPct": 21.563342318059302,
       "weight": 8.004024069370574,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.205Z"
+      "updatedAt": "2026-05-22T16:23:02.726Z"
     },
     {
       "id": "holding8",
@@ -249,7 +256,7 @@
       "previousClose": 640,
       "change": 42,
       "changePercent": 6.5625,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 14225,
@@ -258,13 +265,14 @@
       "unrealizedPnL": 2825,
       "unrealizedPnLPct": 19.85940246045694,
       "weight": 0.34581846153378093,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2357 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2357 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2357 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.217Z"
+      "updatedAt": "2026-05-22T16:23:02.782Z"
     },
     {
       "id": "holding9",
@@ -282,7 +290,7 @@
       "previousClose": 302,
       "change": 20.5,
       "changePercent": 6.788079470198675,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 86698.1,
@@ -291,13 +299,14 @@
       "unrealizedPnL": 27789.399999999994,
       "unrealizedPnLPct": 32.053066906887224,
       "weight": 2.3221050507242667,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.297Z"
+      "updatedAt": "2026-05-22T16:23:02.799Z"
     },
     {
       "id": "holding10",
@@ -315,8 +324,8 @@
       "previousClose": 290,
       "change": 26,
       "changePercent": 8.96551724137931,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 49309.2,
       "marketValue": 56880,
@@ -324,13 +333,14 @@
       "unrealizedPnL": 7570.800000000003,
       "unrealizedPnLPct": 15.353727093524135,
       "weight": 1.1536747268059506,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2382 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2382 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2382 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.310Z"
+      "updatedAt": "2026-05-22T16:23:02.857Z"
     },
     {
       "id": "holding11",
@@ -348,7 +358,7 @@
       "previousClose": 275,
       "change": 35.5,
       "changePercent": 12.909090909090908,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 17650,
@@ -357,13 +367,14 @@
       "unrealizedPnL": -2125,
       "unrealizedPnLPct": -12.039660056657224,
       "weight": 0.3148874847690293,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.402Z"
+      "updatedAt": "2026-05-22T16:23:02.915Z"
     },
     {
       "id": "holding12",
@@ -381,7 +392,7 @@
       "previousClose": 277.5,
       "change": 18.5,
       "changePercent": 6.666666666666667,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 31150,
@@ -390,13 +401,14 @@
       "unrealizedPnL": -1550,
       "unrealizedPnLPct": -4.975922953451043,
       "weight": 0.6003651883519012,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.410Z"
+      "updatedAt": "2026-05-22T16:23:02.930Z"
     },
     {
       "id": "holding13",
@@ -414,8 +426,8 @@
       "previousClose": 3230,
       "change": 630,
       "changePercent": 19.5046439628483,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 7275,
       "marketValue": 19300,
@@ -423,13 +435,14 @@
       "unrealizedPnL": 12025,
       "unrealizedPnLPct": 165.29209621993127,
       "weight": 0.39145432889161125,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.464Z"
+      "updatedAt": "2026-05-22T16:23:03.025Z"
     },
     {
       "id": "holding14",
@@ -447,8 +460,8 @@
       "previousClose": 255,
       "change": 5,
       "changePercent": 1.9607843137254901,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 23900,
       "marketValue": 26000,
@@ -456,13 +469,14 @@
       "unrealizedPnL": 2100,
       "unrealizedPnLPct": 8.786610878661087,
       "weight": 0.5273478005793727,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2472 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.503Z"
+      "updatedAt": "2026-05-22T16:23:02.971Z"
     },
     {
       "id": "holding15",
@@ -480,8 +494,8 @@
       "previousClose": 18.200000762939453,
       "change": 0.3499992370605476,
       "changePercent": 1.9230726504871847,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 19300,
       "marketValue": 18550,
@@ -489,13 +503,14 @@
       "unrealizedPnL": -750,
       "unrealizedPnLPct": -3.8860103626943006,
       "weight": 0.3762423731056678,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2610 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2610 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2610 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.606Z"
+      "updatedAt": "2026-05-22T16:23:03.034Z"
     },
     {
       "id": "holding16",
@@ -513,8 +528,8 @@
       "previousClose": 31.700000762939453,
       "change": -0.4000007629394524,
       "changePercent": -1.261832029376776,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 16175,
       "marketValue": 15650,
@@ -522,13 +537,14 @@
       "unrealizedPnL": -525,
       "unrealizedPnLPct": -3.2457496136012365,
       "weight": 0.31742281073335316,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.662Z"
+      "updatedAt": "2026-05-22T16:23:03.124Z"
     },
     {
       "id": "holding17",
@@ -546,7 +562,7 @@
       "previousClose": 40.29999923706055,
       "change": -0.3999992370605483,
       "changePercent": -0.9925539569060399,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 76760,
@@ -555,13 +571,14 @@
       "unrealizedPnL": 3040,
       "unrealizedPnLPct": 3.9603960396039604,
       "weight": 1.6185520956243822,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2886 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2886 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2886 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.660Z"
+      "updatedAt": "2026-05-22T16:23:03.123Z"
     },
     {
       "id": "holding18",
@@ -579,7 +596,7 @@
       "previousClose": 222,
       "change": -2,
       "changePercent": -0.9009009009009009,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 46750,
@@ -588,13 +605,14 @@
       "unrealizedPnL": -2750,
       "unrealizedPnLPct": -5.88235294117647,
       "weight": 0.8924347394420153,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 2912 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 2912 HTTP 401",
+        "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.701Z"
+      "updatedAt": "2026-05-22T16:23:03.228Z"
     },
     {
       "id": "holding19",
@@ -612,8 +630,8 @@
       "previousClose": 3200,
       "change": 340,
       "changePercent": 10.625,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 6480,
       "marketValue": 7080,
@@ -621,13 +639,14 @@
       "unrealizedPnL": 600,
       "unrealizedPnLPct": 9.25925925925926,
       "weight": 0.1436008626193061,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3008 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.755Z"
+      "updatedAt": "2026-05-22T16:23:03.187Z"
     },
     {
       "id": "holding20",
@@ -645,7 +664,7 @@
       "previousClose": 952,
       "change": 193,
       "changePercent": 20.27310924369748,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 36360,
@@ -654,14 +673,15 @@
       "unrealizedPnL": 32340,
       "unrealizedPnLPct": 88.94389438943895,
       "weight": 1.3934151499924194,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 3163 HTTP 401",
-        "TradingView: TradingView 3163 HTTP 404"
+        "TradingView: TradingView 3163 HTTP 404",
+        "WantGoo: WantGoo fundamentals 3163 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.867Z"
+      "updatedAt": "2026-05-22T16:23:03.280Z"
     },
     {
       "id": "holding21",
@@ -679,8 +699,8 @@
       "previousClose": 223.5,
       "change": 9.5,
       "changePercent": 4.250559284116331,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 15820,
       "marketValue": 16310,
@@ -688,14 +708,15 @@
       "unrealizedPnL": 490,
       "unrealizedPnLPct": 3.0973451327433628,
       "weight": 0.3308093318249834,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 3227 HTTP 401",
-        "TradingView: TradingView 3227 HTTP 404"
+        "TradingView: TradingView 3227 HTTP 404",
+        "WantGoo: WantGoo fundamentals 3227 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.887Z"
+      "updatedAt": "2026-05-22T16:23:03.319Z"
     },
     {
       "id": "holding22",
@@ -713,8 +734,8 @@
       "previousClose": 132.5,
       "change": 12,
       "changePercent": 9.056603773584905,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 52898.99999999999,
       "marketValue": 50575,
@@ -722,13 +743,14 @@
       "unrealizedPnL": -2323.9999999999927,
       "unrealizedPnLPct": -4.393277755723157,
       "weight": 1.0257928851654528,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3231 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3231 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3231 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.906Z"
+      "updatedAt": "2026-05-22T16:23:03.316Z"
     },
     {
       "id": "holding23",
@@ -746,7 +768,7 @@
       "previousClose": 728,
       "change": 20,
       "changePercent": 2.7472527472527473,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 18925,
@@ -755,14 +777,15 @@
       "unrealizedPnL": -225,
       "unrealizedPnLPct": -1.1889035667107,
       "weight": 0.3792847642628565,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 3293 HTTP 401",
-        "TradingView: TradingView 3293 HTTP 404"
+        "TradingView: TradingView 3293 HTTP 404",
+        "WantGoo: WantGoo fundamentals 3293 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.963Z"
+      "updatedAt": "2026-05-22T16:23:03.369Z"
     },
     {
       "id": "holding24",
@@ -780,7 +803,7 @@
       "previousClose": 202.5,
       "change": 7.5,
       "changePercent": 3.7037037037037033,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 6270,
@@ -789,13 +812,14 @@
       "unrealizedPnL": 30,
       "unrealizedPnLPct": 0.4784688995215311,
       "weight": 0.12778042860192493,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:46.973Z"
+      "updatedAt": "2026-05-22T16:23:03.365Z"
     },
     {
       "id": "holding25",
@@ -813,7 +837,7 @@
       "previousClose": 2360,
       "change": 195,
       "changePercent": 8.26271186440678,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 11950,
@@ -822,13 +846,14 @@
       "unrealizedPnL": 825,
       "unrealizedPnLPct": 6.903765690376569,
       "weight": 0.2591103135539033,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3533 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3533 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3533 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.037Z"
+      "updatedAt": "2026-05-22T16:23:03.396Z"
     },
     {
       "id": "holding26",
@@ -846,8 +871,8 @@
       "previousClose": 826,
       "change": 49,
       "changePercent": 5.932203389830509,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 10116,
       "marketValue": 10500,
@@ -855,13 +880,14 @@
       "unrealizedPnL": 384,
       "unrealizedPnLPct": 3.795966785290629,
       "weight": 0.21296738100320822,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3583 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3583 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3583 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.034Z"
+      "updatedAt": "2026-05-22T16:23:03.443Z"
     },
     {
       "id": "holding27",
@@ -879,7 +905,7 @@
       "previousClose": 1965,
       "change": 260,
       "changePercent": 13.231552162849871,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 8240,
@@ -888,13 +914,14 @@
       "unrealizedPnL": 660,
       "unrealizedPnLPct": 8.009708737864079,
       "weight": 0.1805152086598622,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3665 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.087Z"
+      "updatedAt": "2026-05-22T16:23:03.463Z"
     },
     {
       "id": "holding28",
@@ -912,7 +939,7 @@
       "previousClose": 476,
       "change": 85,
       "changePercent": 17.857142857142858,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 45760,
@@ -921,13 +948,14 @@
       "unrealizedPnL": 24365,
       "unrealizedPnLPct": 53.245192307692314,
       "weight": 1.422317865985712,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401",
+        "WantGoo: WantGoo fundamentals 3711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.149Z"
+      "updatedAt": "2026-05-22T16:23:03.485Z"
     },
     {
       "id": "holding29",
@@ -945,8 +973,8 @@
       "previousClose": 562,
       "change": 68,
       "changePercent": 12.099644128113878,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 35569.8,
       "marketValue": 68040,
@@ -954,14 +982,15 @@
       "unrealizedPnL": 32470.199999999997,
       "unrealizedPnLPct": 91.28586609989372,
       "weight": 1.380028628900789,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
-        "TradingView: TradingView 4979 HTTP 404"
+        "TradingView: TradingView 4979 HTTP 404",
+        "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.295Z"
+      "updatedAt": "2026-05-22T16:23:03.678Z"
     },
     {
       "id": "holding30",
@@ -979,8 +1008,8 @@
       "previousClose": 364.5,
       "change": 23,
       "changePercent": 6.310013717421124,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 29800,
       "marketValue": 38750,
@@ -988,14 +1017,15 @@
       "unrealizedPnL": 8950,
       "unrealizedPnLPct": 30.033557046979865,
       "weight": 0.7859510489404112,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 5439 HTTP 401",
-        "TradingView: TradingView 5439 HTTP 404"
+        "TradingView: TradingView 5439 HTTP 404",
+        "WantGoo: WantGoo fundamentals 5439 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.454Z"
+      "updatedAt": "2026-05-22T16:23:03.735Z"
     },
     {
       "id": "holding31",
@@ -1013,7 +1043,7 @@
       "previousClose": 22.700000762939453,
       "change": -7.629394538355427e-7,
       "changePercent": -0.0000033609666440237985,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 185840,
@@ -1022,13 +1052,14 @@
       "unrealizedPnL": -4240,
       "unrealizedPnLPct": -2.281532501076194,
       "weight": 3.6833215609697727,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401",
+        "WantGoo: WantGoo fundamentals 5880 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.483Z"
+      "updatedAt": "2026-05-22T16:23:03.761Z"
     },
     {
       "id": "holding32",
@@ -1046,8 +1077,8 @@
       "previousClose": 1085,
       "change": 55,
       "changePercent": 5.0691244239631335,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 10800,
       "marketValue": 11400,
@@ -1055,14 +1086,15 @@
       "unrealizedPnL": 600,
       "unrealizedPnLPct": 5.555555555555555,
       "weight": 0.23122172794634036,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6187 HTTP 401",
-        "TradingView: TradingView 6187 HTTP 404"
+        "TradingView: TradingView 6187 HTTP 404",
+        "WantGoo: WantGoo fundamentals 6187 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.554Z"
+      "updatedAt": "2026-05-22T16:23:03.818Z"
     },
     {
       "id": "holding33",
@@ -1080,8 +1112,8 @@
       "previousClose": 217,
       "change": 39,
       "changePercent": 17.972350230414747,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 22900.7,
       "marketValue": 43520,
@@ -1089,13 +1121,14 @@
       "unrealizedPnL": 20619.3,
       "unrealizedPnLPct": 90.03785910474352,
       "weight": 0.8826990877390115,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401",
+        "WantGoo: WantGoo fundamentals 6197 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.572Z"
+      "updatedAt": "2026-05-22T16:23:03.813Z"
     },
     {
       "id": "holding34",
@@ -1113,8 +1146,8 @@
       "previousClose": 234.5,
       "change": 48.5,
       "changePercent": 20.68230277185501,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 18350.399999999998,
       "marketValue": 33960,
@@ -1122,13 +1155,14 @@
       "unrealizedPnL": 15609.600000000002,
       "unrealizedPnLPct": 85.06408579649492,
       "weight": 0.6887973579875191,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
+        "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.631Z"
+      "updatedAt": "2026-05-22T16:23:03.873Z"
     },
     {
       "id": "holding35",
@@ -1146,8 +1180,8 @@
       "previousClose": 1205,
       "change": 250,
       "changePercent": 20.74688796680498,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 7695,
       "marketValue": 21825,
@@ -1155,14 +1189,15 @@
       "unrealizedPnL": 14130,
       "unrealizedPnLPct": 183.62573099415204,
       "weight": 0.4426679133709542,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6274 HTTP 401",
-        "TradingView: TradingView 6274 HTTP 404"
+        "TradingView: TradingView 6274 HTTP 404",
+        "WantGoo: WantGoo fundamentals 6274 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.647Z"
+      "updatedAt": "2026-05-22T16:23:03.872Z"
     },
     {
       "id": "holding36",
@@ -1180,8 +1215,8 @@
       "previousClose": 3385,
       "change": 20,
       "changePercent": 0.5908419497784343,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 14100,
       "marketValue": 13620,
@@ -1189,14 +1224,15 @@
       "unrealizedPnL": -480,
       "unrealizedPnLPct": -3.404255319148936,
       "weight": 0.2762491170727329,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6510 HTTP 401",
-        "TradingView: TradingView 6510 HTTP 404"
+        "TradingView: TradingView 6510 HTTP 404",
+        "WantGoo: WantGoo fundamentals 6510 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.753Z"
+      "updatedAt": "2026-05-22T16:23:03.955Z"
     },
     {
       "id": "holding37",
@@ -1214,8 +1250,8 @@
       "previousClose": 1250,
       "change": 110,
       "changePercent": 8.799999999999999,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 13284,
       "marketValue": 24480,
@@ -1223,14 +1259,15 @@
       "unrealizedPnL": 11196,
       "unrealizedPnLPct": 84.28184281842819,
       "weight": 0.49651823685319396,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6640 HTTP 401",
-        "TradingView: TradingView 6640 HTTP 404"
+        "TradingView: TradingView 6640 HTTP 404",
+        "WantGoo: WantGoo fundamentals 6640 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.796Z"
+      "updatedAt": "2026-05-22T16:23:03.973Z"
     },
     {
       "id": "holding38",
@@ -1248,8 +1285,8 @@
       "previousClose": 684,
       "change": 32,
       "changePercent": 4.678362573099415,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 9630.01,
       "marketValue": 9308,
@@ -1257,13 +1294,14 @@
       "unrealizedPnL": -322.0100000000002,
       "unrealizedPnLPct": -3.3438179191921944,
       "weight": 0.18879051260741542,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401",
+        "WantGoo: WantGoo fundamentals 6830 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.869Z"
+      "updatedAt": "2026-05-22T16:23:04.063Z"
     },
     {
       "id": "holding39",
@@ -1281,7 +1319,7 @@
       "previousClose": 7675,
       "change": 55,
       "changePercent": 0.7166123778501629,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 30640,
@@ -1290,13 +1328,15 @@
       "unrealizedPnL": 280,
       "unrealizedPnLPct": 0.9138381201044387,
       "weight": 0.6271382305351617,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+        "TradingView: TradingView 7769 HTTP 403",
+        "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.936Z"
+      "updatedAt": "2026-05-22T16:23:04.058Z"
     },
     {
       "id": "holding40",
@@ -1314,8 +1354,8 @@
       "previousClose": null,
       "change": null,
       "changePercent": null,
-      "eps": 3,
-      "pe": 7,
+      "eps": null,
+      "pe": null,
       "forwardPe": null,
       "cost": 588.99,
       "marketValue": 0,
@@ -1330,14 +1370,15 @@
         "TWSE API: not TWSE",
         "TPEX API: not TPEX",
         "TWSE public data: not TWSE",
-        "WantGoo: empty price",
+        "WantGoo: WantGoo 7801 HTTP 403",
         "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7801 HTTP 401",
-        "TradingView: TradingView 7801 HTTP 404"
+        "TradingView: TradingView 7801 HTTP 403",
+        "WantGoo: WantGoo fundamentals 7801 HTTP 403"
       ],
       "source": null,
-      "updatedAt": "2026-05-22T16:21:50.560Z"
+      "updatedAt": "2026-05-22T16:23:05.791Z"
     },
     {
       "id": "holding41",
@@ -1355,7 +1396,7 @@
       "previousClose": 2265,
       "change": 165,
       "changePercent": 7.28476821192053,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 3540,
@@ -1364,14 +1405,15 @@
       "unrealizedPnL": 1320,
       "unrealizedPnLPct": 37.28813559322034,
       "weight": 0.09857347349291351,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-        "TradingView: TradingView 8299 HTTP 404"
+        "TradingView: TradingView 8299 HTTP 403",
+        "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:48.084Z"
+      "updatedAt": "2026-05-22T16:23:04.163Z"
     }
   ],
   "analytics": {
@@ -1398,7 +1440,7 @@
       "previousClose": 46.79999923706055,
       "change": 4.3000007629394545,
       "changePercent": 9.18803596803121,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 1418250,
@@ -1407,13 +1449,14 @@
       "unrealizedPnL": 1698850,
       "unrealizedPnLPct": 119.78494623655914,
       "weight": 63.222916507152405,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401",
+        "WantGoo: WantGoo fundamentals 1711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:45.999Z"
+      "updatedAt": "2026-05-22T16:23:02.673Z"
     },
     "largestWinner": {
       "id": "holding2",
@@ -1431,7 +1474,7 @@
       "previousClose": 46.79999923706055,
       "change": 4.3000007629394545,
       "changePercent": 9.18803596803121,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 1418250,
@@ -1440,13 +1483,14 @@
       "unrealizedPnL": 1698850,
       "unrealizedPnLPct": 119.78494623655914,
       "weight": 63.222916507152405,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401",
+        "WantGoo: WantGoo fundamentals 1711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:45.999Z"
+      "updatedAt": "2026-05-22T16:23:02.673Z"
     },
     "largestLoser": {
       "id": "holding31",
@@ -1464,7 +1508,7 @@
       "previousClose": 22.700000762939453,
       "change": -7.629394538355427e-7,
       "changePercent": -0.0000033609666440237985,
-      "eps": 3,
+      "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 185840,
@@ -1473,13 +1517,14 @@
       "unrealizedPnL": -4240,
       "unrealizedPnLPct": -2.281532501076194,
       "weight": 3.6833215609697727,
-      "dataStatus": "ok",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
         "TPEX API: not TPEX",
-        "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401"
+        "Yahoo Finance: Yahoo fundamentals 5880 HTTP 401",
+        "WantGoo: WantGoo fundamentals 5880 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T16:21:47.483Z"
+      "updatedAt": "2026-05-22T16:23:03.761Z"
     },
     "sectorAllocation": [
       {
@@ -1544,7 +1589,7 @@
         "previousClose": 46.79999923706055,
         "change": 4.3000007629394545,
         "changePercent": 9.18803596803121,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 1418250,
@@ -1553,13 +1598,14 @@
         "unrealizedPnL": 1698850,
         "unrealizedPnLPct": 119.78494623655914,
         "weight": 63.222916507152405,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 1711 HTTP 401",
+          "WantGoo: WantGoo fundamentals 1711 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:45.999Z"
+        "updatedAt": "2026-05-22T16:23:02.673Z"
       },
       {
         "id": "holding7",
@@ -1577,8 +1623,8 @@
         "previousClose": 2185,
         "change": 70,
         "changePercent": 3.203661327231121,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 324625,
         "marketValue": 394625,
@@ -1586,13 +1632,14 @@
         "unrealizedPnL": 70000,
         "unrealizedPnLPct": 21.563342318059302,
         "weight": 8.004024069370574,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
+          "WantGoo: WantGoo fundamentals 2330 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.205Z"
+        "updatedAt": "2026-05-22T16:23:02.726Z"
       },
       {
         "id": "holding6",
@@ -1610,7 +1657,7 @@
         "previousClose": 520,
         "change": 109,
         "changePercent": 20.961538461538463,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 44980.8,
@@ -1619,13 +1666,14 @@
         "unrealizedPnL": 55659.2,
         "unrealizedPnLPct": 123.7399068046811,
         "weight": 2.041241640396464,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
+          "WantGoo: WantGoo fundamentals 2327 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.141Z"
+        "updatedAt": "2026-05-22T16:23:02.706Z"
       },
       {
         "id": "holding29",
@@ -1643,8 +1691,8 @@
         "previousClose": 562,
         "change": 68,
         "changePercent": 12.099644128113878,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 35569.8,
         "marketValue": 68040,
@@ -1652,14 +1700,15 @@
         "unrealizedPnL": 32470.199999999997,
         "unrealizedPnLPct": 91.28586609989372,
         "weight": 1.380028628900789,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TWSE OpenAPI: not TWSE",
           "Yahoo Finance: Yahoo fundamentals 4979 HTTP 401",
-          "TradingView: TradingView 4979 HTTP 404"
+          "TradingView: TradingView 4979 HTTP 404",
+          "WantGoo: WantGoo fundamentals 4979 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:47.295Z"
+        "updatedAt": "2026-05-22T16:23:03.678Z"
       },
       {
         "id": "holding20",
@@ -1677,7 +1726,7 @@
         "previousClose": 952,
         "change": 193,
         "changePercent": 20.27310924369748,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 36360,
@@ -1686,14 +1735,15 @@
         "unrealizedPnL": 32340,
         "unrealizedPnLPct": 88.94389438943895,
         "weight": 1.3934151499924194,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TWSE OpenAPI: not TWSE",
           "Yahoo Finance: Yahoo fundamentals 3163 HTTP 401",
-          "TradingView: TradingView 3163 HTTP 404"
+          "TradingView: TradingView 3163 HTTP 404",
+          "WantGoo: WantGoo fundamentals 3163 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.867Z"
+        "updatedAt": "2026-05-22T16:23:03.280Z"
       },
       {
         "id": "holding9",
@@ -1711,7 +1761,7 @@
         "previousClose": 302,
         "change": 20.5,
         "changePercent": 6.788079470198675,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 86698.1,
@@ -1720,13 +1770,14 @@
         "unrealizedPnL": 27789.399999999994,
         "unrealizedPnLPct": 32.053066906887224,
         "weight": 2.3221050507242667,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401",
+          "WantGoo: WantGoo fundamentals 2376 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.297Z"
+        "updatedAt": "2026-05-22T16:23:02.799Z"
       },
       {
         "id": "holding28",
@@ -1744,7 +1795,7 @@
         "previousClose": 476,
         "change": 85,
         "changePercent": 17.857142857142858,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 45760,
@@ -1753,13 +1804,14 @@
         "unrealizedPnL": 24365,
         "unrealizedPnLPct": 53.245192307692314,
         "weight": 1.422317865985712,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401",
+          "WantGoo: WantGoo fundamentals 3711 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:47.149Z"
+        "updatedAt": "2026-05-22T16:23:03.485Z"
       },
       {
         "id": "holding33",
@@ -1777,8 +1829,8 @@
         "previousClose": 217,
         "change": 39,
         "changePercent": 17.972350230414747,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 22900.7,
         "marketValue": 43520,
@@ -1786,13 +1838,14 @@
         "unrealizedPnL": 20619.3,
         "unrealizedPnLPct": 90.03785910474352,
         "weight": 0.8826990877390115,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401",
+          "WantGoo: WantGoo fundamentals 6197 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:47.572Z"
+        "updatedAt": "2026-05-22T16:23:03.813Z"
       },
       {
         "id": "holding34",
@@ -1810,8 +1863,8 @@
         "previousClose": 234.5,
         "change": 48.5,
         "changePercent": 20.68230277185501,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 18350.399999999998,
         "marketValue": 33960,
@@ -1819,13 +1872,14 @@
         "unrealizedPnL": 15609.600000000002,
         "unrealizedPnLPct": 85.06408579649492,
         "weight": 0.6887973579875191,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
+          "WantGoo: WantGoo fundamentals 6239 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:47.631Z"
+        "updatedAt": "2026-05-22T16:23:03.873Z"
       },
       {
         "id": "holding35",
@@ -1843,8 +1897,8 @@
         "previousClose": 1205,
         "change": 250,
         "changePercent": 20.74688796680498,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 7695,
         "marketValue": 21825,
@@ -1852,14 +1906,15 @@
         "unrealizedPnL": 14130,
         "unrealizedPnLPct": 183.62573099415204,
         "weight": 0.4426679133709542,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TWSE OpenAPI: not TWSE",
           "Yahoo Finance: Yahoo fundamentals 6274 HTTP 401",
-          "TradingView: TradingView 6274 HTTP 404"
+          "TradingView: TradingView 6274 HTTP 404",
+          "WantGoo: WantGoo fundamentals 6274 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:47.647Z"
+        "updatedAt": "2026-05-22T16:23:03.872Z"
       },
       {
         "id": "holding5",
@@ -1877,7 +1932,7 @@
         "previousClose": 240,
         "change": 10,
         "changePercent": 4.166666666666666,
-        "eps": 3,
+        "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 87412,
@@ -1886,13 +1941,14 @@
         "unrealizedPnL": 12588,
         "unrealizedPnLPct": 14.400768773166156,
         "weight": 2.028260771459126,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
+          "WantGoo: WantGoo fundamentals 2317 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.125Z"
+        "updatedAt": "2026-05-22T16:23:02.725Z"
       },
       {
         "id": "holding13",
@@ -1910,8 +1966,8 @@
         "previousClose": 3230,
         "change": 630,
         "changePercent": 19.5046439628483,
-        "eps": 3,
-        "pe": 7,
+        "eps": null,
+        "pe": null,
         "forwardPe": null,
         "cost": 7275,
         "marketValue": 19300,
@@ -1919,13 +1975,14 @@
         "unrealizedPnL": 12025,
         "unrealizedPnLPct": 165.29209621993127,
         "weight": 0.39145432889161125,
-        "dataStatus": "ok",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
           "TPEX API: not TPEX",
-          "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401"
+          "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
+          "WantGoo: WantGoo fundamentals 2454 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T16:21:46.464Z"
+        "updatedAt": "2026-05-22T16:23:03.025Z"
       }
     ]
   }
