@@ -131,18 +131,18 @@ export interface PortfolioAnalytics {
   unrealizedPnLPct: number;
   winRate: number;
   holdingsCount: number;
+  cash: number;
   cashRatio: number;
   largestHolding: PortfolioHolding | null;
   largestWinner: PortfolioHolding | null;
   largestLoser: PortfolioHolding | null;
   sectorAllocation: AllocationItem[];
-  brokerAllocation: AllocationItem[];
-  accountAllocation: AllocationItem[];
   pnlRanking: PortfolioHolding[];
 }
 
 export interface PortfolioPayload {
   generatedAt: string;
+  cash: number;
   holdings: PortfolioHolding[];
   analytics: PortfolioAnalytics;
 }

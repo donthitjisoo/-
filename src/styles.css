@@ -295,9 +295,9 @@ input, select {
 }
 
 .rating-s { color: #fff; background: #b00020; border-color: #ff4d4f; }
-.rating-tb { color: #07100b; background: #ff4d4f; border-color: #ff4d4f; }
+.rating-tb { color: #07100b; background: #22b573; border-color: #22b573; }
 .rating-b { color: #07100b; background: #f0b429; border-color: #f0b429; }
-.rating-sb { color: #07100b; background: #ff8f00; border-color: #ff8f00; }
+.rating-sb { color: #07100b; background: #ff4d4f; border-color: #ff4d4f; }
 .rating-watch { color: #d8e1ec; background: #344152; }
 .rating-avoid { color: #d8e1ec; background: #145c42; border-color: #22b573; }
 
@@ -358,9 +358,8 @@ input, select {
 }
 
 .treemap-cell {
-  min-width: 78px;
+  min-width: 56px;
   min-height: 58px;
-  flex-grow: 1;
   border: 1px solid var(--grid);
   padding: 6px;
   background: #1b222d;
@@ -370,6 +369,7 @@ input, select {
 .treemap-cell.up { background: rgba(255, 77, 79, 0.28); border-color: rgba(255, 77, 79, 0.6); }
 .treemap-cell.down { background: rgba(34, 181, 115, 0.24); border-color: rgba(34, 181, 115, 0.58); }
 .treemap-cell.missing { background: rgba(230, 184, 0, 0.22); }
+.treemap-cell.cash { background: rgba(79, 140, 255, 0.22); border-color: rgba(79, 140, 255, 0.62); color: #dce8ff; }
 
 .treemap-cell strong, .treemap-cell span, .treemap-cell em {
   display: block;
@@ -385,39 +385,82 @@ input, select {
   margin-top: 8px;
 }
 
+.allocation-panel {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
 .donut-card {
   border: 1px solid var(--grid);
   background: var(--panel-2);
-  padding: 8px;
-  min-height: 240px;
+  padding: 10px;
+  min-height: 218px;
 }
 
 .donut {
-  width: 112px;
-  height: 112px;
+  width: 148px;
+  height: 148px;
   border-radius: 50%;
-  margin: 6px auto 8px;
+  margin: 4px auto 10px;
   position: relative;
+  border: 1px solid rgba(138, 152, 168, 0.35);
 }
 
 .donut::after {
   content: "";
   position: absolute;
-  inset: 27px;
+  inset: 38px;
   border-radius: 50%;
   background: var(--panel-2);
+  border: 1px solid rgba(138, 152, 168, 0.22);
 }
 
 .donut-card p {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 72px;
   gap: 8px;
-  margin: 5px 0;
+  margin: 6px 0;
   color: var(--muted);
+  border-bottom: 1px solid rgba(90, 110, 134, 0.18);
+  padding-bottom: 4px;
 }
 
 .donut-card b {
   color: var(--text);
+  text-align: right;
+}
+
+.pnl-ranking {
+  border: 1px solid var(--grid);
+  border-top: 0;
+  background: var(--panel-2);
+  padding: 10px;
+}
+
+.pnl-row {
+  display: grid;
+  grid-template-columns: 56px 1fr 96px;
+  gap: 8px;
+  align-items: center;
+  height: 24px;
+  border-bottom: 1px solid rgba(90, 110, 134, 0.18);
+}
+
+.pnl-row div {
+  height: 9px;
+  background: #090d12;
+  border: 1px solid rgba(90, 110, 134, 0.35);
+}
+
+.pnl-row i {
+  display: block;
+  height: 100%;
+}
+
+.pnl-row i.up { background: var(--up); }
+.pnl-row i.down { background: var(--down); }
+.pnl-row b {
+  text-align: right;
 }
 
 @media (max-width: 1200px) {

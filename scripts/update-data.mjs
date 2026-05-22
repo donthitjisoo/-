@@ -12,6 +12,7 @@ const watchlistDir = path.join(dataDir, "watchlists");
 const outputDir = path.join(root, "public", "data");
 const REQUIRED_RECOMMENDATION_HEADERS = ["date", "symbol", "target_price", "recommender", "target_reached", "reached_days"];
 const RECOMMENDATION_HEADERS = ["date", "symbol", "target_price", "recommender", "recommendation_rating", "target_reached", "reached_days"];
+const CASH_AMOUNT = 1091844;
 
 await main();
 
@@ -50,8 +51,9 @@ async function main() {
   const leaderboard = calculateLeaderboard(stocks, generatedAt);
   const portfolio = {
     generatedAt,
+    cash: CASH_AMOUNT,
     holdings: enrichedHoldings,
-    analytics: calculatePortfolioAnalytics(enrichedHoldings)
+    analytics: calculatePortfolioAnalytics(enrichedHoldings, CASH_AMOUNT)
   };
   const history = {
     generatedAt,
@@ -146,7 +148,9 @@ function enrichRecommendation(row, resolved, quote, fundamentals, history) {
     : targetReached
       ? elapsedTradingDays
       : null;
-  const dataStatus = mergeStatuses(quote.dataStatus, fundamentals.dataStatus, resolved.dataStatus);
+  const financials = normalizeFinancials(fundamentals, quote.currentPrice, row.targetPrice);
+  const fundamentalsStatus = financials.eps !== null || financials.pe !== null ? "ok" : fundamentals.dataStatus;
+  const dataStatus = mergeStatuses(quote.dataStatus, fundamentalsStatus, resolved.dataStatus);
 
   return {
     id: row.id,
@@ -166,9 +170,9 @@ function enrichRecommendation(row, resolved, quote, fundamentals, history) {
     previousClose: quote.previousClose,
     change: quote.change,
     changePercent: quote.changePercent,
-    eps: fundamentals.eps,
-    pe: fundamentals.pe,
-    forwardPe: fundamentals.forwardPe,
+    eps: financials.eps,
+    pe: financials.pe,
+    forwardPe: financials.forwardPe,
     recommendationReturnPct: pct((quote.currentPrice ?? 0) - (recommendedPrice ?? 0), recommendedPrice),
     remainingUpsidePct: pct(row.targetPrice - (quote.currentPrice ?? 0), quote.currentPrice),
     recommendationGapPct: pct((quote.currentPrice ?? 0) - (recommendedPrice ?? 0), recommendedPrice),
@@ -183,7 +187,7 @@ function enrichRecommendation(row, resolved, quote, fundamentals, history) {
     sourceReachedDays: row.sourceReachedDays,
     dataStatus,
     priceStatus: quote.dataStatus,
-    fundamentalsStatus: fundamentals.dataStatus,
+    fundamentalsStatus,
     source: quote.source,
     fundamentalsSource: fundamentals.source,
     failedProviders: [...(quote.failedProviders || []), ...(fundamentals.failedProviders || [])],
@@ -196,7 +200,9 @@ function enrichHolding(holding, resolved, quote, fundamentals) {
   const cost = holding.shares * holding.avgCost;
   const marketValue = currentPrice === null ? 0 : holding.shares * currentPrice;
   const unrealizedPnL = marketValue - cost;
-  const dataStatus = mergeStatuses(quote.dataStatus, fundamentals.dataStatus, resolved.dataStatus);
+  const financials = normalizeFinancials(fundamentals, currentPrice, null);
+  const fundamentalsStatus = financials.eps !== null || financials.pe !== null ? "ok" : fundamentals.dataStatus;
+  const dataStatus = mergeStatuses(quote.dataStatus, fundamentalsStatus, resolved.dataStatus);
   return {
     ...holding,
     name: quote.name || resolved.name || holding.symbol,
@@ -208,9 +214,9 @@ function enrichHolding(holding, resolved, quote, fundamentals) {
     previousClose: quote.previousClose,
     change: quote.change,
     changePercent: quote.changePercent,
-    eps: fundamentals.eps,
-    pe: fundamentals.pe,
-    forwardPe: fundamentals.forwardPe,
+    eps: financials.eps,
+    pe: financials.pe,
+    forwardPe: financials.forwardPe,
     cost,
     marketValue,
     todayPnL: quote.change === null ? 0 : quote.change * holding.shares,
@@ -224,8 +230,26 @@ function enrichHolding(holding, resolved, quote, fundamentals) {
   };
 }
 
-function calculatePortfolioAnalytics(holdings) {
-  const totalAssets = sum(holdings.map((row) => row.marketValue));
+function normalizeFinancials(fundamentals, currentPrice, targetPrice) {
+  const current = positiveNumber(currentPrice);
+  const epsFromProvider = positiveNumber(fundamentals?.eps);
+  const peFromProvider = positiveNumber(fundamentals?.pe);
+  const target = positiveNumber(targetPrice);
+  const eps = epsFromProvider ?? (current !== null && peFromProvider !== null ? current / peFromProvider : null);
+  const pe = current !== null && eps !== null ? current / eps : peFromProvider;
+  const forwardPe = target !== null && eps !== null
+    ? target / eps
+    : positiveNumber(fundamentals?.forwardPe);
+  return {
+    eps: roundOrNull(eps),
+    pe: roundOrNull(pe),
+    forwardPe: roundOrNull(forwardPe)
+  };
+}
+
+function calculatePortfolioAnalytics(holdings, cash = 0) {
+  const investedAssets = sum(holdings.map((row) => row.marketValue));
+  const totalAssets = investedAssets + cash;
   const totalCost = sum(holdings.map((row) => row.cost));
   for (const row of holdings) row.weight = pct(row.marketValue, totalAssets);
   const winners = holdings.filter((row) => row.unrealizedPnL > 0);
@@ -238,13 +262,12 @@ function calculatePortfolioAnalytics(holdings) {
     unrealizedPnLPct: pct(sum(holdings.map((row) => row.unrealizedPnL)), totalCost),
     winRate: pct(winners.length, holdings.length),
     holdingsCount: holdings.length,
-    cashRatio: 0,
+    cash,
+    cashRatio: pct(cash, totalAssets),
     largestHolding: sortedByValue[0] || null,
     largestWinner: sortedByPnl[0] || null,
     largestLoser: sortedByPnl.at(-1) || null,
-    sectorAllocation: allocation(holdings, "sector"),
-    brokerAllocation: allocation(holdings, "broker"),
-    accountAllocation: allocation(holdings, "account"),
+    sectorAllocation: allocation(holdings, "sector", cash),
     pnlRanking: sortedByPnl.slice(0, 12)
   };
 }
@@ -287,9 +310,10 @@ function summarize(rows) {
   };
 }
 
-function allocation(holdings, key) {
+function allocation(holdings, key, cash = 0) {
   const totals = new Map();
   for (const row of holdings) totals.set(row[key], (totals.get(row[key]) || 0) + row.marketValue);
+  if (cash > 0) totals.set("Cash", cash);
   const total = sum([...totals.values()]);
   return [...totals.entries()].map(([name, value]) => ({ name, value, weight: pct(value, total) })).sort((a, b) => b.value - a.value);
 }
@@ -389,6 +413,14 @@ function avg(values) {
 
 function sum(values) {
   return values.filter((value) => Number.isFinite(value)).reduce((total, value) => total + value, 0);
+}
+
+function positiveNumber(value) {
+  return Number.isFinite(value) && value > 0 ? value : null;
+}
+
+function roundOrNull(value) {
+  return Number.isFinite(value) ? Math.round(value * 100) / 100 : null;
 }
 
 async function writeJson(fileName, value) {

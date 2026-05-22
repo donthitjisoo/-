@@ -10,6 +10,5 @@ export function number(value: number | null | undefined, digits = 2) {
 
 export function percent(value: number | null | undefined, digits = 2) {
   if (value === null || value === undefined || !Number.isFinite(value)) return "-";
-  const prefix = value > 0 ? "+" : "";
-  return `${prefix}${number(value, digits)}%`;
+  return `${number(value, digits)}%`;
 }

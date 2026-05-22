@@ -17,7 +17,7 @@ import type {
 } from "./types";
 
 type MainTab = "recommendations" | "portfolio";
-type SortKey = "ratingRank" | "potentialReturnPct" | "instantReturnPct" | "distanceToTargetPct" | "reachedDays" | "changePercent";
+type SortKey = "date" | "ratingRank" | "potentialReturnPct" | "instantReturnPct" | "distanceToTargetPct" | "reachedDays" | "changePercent";
 type PortfolioSortKey = "marketValue" | "todayPnL" | "unrealizedPnL" | "weight" | "changePercent";
 
 interface LocalWatchlist {
@@ -229,8 +229,9 @@ export function App() {
                 <option value="all">資料狀態</option>{Object.entries(statusLabels).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
               </select>
               <select value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
+                <option value="date">推薦日期</option>
                 <option value="ratingRank">評等排序</option>
-                <option value="potentialReturnPct">尚餘空間</option>
+                <option value="potentialReturnPct">實時潛在報酬</option>
                 <option value="instantReturnPct">推薦後報酬</option>
                 <option value="changePercent">漲跌幅</option>
                 <option value="reachedDays">達標天數</option>
@@ -243,7 +244,7 @@ export function App() {
                   <tr>
                     <th>股票代號</th><th>股票名稱</th><th>市場別</th><th>推薦日期</th><th>推薦人</th><th>評等</th>
                     <th>目標價</th><th>推薦價</th><th>現價</th><th>漲跌</th><th>漲跌幅</th><th>推薦後報酬 %</th>
-                    <th>尚餘空間 %</th><th>EPS</th><th>PE</th><th>Forward PE</th><th>是否達標</th><th>幾日達標</th><th>資料狀態</th>
+                    <th>實時潛在報酬 %</th><th>EPS</th><th>PE</th><th>Forward PE</th><th>是否達標</th><th>幾日達標</th><th>資料狀態</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -307,6 +308,7 @@ function PortfolioView({ portfolio, rows, sort, setSort }: { portfolio: Portfoli
     <>
       <section className="ticker-grid portfolio-metrics">
         <Metric title="總資產" value={currency(analytics?.totalAssets)} />
+        <Metric title="Cash" value={currency(portfolio?.cash ?? analytics?.cash)} />
         <Metric title="今日損益" value={signedCurrency(analytics?.todayPnL)} tone={analytics?.todayPnL} />
         <Metric title="未實現損益" value={signedCurrency(analytics?.unrealizedPnL)} tone={analytics?.unrealizedPnL} />
         <Metric title="勝率" value={percent(analytics?.winRate)} />
@@ -320,15 +322,12 @@ function PortfolioView({ portfolio, rows, sort, setSort }: { portfolio: Portfoli
       <section className="portfolio-grid">
         <div className="terminal-panel treemap-panel">
           <h2>持倉比例 Treemap</h2>
-          <Treemap rows={rows} />
+          <Treemap rows={rows} cash={portfolio?.cash ?? analytics?.cash ?? 0} />
         </div>
-        <div className="terminal-panel">
+        <div className="terminal-panel allocation-panel">
           <h2>Allocation</h2>
-          <div className="chart-grid">
-            <Donut title="Sector" items={analytics?.sectorAllocation ?? []} />
-            <Donut title="Broker" items={analytics?.brokerAllocation ?? []} />
-            <Donut title="Account" items={analytics?.accountAllocation ?? []} />
-          </div>
+          <Donut title="Sector / Cash" items={analytics?.sectorAllocation ?? []} />
+          <PnlRanking rows={analytics?.pnlRanking ?? []} />
         </div>
       </section>
 
@@ -366,20 +365,49 @@ function PortfolioView({ portfolio, rows, sort, setSort }: { portfolio: Portfoli
   );
 }
 
-function Treemap({ rows }: { rows: PortfolioHolding[] }) {
-  const topRows = rows.filter((row) => row.marketValue > 0).slice(0, 40);
+function Treemap({ rows, cash }: { rows: PortfolioHolding[]; cash: number }) {
+  const total = rows.reduce((sum, row) => sum + row.marketValue, 0) + cash;
+  const cashItem = cash > 0 ? [{
+    id: "cash",
+    symbol: "CASH",
+    name: "Cash",
+    marketValue: cash,
+    unrealizedPnL: 0,
+    weight: total ? (cash / total) * 100 : 0,
+    changePercent: null
+  }] : [];
+  const topRows = [
+    ...rows.filter((row) => row.marketValue > 0).map((row) => ({ ...row, weight: total ? (row.marketValue / total) * 100 : 0 })),
+    ...cashItem
+  ].sort((a, b) => b.marketValue - a.marketValue).slice(0, 40);
   return (
     <div className="treemap">
       {topRows.map((row) => (
         <div
           key={row.id}
-          className={`treemap-cell ${twTone(row.changePercent)}`}
-          style={{ flexBasis: `${Math.max(8, row.weight)}%` }}
+          className={`treemap-cell ${row.id === "cash" ? "cash" : twTone(row.changePercent)}`}
+          style={{ flexGrow: row.marketValue, flexBasis: 0 }}
           title={`${row.name}\n市值 ${currency(row.marketValue)}\n損益 ${signedCurrency(row.unrealizedPnL)}\n比例 ${percent(row.weight)}`}
         >
           <strong>{row.symbol}</strong>
           <span>{percent(row.changePercent)}</span>
           <em>{percent(row.weight)}</em>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PnlRanking({ rows }: { rows: PortfolioHolding[] }) {
+  const maxAbs = Math.max(1, ...rows.map((row) => Math.abs(row.unrealizedPnL)));
+  return (
+    <div className="pnl-ranking">
+      <h3>P/L Ranking</h3>
+      {rows.slice(0, 8).map((row) => (
+        <div className="pnl-row" key={row.id}>
+          <span>{row.symbol}</span>
+          <div><i className={twTone(row.unrealizedPnL)} style={{ width: `${Math.max(4, Math.abs(row.unrealizedPnL) / maxAbs * 100)}%` }} /></div>
+          <b className={twTone(row.unrealizedPnL)}>{signedCurrency(row.unrealizedPnL)}</b>
         </div>
       ))}
     </div>
@@ -429,6 +457,7 @@ async function fetchJson<T>(url: string): Promise<T> {
 }
 
 function compareRows(a: StockRow, b: StockRow, key: SortKey) {
+  if (key === "date") return b.date.localeCompare(a.date);
   if (key === "ratingRank") return a.ratingRank - b.ratingRank || b.potentialReturnPct - a.potentialReturnPct;
   return Number(b[key] ?? -Infinity) - Number(a[key] ?? -Infinity);
 }
@@ -473,6 +502,5 @@ function twTone(value: number | null | undefined) {
 
 function signedCurrency(value: number | null | undefined) {
   if (value === null || value === undefined || !Number.isFinite(value)) return "-";
-  const prefix = value > 0 ? "+" : "";
-  return `${prefix}${currency(value)}`;
+  return currency(value);
 }
