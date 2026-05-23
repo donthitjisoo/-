@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T20:31:18.715Z",
+  "generatedAt": "2026-05-23T06:48:07.659Z",
   "cash": 1091844,
   "holdings": [
     {
@@ -15,15 +15,15 @@
       "yahooSymbol": "0050.TW",
       "sector": "ETF",
       "currentPrice": 97.3,
-      "previousClose": 92.5,
-      "change": 4.799999999999997,
-      "changePercent": 5.189189189189186,
+      "previousClose": 95.8499984741211,
+      "change": 1.4500015258789034,
+      "changePercent": 1.5127820020470786,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 19320,
       "marketValue": 19460,
-      "todayPnL": 959.9999999999994,
+      "todayPnL": 290.0003051757807,
       "unrealizedPnL": 140,
       "unrealizedPnLPct": 0.7246376811594203,
       "weight": 0.7360961146342981,
@@ -31,11 +31,11 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 0050 HTTP 401",
-        "TradingView: TradingView 0050 HTTP 404",
+        "TradingView: TradingView 0050 HTTP 403",
         "WantGoo: WantGoo fundamentals 0050 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.759Z"
+      "updatedAt": "2026-05-23T06:47:45.157Z"
     },
     {
       "id": "holding2",
@@ -69,7 +69,7 @@
         "WantGoo: WantGoo fundamentals 2301 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.347Z"
+      "updatedAt": "2026-05-23T06:47:43.829Z"
     },
     {
       "id": "holding3",
@@ -103,7 +103,7 @@
         "WantGoo: WantGoo fundamentals 2316 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.408Z"
+      "updatedAt": "2026-05-23T06:47:43.913Z"
     },
     {
       "id": "holding4",
@@ -137,7 +137,7 @@
         "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.420Z"
+      "updatedAt": "2026-05-23T06:47:43.936Z"
     },
     {
       "id": "holding5",
@@ -171,7 +171,7 @@
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.433Z"
+      "updatedAt": "2026-05-23T06:47:43.951Z"
     },
     {
       "id": "holding6",
@@ -205,7 +205,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.508Z"
+      "updatedAt": "2026-05-23T06:47:43.973Z"
     },
     {
       "id": "holding7",
@@ -239,7 +239,7 @@
         "WantGoo: WantGoo fundamentals 2357 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.497Z"
+      "updatedAt": "2026-05-23T06:47:44.041Z"
     },
     {
       "id": "holding8",
@@ -273,7 +273,7 @@
         "WantGoo: WantGoo fundamentals 2376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.557Z"
+      "updatedAt": "2026-05-23T06:47:44.047Z"
     },
     {
       "id": "holding9",
@@ -307,7 +307,7 @@
         "WantGoo: WantGoo fundamentals 2382 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.570Z"
+      "updatedAt": "2026-05-23T06:47:44.050Z"
     },
     {
       "id": "holding10",
@@ -341,7 +341,7 @@
         "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.632Z"
+      "updatedAt": "2026-05-23T06:47:44.105Z"
     },
     {
       "id": "holding11",
@@ -375,7 +375,7 @@
         "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.657Z"
+      "updatedAt": "2026-05-23T06:47:44.144Z"
     },
     {
       "id": "holding12",
@@ -409,7 +409,7 @@
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.701Z"
+      "updatedAt": "2026-05-23T06:47:44.158Z"
     },
     {
       "id": "holding13",
@@ -443,7 +443,7 @@
         "WantGoo: WantGoo fundamentals 2472 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.685Z"
+      "updatedAt": "2026-05-23T06:47:44.170Z"
     },
     {
       "id": "holding14",
@@ -477,7 +477,7 @@
         "WantGoo: WantGoo fundamentals 2610 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.738Z"
+      "updatedAt": "2026-05-23T06:47:44.225Z"
     },
     {
       "id": "holding15",
@@ -511,7 +511,7 @@
         "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.795Z"
+      "updatedAt": "2026-05-23T06:47:44.284Z"
     },
     {
       "id": "holding16",
@@ -545,7 +545,7 @@
         "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.828Z"
+      "updatedAt": "2026-05-23T06:47:44.302Z"
     },
     {
       "id": "holding17",
@@ -579,7 +579,7 @@
         "WantGoo: WantGoo fundamentals 3008 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.853Z"
+      "updatedAt": "2026-05-23T06:47:44.343Z"
     },
     {
       "id": "holding18",
@@ -614,7 +614,7 @@
         "WantGoo: WantGoo fundamentals 3163 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.937Z"
+      "updatedAt": "2026-05-23T06:47:44.398Z"
     },
     {
       "id": "holding19",
@@ -649,7 +649,7 @@
         "WantGoo: WantGoo fundamentals 3227 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.945Z"
+      "updatedAt": "2026-05-23T06:47:44.411Z"
     },
     {
       "id": "holding20",
@@ -683,7 +683,7 @@
         "WantGoo: WantGoo fundamentals 3231 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.946Z"
+      "updatedAt": "2026-05-23T06:47:44.416Z"
     },
     {
       "id": "holding21",
@@ -718,7 +718,7 @@
         "WantGoo: WantGoo fundamentals 3293 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.993Z"
+      "updatedAt": "2026-05-23T06:47:44.452Z"
     },
     {
       "id": "holding22",
@@ -752,7 +752,7 @@
         "WantGoo: WantGoo fundamentals 3376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.021Z"
+      "updatedAt": "2026-05-23T06:47:44.460Z"
     },
     {
       "id": "holding23",
@@ -786,7 +786,7 @@
         "WantGoo: WantGoo fundamentals 3533 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.019Z"
+      "updatedAt": "2026-05-23T06:47:44.495Z"
     },
     {
       "id": "holding24",
@@ -820,7 +820,7 @@
         "WantGoo: WantGoo fundamentals 3583 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.031Z"
+      "updatedAt": "2026-05-23T06:47:44.491Z"
     },
     {
       "id": "holding25",
@@ -854,7 +854,7 @@
         "WantGoo: WantGoo fundamentals 3665 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.067Z"
+      "updatedAt": "2026-05-23T06:47:44.515Z"
     },
     {
       "id": "holding26",
@@ -888,7 +888,7 @@
         "WantGoo: WantGoo fundamentals 3711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.128Z"
+      "updatedAt": "2026-05-23T06:47:44.557Z"
     },
     {
       "id": "holding27",
@@ -923,7 +923,7 @@
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.231Z"
+      "updatedAt": "2026-05-23T06:47:44.638Z"
     },
     {
       "id": "holding28",
@@ -958,7 +958,7 @@
         "WantGoo: WantGoo fundamentals 5439 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.337Z"
+      "updatedAt": "2026-05-23T06:47:44.727Z"
     },
     {
       "id": "holding29",
@@ -993,7 +993,7 @@
         "WantGoo: WantGoo fundamentals 6187 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.405Z"
+      "updatedAt": "2026-05-23T06:47:44.784Z"
     },
     {
       "id": "holding30",
@@ -1027,7 +1027,7 @@
         "WantGoo: WantGoo fundamentals 6197 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.404Z"
+      "updatedAt": "2026-05-23T06:47:44.846Z"
     },
     {
       "id": "holding31",
@@ -1061,7 +1061,7 @@
         "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.455Z"
+      "updatedAt": "2026-05-23T06:47:44.845Z"
     },
     {
       "id": "holding32",
@@ -1096,7 +1096,7 @@
         "WantGoo: WantGoo fundamentals 6274 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.458Z"
+      "updatedAt": "2026-05-23T06:47:44.845Z"
     },
     {
       "id": "holding33",
@@ -1127,11 +1127,11 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6510 HTTP 401",
-        "TradingView: TradingView 6510 HTTP 404",
+        "TradingView: TradingView 6510 HTTP 403",
         "WantGoo: WantGoo fundamentals 6510 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.547Z"
+      "updatedAt": "2026-05-23T06:47:45.067Z"
     },
     {
       "id": "holding34",
@@ -1162,11 +1162,11 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6640 HTTP 401",
-        "TradingView: TradingView 6640 HTTP 404",
+        "TradingView: TradingView 6640 HTTP 403",
         "WantGoo: WantGoo fundamentals 6640 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.551Z"
+      "updatedAt": "2026-05-23T06:47:44.931Z"
     },
     {
       "id": "holding35",
@@ -1197,10 +1197,11 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401",
+        "TradingView: TradingView 6830 HTTP 403",
         "WantGoo: WantGoo fundamentals 6830 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.589Z"
+      "updatedAt": "2026-05-23T06:47:44.968Z"
     },
     {
       "id": "holding36",
@@ -1231,10 +1232,11 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+        "TradingView: TradingView 7769 HTTP 403",
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.621Z"
+      "updatedAt": "2026-05-23T06:47:45.000Z"
     },
     {
       "id": "holding37",
@@ -1272,11 +1274,11 @@
         "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7801 HTTP 401",
-        "TradingView: TradingView 7801 HTTP 404",
+        "TradingView: TradingView 7801 HTTP 403",
         "WantGoo: WantGoo fundamentals 7801 HTTP 403"
       ],
       "source": null,
-      "updatedAt": "2026-05-22T20:30:59.568Z"
+      "updatedAt": "2026-05-23T06:47:46.576Z"
     },
     {
       "id": "holding38",
@@ -1307,16 +1309,16 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-        "TradingView: TradingView 8299 HTTP 404",
+        "TradingView: TradingView 8299 HTTP 403",
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:57.742Z"
+      "updatedAt": "2026-05-23T06:47:45.108Z"
     }
   ],
   "analytics": {
     "totalAssets": 2643676.5,
-    "todayPnL": 51705.49961853027,
+    "todayPnL": 51035.499923706055,
     "unrealizedPnL": 345139.69999999995,
     "unrealizedPnLPct": 28.602118119872767,
     "winRate": 73.68421052631578,
@@ -1355,7 +1357,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.508Z"
+      "updatedAt": "2026-05-23T06:47:43.973Z"
     },
     "largestWinner": {
       "id": "holding6",
@@ -1389,7 +1391,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.508Z"
+      "updatedAt": "2026-05-23T06:47:43.973Z"
     },
     "largestLoser": {
       "id": "holding16",
@@ -1423,7 +1425,7 @@
         "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T20:30:56.828Z"
+      "updatedAt": "2026-05-23T06:47:44.302Z"
     },
     "sectorAllocation": [
       {
@@ -1490,7 +1492,7 @@
           "WantGoo: WantGoo fundamentals 2330 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.508Z"
+        "updatedAt": "2026-05-23T06:47:43.973Z"
       },
       {
         "id": "holding5",
@@ -1524,7 +1526,7 @@
           "WantGoo: WantGoo fundamentals 2327 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.433Z"
+        "updatedAt": "2026-05-23T06:47:43.951Z"
       },
       {
         "id": "holding27",
@@ -1559,7 +1561,7 @@
           "WantGoo: WantGoo fundamentals 4979 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.231Z"
+        "updatedAt": "2026-05-23T06:47:44.638Z"
       },
       {
         "id": "holding18",
@@ -1594,7 +1596,7 @@
           "WantGoo: WantGoo fundamentals 3163 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.937Z"
+        "updatedAt": "2026-05-23T06:47:44.398Z"
       },
       {
         "id": "holding8",
@@ -1628,7 +1630,7 @@
           "WantGoo: WantGoo fundamentals 2376 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.557Z"
+        "updatedAt": "2026-05-23T06:47:44.047Z"
       },
       {
         "id": "holding26",
@@ -1662,7 +1664,7 @@
           "WantGoo: WantGoo fundamentals 3711 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.128Z"
+        "updatedAt": "2026-05-23T06:47:44.557Z"
       },
       {
         "id": "holding30",
@@ -1696,7 +1698,7 @@
           "WantGoo: WantGoo fundamentals 6197 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.404Z"
+        "updatedAt": "2026-05-23T06:47:44.846Z"
       },
       {
         "id": "holding31",
@@ -1730,7 +1732,7 @@
           "WantGoo: WantGoo fundamentals 6239 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.455Z"
+        "updatedAt": "2026-05-23T06:47:44.845Z"
       },
       {
         "id": "holding32",
@@ -1765,7 +1767,7 @@
           "WantGoo: WantGoo fundamentals 6274 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.458Z"
+        "updatedAt": "2026-05-23T06:47:44.845Z"
       },
       {
         "id": "holding4",
@@ -1799,7 +1801,7 @@
           "WantGoo: WantGoo fundamentals 2317 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.420Z"
+        "updatedAt": "2026-05-23T06:47:43.936Z"
       },
       {
         "id": "holding12",
@@ -1833,7 +1835,7 @@
           "WantGoo: WantGoo fundamentals 2454 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:56.701Z"
+        "updatedAt": "2026-05-23T06:47:44.158Z"
       },
       {
         "id": "holding34",
@@ -1864,11 +1866,11 @@
         "failedProviders": [
           "TWSE OpenAPI: not TWSE",
           "Yahoo Finance: Yahoo fundamentals 6640 HTTP 401",
-          "TradingView: TradingView 6640 HTTP 404",
+          "TradingView: TradingView 6640 HTTP 403",
           "WantGoo: WantGoo fundamentals 6640 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T20:30:57.551Z"
+        "updatedAt": "2026-05-23T06:47:44.931Z"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T20:31:18.715Z",
+  "generatedAt": "2026-05-23T06:48:07.659Z",
   "watchlists": [
     {
       "id": "default",
@@ -997,7 +997,7 @@
             "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
             "WantGoo: WantGoo fundamentals 6239 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.455Z"
+          "updatedAt": "2026-05-23T06:47:44.845Z"
         },
         {
           "id": "3443-2026-05-22-1",
@@ -1042,7 +1042,7 @@
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
             "WantGoo: WantGoo fundamentals 3443 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.116Z"
+          "updatedAt": "2026-05-23T06:47:44.468Z"
         },
         {
           "id": "4541-2026-05-21-2",
@@ -1088,7 +1088,7 @@
             "TradingView: TradingView 4541 HTTP 404",
             "WantGoo: WantGoo fundamentals 4541 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.147Z"
+          "updatedAt": "2026-05-23T06:47:44.559Z"
         },
         {
           "id": "3088-2026-05-21-3",
@@ -1134,7 +1134,7 @@
             "TradingView: TradingView 3088 HTTP 404",
             "WantGoo: WantGoo fundamentals 3088 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.883Z"
+          "updatedAt": "2026-05-23T06:47:44.350Z"
         },
         {
           "id": "2645-2026-05-21-4",
@@ -1179,7 +1179,7 @@
             "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401",
             "WantGoo: WantGoo fundamentals 2645 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.734Z"
+          "updatedAt": "2026-05-23T06:47:44.226Z"
         },
         {
           "id": "3702-2026-05-20-5",
@@ -1224,7 +1224,7 @@
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
             "WantGoo: WantGoo fundamentals 3702 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.119Z"
+          "updatedAt": "2026-05-23T06:47:44.545Z"
         },
         {
           "id": "1476-2026-05-20-6",
@@ -1269,7 +1269,7 @@
             "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401",
             "WantGoo: WantGoo fundamentals 1476 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.273Z"
+          "updatedAt": "2026-05-23T06:47:43.740Z"
         },
         {
           "id": "2949-2026-05-20-7",
@@ -1315,7 +1315,7 @@
             "TradingView: TradingView 2949 HTTP 404",
             "WantGoo: WantGoo fundamentals 2949 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.846Z"
+          "updatedAt": "2026-05-23T06:47:44.296Z"
         },
         {
           "id": "8111-2026-05-20-8",
@@ -1358,10 +1358,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
-            "TradingView: TradingView 8111 HTTP 404",
+            "TradingView: TradingView 8111 HTTP 403",
             "WantGoo: WantGoo fundamentals 8111 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.717Z"
+          "updatedAt": "2026-05-23T06:47:45.058Z"
         },
         {
           "id": "2891-2026-05-20-9",
@@ -1406,7 +1406,7 @@
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
             "WantGoo: WantGoo fundamentals 2891 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.816Z"
+          "updatedAt": "2026-05-23T06:47:44.300Z"
         },
         {
           "id": "6902-2026-05-19-10",
@@ -1449,9 +1449,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401",
+            "TradingView: TradingView 6902 HTTP 403",
             "WantGoo: WantGoo fundamentals 6902 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.616Z"
+          "updatedAt": "2026-05-23T06:47:44.977Z"
         },
         {
           "id": "2359-2026-05-19-11",
@@ -1496,7 +1497,7 @@
             "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401",
             "WantGoo: WantGoo fundamentals 2359 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.536Z"
+          "updatedAt": "2026-05-23T06:47:44.021Z"
         },
         {
           "id": "5388-2026-05-19-12",
@@ -1541,7 +1542,7 @@
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
             "WantGoo: WantGoo fundamentals 5388 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.330Z"
+          "updatedAt": "2026-05-23T06:47:44.709Z"
         },
         {
           "id": "1503-2026-05-18-13",
@@ -1586,7 +1587,7 @@
             "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401",
             "WantGoo: WantGoo fundamentals 1503 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.292Z"
+          "updatedAt": "2026-05-23T06:47:43.747Z"
         },
         {
           "id": "6414-2026-05-18-14",
@@ -1631,7 +1632,7 @@
             "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401",
             "WantGoo: WantGoo fundamentals 6414 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.503Z"
+          "updatedAt": "2026-05-23T06:47:44.890Z"
         },
         {
           "id": "2890-2026-05-18-15",
@@ -1676,7 +1677,7 @@
             "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401",
             "WantGoo: WantGoo fundamentals 2890 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.801Z"
+          "updatedAt": "2026-05-23T06:47:44.283Z"
         },
         {
           "id": "6177-2026-05-18-16",
@@ -1721,7 +1722,7 @@
             "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401",
             "WantGoo: WantGoo fundamentals 6177 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.395Z"
+          "updatedAt": "2026-05-23T06:47:44.788Z"
         },
         {
           "id": "8462-2026-05-15-17",
@@ -1764,9 +1765,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401",
+            "TradingView: TradingView 8462 HTTP 403",
             "WantGoo: WantGoo fundamentals 8462 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.706Z"
+          "updatedAt": "2026-05-23T06:47:45.118Z"
         },
         {
           "id": "2034-2026-05-15-18",
@@ -1811,7 +1813,7 @@
             "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401",
             "WantGoo: WantGoo fundamentals 2034 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.342Z"
+          "updatedAt": "2026-05-23T06:47:43.865Z"
         },
         {
           "id": "1326-2026-05-15-19",
@@ -1856,7 +1858,7 @@
             "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401",
             "WantGoo: WantGoo fundamentals 1326 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.274Z"
+          "updatedAt": "2026-05-23T06:47:43.743Z"
         },
         {
           "id": "2480-2026-05-15-20",
@@ -1901,7 +1903,7 @@
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
             "WantGoo: WantGoo fundamentals 2480 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.698Z"
+          "updatedAt": "2026-05-23T06:47:44.191Z"
         },
         {
           "id": "6664-2026-05-15-21",
@@ -1944,10 +1946,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
-            "TradingView: TradingView 6664 HTTP 404",
+            "TradingView: TradingView 6664 HTTP 403",
             "WantGoo: WantGoo fundamentals 6664 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.595Z"
+          "updatedAt": "2026-05-23T06:47:44.931Z"
         },
         {
           "id": "2327-2026-05-15-22",
@@ -1992,7 +1994,7 @@
             "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
             "WantGoo: WantGoo fundamentals 2327 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.433Z"
+          "updatedAt": "2026-05-23T06:47:43.951Z"
         },
         {
           "id": "2317-2026-05-15-23",
@@ -2037,7 +2039,7 @@
             "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
             "WantGoo: WantGoo fundamentals 2317 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.420Z"
+          "updatedAt": "2026-05-23T06:47:43.936Z"
         },
         {
           "id": "2515-2026-05-15-24",
@@ -2082,7 +2084,7 @@
             "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401",
             "WantGoo: WantGoo fundamentals 2515 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.764Z"
+          "updatedAt": "2026-05-23T06:47:44.207Z"
         },
         {
           "id": "2891-2026-05-15-25",
@@ -2127,7 +2129,7 @@
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
             "WantGoo: WantGoo fundamentals 2891 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.816Z"
+          "updatedAt": "2026-05-23T06:47:44.300Z"
         },
         {
           "id": "5534-2026-05-15-26",
@@ -2172,7 +2174,7 @@
             "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401",
             "WantGoo: WantGoo fundamentals 5534 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.347Z"
+          "updatedAt": "2026-05-23T06:47:44.731Z"
         },
         {
           "id": "7769-2026-05-14-27",
@@ -2215,9 +2217,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+            "TradingView: TradingView 7769 HTTP 403",
             "WantGoo: WantGoo fundamentals 7769 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.621Z"
+          "updatedAt": "2026-05-23T06:47:45.000Z"
         },
         {
           "id": "6223-2026-05-14-28",
@@ -2263,7 +2266,7 @@
             "TradingView: TradingView 6223 HTTP 404",
             "WantGoo: WantGoo fundamentals 6223 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.465Z"
+          "updatedAt": "2026-05-23T06:47:44.818Z"
         },
         {
           "id": "2762-2026-05-14-29",
@@ -2308,7 +2311,7 @@
             "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401",
             "WantGoo: WantGoo fundamentals 2762 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.759Z"
+          "updatedAt": "2026-05-23T06:47:44.240Z"
         },
         {
           "id": "4571-2026-05-14-30",
@@ -2353,7 +2356,7 @@
             "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401",
             "WantGoo: WantGoo fundamentals 4571 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.194Z"
+          "updatedAt": "2026-05-23T06:47:44.592Z"
         },
         {
           "id": "6531-2026-05-13-31",
@@ -2396,9 +2399,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401",
+            "TradingView: TradingView 6531 HTTP 403",
             "WantGoo: WantGoo fundamentals 6531 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.546Z"
+          "updatedAt": "2026-05-23T06:47:44.932Z"
         },
         {
           "id": "4966-2026-05-13-32",
@@ -2444,7 +2448,7 @@
             "TradingView: TradingView 4966 HTTP 404",
             "WantGoo: WantGoo fundamentals 4966 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.218Z"
+          "updatedAt": "2026-05-23T06:47:44.633Z"
         },
         {
           "id": "2615-2026-05-13-33",
@@ -2489,7 +2493,7 @@
             "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401",
             "WantGoo: WantGoo fundamentals 2615 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.789Z"
+          "updatedAt": "2026-05-23T06:47:44.239Z"
         },
         {
           "id": "7750-2026-05-13-34",
@@ -2532,9 +2536,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401",
+            "TradingView: TradingView 7750 HTTP 403",
             "WantGoo: WantGoo fundamentals 7750 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.630Z"
+          "updatedAt": "2026-05-23T06:47:44.999Z"
         },
         {
           "id": "6166-2026-05-13-35",
@@ -2579,7 +2584,7 @@
             "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401",
             "WantGoo: WantGoo fundamentals 6166 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.391Z"
+          "updatedAt": "2026-05-23T06:47:44.764Z"
         },
         {
           "id": "3702-2026-05-13-36",
@@ -2624,7 +2629,7 @@
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
             "WantGoo: WantGoo fundamentals 3702 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.119Z"
+          "updatedAt": "2026-05-23T06:47:44.545Z"
         },
         {
           "id": "2404-2026-05-13-37",
@@ -2669,7 +2674,7 @@
             "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401",
             "WantGoo: WantGoo fundamentals 2404 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.640Z"
+          "updatedAt": "2026-05-23T06:47:44.116Z"
         },
         {
           "id": "5536-2026-05-13-38",
@@ -2715,7 +2720,7 @@
             "TradingView: TradingView 5536 HTTP 404",
             "WantGoo: WantGoo fundamentals 5536 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.352Z"
+          "updatedAt": "2026-05-23T06:47:44.738Z"
         },
         {
           "id": "1605-2026-05-12-39",
@@ -2760,7 +2765,7 @@
             "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401",
             "WantGoo: WantGoo fundamentals 1605 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.286Z"
+          "updatedAt": "2026-05-23T06:47:43.981Z"
         },
         {
           "id": "8069-2026-05-12-40",
@@ -2803,10 +2808,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
-            "TradingView: TradingView 8069 HTTP 404",
+            "TradingView: TradingView 8069 HTTP 403",
             "WantGoo: WantGoo fundamentals 8069 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.665Z"
+          "updatedAt": "2026-05-23T06:47:45.060Z"
         },
         {
           "id": "2049-2026-05-12-41",
@@ -2851,7 +2856,7 @@
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
             "WantGoo: WantGoo fundamentals 2049 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.340Z"
+          "updatedAt": "2026-05-23T06:47:43.797Z"
         },
         {
           "id": "6415-2026-05-12-42",
@@ -2896,7 +2901,7 @@
             "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401",
             "WantGoo: WantGoo fundamentals 6415 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.505Z"
+          "updatedAt": "2026-05-23T06:47:44.891Z"
         },
         {
           "id": "2385-2026-05-12-43",
@@ -2941,7 +2946,7 @@
             "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401",
             "WantGoo: WantGoo fundamentals 2385 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.596Z"
+          "updatedAt": "2026-05-23T06:47:44.090Z"
         },
         {
           "id": "4566-2026-05-12-44",
@@ -2986,7 +2991,7 @@
             "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401",
             "WantGoo: WantGoo fundamentals 4566 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.168Z"
+          "updatedAt": "2026-05-23T06:47:44.587Z"
         },
         {
           "id": "7734-2026-05-12-45",
@@ -3029,10 +3034,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
-            "TradingView: TradingView 7734 HTTP 404",
+            "TradingView: TradingView 7734 HTTP 403",
             "WantGoo: WantGoo fundamentals 7734 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.617Z"
+          "updatedAt": "2026-05-23T06:47:45.002Z"
         },
         {
           "id": "3680-2026-05-12-46",
@@ -3078,7 +3083,7 @@
             "TradingView: TradingView 3680 HTTP 404",
             "WantGoo: WantGoo fundamentals 3680 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.105Z"
+          "updatedAt": "2026-05-23T06:47:44.553Z"
         },
         {
           "id": "4961-2026-05-12-47",
@@ -3123,7 +3128,7 @@
             "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401",
             "WantGoo: WantGoo fundamentals 4961 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.187Z"
+          "updatedAt": "2026-05-23T06:47:44.605Z"
         },
         {
           "id": "2408-2026-05-12-48",
@@ -3168,7 +3173,7 @@
             "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
             "WantGoo: WantGoo fundamentals 2408 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.632Z"
+          "updatedAt": "2026-05-23T06:47:44.105Z"
         },
         {
           "id": "1802-2026-05-12-49",
@@ -3213,7 +3218,7 @@
             "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401",
             "WantGoo: WantGoo fundamentals 1802 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.486Z"
+          "updatedAt": "2026-05-23T06:47:43.933Z"
         },
         {
           "id": "4551-2026-05-11-50",
@@ -3258,7 +3263,7 @@
             "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401",
             "WantGoo: WantGoo fundamentals 4551 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.188Z"
+          "updatedAt": "2026-05-23T06:47:44.588Z"
         },
         {
           "id": "6829-2026-05-11-51",
@@ -3301,10 +3306,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
-            "TradingView: TradingView 6829 HTTP 404",
+            "TradingView: TradingView 6829 HTTP 403",
             "WantGoo: WantGoo fundamentals 6829 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.587Z"
+          "updatedAt": "2026-05-23T06:47:44.965Z"
         },
         {
           "id": "2344-2026-05-11-52",
@@ -3349,7 +3354,7 @@
             "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401",
             "WantGoo: WantGoo fundamentals 2344 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.493Z"
+          "updatedAt": "2026-05-23T06:47:43.992Z"
         },
         {
           "id": "3596-2026-05-11-53",
@@ -3394,7 +3399,7 @@
             "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401",
             "WantGoo: WantGoo fundamentals 3596 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.064Z"
+          "updatedAt": "2026-05-23T06:47:44.504Z"
         },
         {
           "id": "2049-2026-05-11-54",
@@ -3439,7 +3444,7 @@
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
             "WantGoo: WantGoo fundamentals 2049 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.340Z"
+          "updatedAt": "2026-05-23T06:47:43.797Z"
         },
         {
           "id": "2451-2026-05-11-55",
@@ -3484,7 +3489,7 @@
             "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401",
             "WantGoo: WantGoo fundamentals 2451 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.664Z"
+          "updatedAt": "2026-05-23T06:47:44.162Z"
         },
         {
           "id": "8210-2026-05-11-56",
@@ -3527,9 +3532,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401",
+            "TradingView: TradingView 8210 HTTP 403",
             "WantGoo: WantGoo fundamentals 8210 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.666Z"
+          "updatedAt": "2026-05-23T06:47:45.059Z"
         },
         {
           "id": "1519-2026-05-11-57",
@@ -3574,7 +3580,7 @@
             "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401",
             "WantGoo: WantGoo fundamentals 1519 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.271Z"
+          "updatedAt": "2026-05-23T06:47:43.761Z"
         },
         {
           "id": "5289-2026-05-11-58",
@@ -3620,7 +3626,7 @@
             "TradingView: TradingView 5289 HTTP 404",
             "WantGoo: WantGoo fundamentals 5289 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.291Z"
+          "updatedAt": "2026-05-23T06:47:44.676Z"
         },
         {
           "id": "2395-2026-05-08-59",
@@ -3665,7 +3671,7 @@
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
             "WantGoo: WantGoo fundamentals 2395 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.602Z"
+          "updatedAt": "2026-05-23T06:47:44.103Z"
         },
         {
           "id": "6285-2026-05-08-60",
@@ -3710,7 +3716,7 @@
             "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401",
             "WantGoo: WantGoo fundamentals 6285 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.501Z"
+          "updatedAt": "2026-05-23T06:47:44.871Z"
         },
         {
           "id": "3034-2026-05-08-61",
@@ -3755,7 +3761,7 @@
             "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401",
             "WantGoo: WantGoo fundamentals 3034 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.867Z"
+          "updatedAt": "2026-05-23T06:47:44.341Z"
         },
         {
           "id": "6526-2026-05-08-62",
@@ -3798,9 +3804,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401",
+            "TradingView: TradingView 6526 HTTP 403",
             "WantGoo: WantGoo fundamentals 6526 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.542Z"
+          "updatedAt": "2026-05-23T06:47:44.905Z"
         },
         {
           "id": "2383-2026-05-08-63",
@@ -3845,7 +3852,7 @@
             "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401",
             "WantGoo: WantGoo fundamentals 2383 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.575Z"
+          "updatedAt": "2026-05-23T06:47:44.075Z"
         },
         {
           "id": "2303-2026-05-08-64",
@@ -3890,7 +3897,7 @@
             "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401",
             "WantGoo: WantGoo fundamentals 2303 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.381Z"
+          "updatedAt": "2026-05-23T06:47:43.854Z"
         },
         {
           "id": "2606-2026-05-07-65",
@@ -3935,7 +3942,7 @@
             "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401",
             "WantGoo: WantGoo fundamentals 2606 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.728Z"
+          "updatedAt": "2026-05-23T06:47:44.255Z"
         },
         {
           "id": "3260-2026-05-07-66",
@@ -3981,7 +3988,7 @@
             "TradingView: TradingView 3260 HTTP 404",
             "WantGoo: WantGoo fundamentals 3260 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.959Z"
+          "updatedAt": "2026-05-23T06:47:44.438Z"
         },
         {
           "id": "5388-2026-05-07-67",
@@ -4026,7 +4033,7 @@
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
             "WantGoo: WantGoo fundamentals 5388 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.330Z"
+          "updatedAt": "2026-05-23T06:47:44.709Z"
         },
         {
           "id": "8299-2026-05-07-68",
@@ -4069,10 +4076,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-            "TradingView: TradingView 8299 HTTP 404",
+            "TradingView: TradingView 8299 HTTP 403",
             "WantGoo: WantGoo fundamentals 8299 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.742Z"
+          "updatedAt": "2026-05-23T06:47:45.108Z"
         },
         {
           "id": "3661-2026-05-07-69",
@@ -4117,7 +4124,7 @@
             "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401",
             "WantGoo: WantGoo fundamentals 3661 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.064Z"
+          "updatedAt": "2026-05-23T06:47:44.504Z"
         },
         {
           "id": "2884-2026-05-07-70",
@@ -4162,7 +4169,7 @@
             "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
             "WantGoo: WantGoo fundamentals 2884 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.795Z"
+          "updatedAt": "2026-05-23T06:47:44.284Z"
         },
         {
           "id": "3162-2026-05-06-71",
@@ -4208,7 +4215,7 @@
             "TradingView: TradingView 3162 HTTP 404",
             "WantGoo: WantGoo fundamentals 3162 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.920Z"
+          "updatedAt": "2026-05-23T06:47:44.393Z"
         },
         {
           "id": "4540-2026-05-06-72",
@@ -4253,7 +4260,7 @@
             "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401",
             "WantGoo: WantGoo fundamentals 4540 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.139Z"
+          "updatedAt": "2026-05-23T06:47:44.548Z"
         },
         {
           "id": "4991-2026-05-06-73",
@@ -4299,7 +4306,7 @@
             "TradingView: TradingView 4991 HTTP 404",
             "WantGoo: WantGoo fundamentals 4991 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.253Z"
+          "updatedAt": "2026-05-23T06:47:44.645Z"
         },
         {
           "id": "3044-2026-05-06-74",
@@ -4344,7 +4351,7 @@
             "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401",
             "WantGoo: WantGoo fundamentals 3044 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.884Z"
+          "updatedAt": "2026-05-23T06:47:44.358Z"
         },
         {
           "id": "5347-2026-05-06-75",
@@ -4390,7 +4397,7 @@
             "TradingView: TradingView 5347 HTTP 404",
             "WantGoo: WantGoo fundamentals 5347 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.317Z"
+          "updatedAt": "2026-05-23T06:47:44.696Z"
         },
         {
           "id": "3264-2026-05-05-76",
@@ -4436,7 +4443,7 @@
             "TradingView: TradingView 3264 HTTP 404",
             "WantGoo: WantGoo fundamentals 3264 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.988Z"
+          "updatedAt": "2026-05-23T06:47:44.446Z"
         },
         {
           "id": "2449-2026-05-05-77",
@@ -4481,7 +4488,7 @@
             "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
             "WantGoo: WantGoo fundamentals 2449 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.657Z"
+          "updatedAt": "2026-05-23T06:47:44.144Z"
         },
         {
           "id": "2360-2026-05-05-78",
@@ -4526,7 +4533,7 @@
             "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401",
             "WantGoo: WantGoo fundamentals 2360 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.546Z"
+          "updatedAt": "2026-05-23T06:47:44.037Z"
         },
         {
           "id": "2454-2026-05-05-79",
@@ -4571,7 +4578,7 @@
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
             "WantGoo: WantGoo fundamentals 2454 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.701Z"
+          "updatedAt": "2026-05-23T06:47:44.158Z"
         },
         {
           "id": "4979-2026-05-05-80",
@@ -4617,7 +4624,7 @@
             "TradingView: TradingView 4979 HTTP 404",
             "WantGoo: WantGoo fundamentals 4979 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.231Z"
+          "updatedAt": "2026-05-23T06:47:44.638Z"
         },
         {
           "id": "2345-2026-05-05-81",
@@ -4662,7 +4669,7 @@
             "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401",
             "WantGoo: WantGoo fundamentals 2345 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.518Z"
+          "updatedAt": "2026-05-23T06:47:43.990Z"
         },
         {
           "id": "3105-2026-05-04-82",
@@ -4708,7 +4715,7 @@
             "TradingView: TradingView 3105 HTTP 404",
             "WantGoo: WantGoo fundamentals 3105 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.904Z"
+          "updatedAt": "2026-05-23T06:47:44.386Z"
         },
         {
           "id": "2480-2026-05-04-83",
@@ -4753,7 +4760,7 @@
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
             "WantGoo: WantGoo fundamentals 2480 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.698Z"
+          "updatedAt": "2026-05-23T06:47:44.191Z"
         },
         {
           "id": "8996-2026-05-04-84",
@@ -4796,9 +4803,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401",
+            "TradingView: TradingView 8996 HTTP 403",
             "WantGoo: WantGoo fundamentals 8996 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.738Z"
+          "updatedAt": "2026-05-23T06:47:45.115Z"
         },
         {
           "id": "2439-2026-05-04-85",
@@ -4843,7 +4851,7 @@
             "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401",
             "WantGoo: WantGoo fundamentals 2439 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.633Z"
+          "updatedAt": "2026-05-23T06:47:44.137Z"
         }
       ]
     },
@@ -5216,7 +5224,7 @@
             "Yahoo Finance: Yahoo fundamentals 6209 HTTP 401",
             "WantGoo: WantGoo fundamentals 6209 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.421Z"
+          "updatedAt": "2026-05-23T06:47:44.801Z"
         },
         {
           "id": "6290-2026-05-15-1",
@@ -5262,7 +5270,7 @@
             "TradingView: TradingView 6290 HTTP 404",
             "WantGoo: WantGoo fundamentals 6290 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.511Z"
+          "updatedAt": "2026-05-23T06:47:44.872Z"
         },
         {
           "id": "6862-2026-05-15-2",
@@ -5305,9 +5313,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6862 HTTP 401",
+            "TradingView: TradingView 6862 HTTP 403",
             "WantGoo: WantGoo fundamentals 6862 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.597Z"
+          "updatedAt": "2026-05-23T06:47:44.963Z"
         },
         {
           "id": "3665-2026-05-15-3",
@@ -5352,7 +5361,7 @@
             "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401",
             "WantGoo: WantGoo fundamentals 3665 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.067Z"
+          "updatedAt": "2026-05-23T06:47:44.515Z"
         },
         {
           "id": "3008-2026-05-15-4",
@@ -5397,7 +5406,7 @@
             "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401",
             "WantGoo: WantGoo fundamentals 3008 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.853Z"
+          "updatedAt": "2026-05-23T06:47:44.343Z"
         },
         {
           "id": "5328-2026-05-14-5",
@@ -5443,7 +5452,7 @@
             "TradingView: TradingView 5328 HTTP 404",
             "WantGoo: WantGoo fundamentals 5328 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.287Z"
+          "updatedAt": "2026-05-23T06:47:44.677Z"
         },
         {
           "id": "3090-2026-05-14-6",
@@ -5488,7 +5497,7 @@
             "Yahoo Finance: Yahoo fundamentals 3090 HTTP 401",
             "WantGoo: WantGoo fundamentals 3090 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.895Z"
+          "updatedAt": "2026-05-23T06:47:44.360Z"
         },
         {
           "id": "2472-2026-05-12-7",
@@ -5533,7 +5542,7 @@
             "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401",
             "WantGoo: WantGoo fundamentals 2472 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.685Z"
+          "updatedAt": "2026-05-23T06:47:44.170Z"
         },
         {
           "id": "5269-2026-05-12-8",
@@ -5578,7 +5587,7 @@
             "Yahoo Finance: Yahoo fundamentals 5269 HTTP 401",
             "WantGoo: WantGoo fundamentals 5269 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.273Z"
+          "updatedAt": "2026-05-23T06:47:44.655Z"
         },
         {
           "id": "7769-2026-05-12-9",
@@ -5621,9 +5630,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+            "TradingView: TradingView 7769 HTTP 403",
             "WantGoo: WantGoo fundamentals 7769 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.621Z"
+          "updatedAt": "2026-05-23T06:47:45.000Z"
         },
         {
           "id": "8299-2026-05-09-10",
@@ -5666,10 +5676,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-            "TradingView: TradingView 8299 HTTP 404",
+            "TradingView: TradingView 8299 HTTP 403",
             "WantGoo: WantGoo fundamentals 8299 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.742Z"
+          "updatedAt": "2026-05-23T06:47:45.108Z"
         },
         {
           "id": "5289-2026-05-09-11",
@@ -5715,7 +5725,7 @@
             "TradingView: TradingView 5289 HTTP 404",
             "WantGoo: WantGoo fundamentals 5289 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.291Z"
+          "updatedAt": "2026-05-23T06:47:44.676Z"
         },
         {
           "id": "3376-2026-05-09-12",
@@ -5760,7 +5770,7 @@
             "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401",
             "WantGoo: WantGoo fundamentals 3376 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.021Z"
+          "updatedAt": "2026-05-23T06:47:44.460Z"
         },
         {
           "id": "2454-2026-05-09-13",
@@ -5805,7 +5815,7 @@
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
             "WantGoo: WantGoo fundamentals 2454 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.701Z"
+          "updatedAt": "2026-05-23T06:47:44.158Z"
         },
         {
           "id": "2395-2026-05-06-14",
@@ -5850,7 +5860,7 @@
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
             "WantGoo: WantGoo fundamentals 2395 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.602Z"
+          "updatedAt": "2026-05-23T06:47:44.103Z"
         },
         {
           "id": "3443-2026-05-06-15",
@@ -5895,7 +5905,7 @@
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
             "WantGoo: WantGoo fundamentals 3443 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.116Z"
+          "updatedAt": "2026-05-23T06:47:44.468Z"
         },
         {
           "id": "3443-2026-04-27-16",
@@ -5940,7 +5950,7 @@
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
             "WantGoo: WantGoo fundamentals 3443 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.116Z"
+          "updatedAt": "2026-05-23T06:47:44.468Z"
         },
         {
           "id": "4967-2026-04-27-17",
@@ -5985,7 +5995,7 @@
             "Yahoo Finance: Yahoo fundamentals 4967 HTTP 401",
             "WantGoo: WantGoo fundamentals 4967 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.230Z"
+          "updatedAt": "2026-05-23T06:47:44.634Z"
         },
         {
           "id": "2330-2026-04-27-18",
@@ -6030,7 +6040,7 @@
             "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
             "WantGoo: WantGoo fundamentals 2330 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.508Z"
+          "updatedAt": "2026-05-23T06:47:43.973Z"
         },
         {
           "id": "8271-2026-04-27-19",
@@ -6073,9 +6083,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8271 HTTP 401",
+            "TradingView: TradingView 8271 HTTP 403",
             "WantGoo: WantGoo fundamentals 8271 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.680Z"
+          "updatedAt": "2026-05-23T06:47:45.107Z"
         },
         {
           "id": "5904-2026-04-27-20",
@@ -6121,7 +6132,7 @@
             "TradingView: TradingView 5904 HTTP 404",
             "WantGoo: WantGoo fundamentals 5904 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.361Z"
+          "updatedAt": "2026-05-23T06:47:44.747Z"
         },
         {
           "id": "6187-2026-04-27-21",
@@ -6167,7 +6178,7 @@
             "TradingView: TradingView 6187 HTTP 404",
             "WantGoo: WantGoo fundamentals 6187 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.405Z"
+          "updatedAt": "2026-05-23T06:47:44.784Z"
         },
         {
           "id": "6789-2026-04-25-22",
@@ -6210,9 +6221,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6789 HTTP 401",
+            "TradingView: TradingView 6789 HTTP 403",
             "WantGoo: WantGoo fundamentals 6789 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.586Z"
+          "updatedAt": "2026-05-23T06:47:44.945Z"
         },
         {
           "id": "6449-2026-04-25-23",
@@ -6255,9 +6267,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6449 HTTP 401",
+            "TradingView: TradingView 6449 HTTP 403",
             "WantGoo: WantGoo fundamentals 6449 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.551Z"
+          "updatedAt": "2026-05-23T06:47:44.892Z"
         },
         {
           "id": "4958-2026-04-24-24",
@@ -6302,7 +6315,7 @@
             "Yahoo Finance: Yahoo fundamentals 4958 HTTP 401",
             "WantGoo: WantGoo fundamentals 4958 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.186Z"
+          "updatedAt": "2026-05-23T06:47:44.611Z"
         },
         {
           "id": "2330-2026-04-23-25",
@@ -6347,7 +6360,7 @@
             "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
             "WantGoo: WantGoo fundamentals 2330 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.508Z"
+          "updatedAt": "2026-05-23T06:47:43.973Z"
         },
         {
           "id": "2308-2026-04-23-26",
@@ -6392,7 +6405,7 @@
             "Yahoo Finance: Yahoo fundamentals 2308 HTTP 401",
             "WantGoo: WantGoo fundamentals 2308 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.430Z"
+          "updatedAt": "2026-05-23T06:47:43.894Z"
         },
         {
           "id": "5340-2026-04-23-27",
@@ -6438,7 +6451,7 @@
             "TradingView: TradingView 5340 HTTP 404",
             "WantGoo: WantGoo fundamentals 5340 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.305Z"
+          "updatedAt": "2026-05-23T06:47:44.691Z"
         },
         {
           "id": "4979-2026-04-23-28",
@@ -6484,7 +6497,7 @@
             "TradingView: TradingView 4979 HTTP 404",
             "WantGoo: WantGoo fundamentals 4979 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.231Z"
+          "updatedAt": "2026-05-23T06:47:44.638Z"
         }
       ]
     },
@@ -7484,7 +7497,7 @@
             "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
             "WantGoo: WantGoo fundamentals 6239 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.455Z"
+          "updatedAt": "2026-05-23T06:47:44.845Z"
         },
         {
           "id": "3443-2026-05-22-1",
@@ -7529,7 +7542,7 @@
             "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
             "WantGoo: WantGoo fundamentals 3443 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.116Z"
+          "updatedAt": "2026-05-23T06:47:44.468Z"
         },
         {
           "id": "4541-2026-05-21-2",
@@ -7575,7 +7588,7 @@
             "TradingView: TradingView 4541 HTTP 404",
             "WantGoo: WantGoo fundamentals 4541 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.147Z"
+          "updatedAt": "2026-05-23T06:47:44.559Z"
         },
         {
           "id": "3088-2026-05-21-3",
@@ -7621,7 +7634,7 @@
             "TradingView: TradingView 3088 HTTP 404",
             "WantGoo: WantGoo fundamentals 3088 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.883Z"
+          "updatedAt": "2026-05-23T06:47:44.350Z"
         },
         {
           "id": "2645-2026-05-21-4",
@@ -7666,7 +7679,7 @@
             "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401",
             "WantGoo: WantGoo fundamentals 2645 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.734Z"
+          "updatedAt": "2026-05-23T06:47:44.226Z"
         },
         {
           "id": "3702-2026-05-20-5",
@@ -7711,7 +7724,7 @@
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
             "WantGoo: WantGoo fundamentals 3702 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.119Z"
+          "updatedAt": "2026-05-23T06:47:44.545Z"
         },
         {
           "id": "1476-2026-05-20-6",
@@ -7756,7 +7769,7 @@
             "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401",
             "WantGoo: WantGoo fundamentals 1476 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.273Z"
+          "updatedAt": "2026-05-23T06:47:43.740Z"
         },
         {
           "id": "2949-2026-05-20-7",
@@ -7802,7 +7815,7 @@
             "TradingView: TradingView 2949 HTTP 404",
             "WantGoo: WantGoo fundamentals 2949 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.846Z"
+          "updatedAt": "2026-05-23T06:47:44.296Z"
         },
         {
           "id": "8111-2026-05-20-8",
@@ -7845,10 +7858,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
-            "TradingView: TradingView 8111 HTTP 404",
+            "TradingView: TradingView 8111 HTTP 403",
             "WantGoo: WantGoo fundamentals 8111 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.717Z"
+          "updatedAt": "2026-05-23T06:47:45.058Z"
         },
         {
           "id": "2891-2026-05-20-9",
@@ -7893,7 +7906,7 @@
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
             "WantGoo: WantGoo fundamentals 2891 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.816Z"
+          "updatedAt": "2026-05-23T06:47:44.300Z"
         },
         {
           "id": "6902-2026-05-19-10",
@@ -7936,9 +7949,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401",
+            "TradingView: TradingView 6902 HTTP 403",
             "WantGoo: WantGoo fundamentals 6902 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.616Z"
+          "updatedAt": "2026-05-23T06:47:44.977Z"
         },
         {
           "id": "2359-2026-05-19-11",
@@ -7983,7 +7997,7 @@
             "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401",
             "WantGoo: WantGoo fundamentals 2359 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.536Z"
+          "updatedAt": "2026-05-23T06:47:44.021Z"
         },
         {
           "id": "5388-2026-05-19-12",
@@ -8028,7 +8042,7 @@
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
             "WantGoo: WantGoo fundamentals 5388 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.330Z"
+          "updatedAt": "2026-05-23T06:47:44.709Z"
         },
         {
           "id": "1503-2026-05-18-13",
@@ -8073,7 +8087,7 @@
             "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401",
             "WantGoo: WantGoo fundamentals 1503 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.292Z"
+          "updatedAt": "2026-05-23T06:47:43.747Z"
         },
         {
           "id": "6414-2026-05-18-14",
@@ -8118,7 +8132,7 @@
             "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401",
             "WantGoo: WantGoo fundamentals 6414 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.503Z"
+          "updatedAt": "2026-05-23T06:47:44.890Z"
         },
         {
           "id": "2890-2026-05-18-15",
@@ -8163,7 +8177,7 @@
             "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401",
             "WantGoo: WantGoo fundamentals 2890 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.801Z"
+          "updatedAt": "2026-05-23T06:47:44.283Z"
         },
         {
           "id": "6177-2026-05-18-16",
@@ -8208,7 +8222,7 @@
             "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401",
             "WantGoo: WantGoo fundamentals 6177 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.395Z"
+          "updatedAt": "2026-05-23T06:47:44.788Z"
         },
         {
           "id": "8462-2026-05-15-17",
@@ -8251,9 +8265,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401",
+            "TradingView: TradingView 8462 HTTP 403",
             "WantGoo: WantGoo fundamentals 8462 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.706Z"
+          "updatedAt": "2026-05-23T06:47:45.118Z"
         },
         {
           "id": "2034-2026-05-15-18",
@@ -8298,7 +8313,7 @@
             "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401",
             "WantGoo: WantGoo fundamentals 2034 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.342Z"
+          "updatedAt": "2026-05-23T06:47:43.865Z"
         },
         {
           "id": "1326-2026-05-15-19",
@@ -8343,7 +8358,7 @@
             "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401",
             "WantGoo: WantGoo fundamentals 1326 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.274Z"
+          "updatedAt": "2026-05-23T06:47:43.743Z"
         },
         {
           "id": "2480-2026-05-15-20",
@@ -8388,7 +8403,7 @@
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
             "WantGoo: WantGoo fundamentals 2480 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.698Z"
+          "updatedAt": "2026-05-23T06:47:44.191Z"
         },
         {
           "id": "6664-2026-05-15-21",
@@ -8431,10 +8446,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
-            "TradingView: TradingView 6664 HTTP 404",
+            "TradingView: TradingView 6664 HTTP 403",
             "WantGoo: WantGoo fundamentals 6664 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.595Z"
+          "updatedAt": "2026-05-23T06:47:44.931Z"
         },
         {
           "id": "2327-2026-05-15-22",
@@ -8479,7 +8494,7 @@
             "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
             "WantGoo: WantGoo fundamentals 2327 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.433Z"
+          "updatedAt": "2026-05-23T06:47:43.951Z"
         },
         {
           "id": "2317-2026-05-15-23",
@@ -8524,7 +8539,7 @@
             "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
             "WantGoo: WantGoo fundamentals 2317 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.420Z"
+          "updatedAt": "2026-05-23T06:47:43.936Z"
         },
         {
           "id": "2515-2026-05-15-24",
@@ -8569,7 +8584,7 @@
             "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401",
             "WantGoo: WantGoo fundamentals 2515 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.764Z"
+          "updatedAt": "2026-05-23T06:47:44.207Z"
         },
         {
           "id": "2891-2026-05-15-25",
@@ -8614,7 +8629,7 @@
             "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
             "WantGoo: WantGoo fundamentals 2891 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.816Z"
+          "updatedAt": "2026-05-23T06:47:44.300Z"
         },
         {
           "id": "5534-2026-05-15-26",
@@ -8659,7 +8674,7 @@
             "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401",
             "WantGoo: WantGoo fundamentals 5534 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.347Z"
+          "updatedAt": "2026-05-23T06:47:44.731Z"
         },
         {
           "id": "7769-2026-05-14-27",
@@ -8702,9 +8717,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+            "TradingView: TradingView 7769 HTTP 403",
             "WantGoo: WantGoo fundamentals 7769 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.621Z"
+          "updatedAt": "2026-05-23T06:47:45.000Z"
         },
         {
           "id": "6223-2026-05-14-28",
@@ -8750,7 +8766,7 @@
             "TradingView: TradingView 6223 HTTP 404",
             "WantGoo: WantGoo fundamentals 6223 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.465Z"
+          "updatedAt": "2026-05-23T06:47:44.818Z"
         },
         {
           "id": "2762-2026-05-14-29",
@@ -8795,7 +8811,7 @@
             "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401",
             "WantGoo: WantGoo fundamentals 2762 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.759Z"
+          "updatedAt": "2026-05-23T06:47:44.240Z"
         },
         {
           "id": "4571-2026-05-14-30",
@@ -8840,7 +8856,7 @@
             "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401",
             "WantGoo: WantGoo fundamentals 4571 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.194Z"
+          "updatedAt": "2026-05-23T06:47:44.592Z"
         },
         {
           "id": "6531-2026-05-13-31",
@@ -8883,9 +8899,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401",
+            "TradingView: TradingView 6531 HTTP 403",
             "WantGoo: WantGoo fundamentals 6531 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.546Z"
+          "updatedAt": "2026-05-23T06:47:44.932Z"
         },
         {
           "id": "4966-2026-05-13-32",
@@ -8931,7 +8948,7 @@
             "TradingView: TradingView 4966 HTTP 404",
             "WantGoo: WantGoo fundamentals 4966 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.218Z"
+          "updatedAt": "2026-05-23T06:47:44.633Z"
         },
         {
           "id": "2615-2026-05-13-33",
@@ -8976,7 +8993,7 @@
             "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401",
             "WantGoo: WantGoo fundamentals 2615 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.789Z"
+          "updatedAt": "2026-05-23T06:47:44.239Z"
         },
         {
           "id": "7750-2026-05-13-34",
@@ -9019,9 +9036,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401",
+            "TradingView: TradingView 7750 HTTP 403",
             "WantGoo: WantGoo fundamentals 7750 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.630Z"
+          "updatedAt": "2026-05-23T06:47:44.999Z"
         },
         {
           "id": "6166-2026-05-13-35",
@@ -9066,7 +9084,7 @@
             "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401",
             "WantGoo: WantGoo fundamentals 6166 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.391Z"
+          "updatedAt": "2026-05-23T06:47:44.764Z"
         },
         {
           "id": "3702-2026-05-13-36",
@@ -9111,7 +9129,7 @@
             "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
             "WantGoo: WantGoo fundamentals 3702 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.119Z"
+          "updatedAt": "2026-05-23T06:47:44.545Z"
         },
         {
           "id": "2404-2026-05-13-37",
@@ -9156,7 +9174,7 @@
             "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401",
             "WantGoo: WantGoo fundamentals 2404 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.640Z"
+          "updatedAt": "2026-05-23T06:47:44.116Z"
         },
         {
           "id": "5536-2026-05-13-38",
@@ -9202,7 +9220,7 @@
             "TradingView: TradingView 5536 HTTP 404",
             "WantGoo: WantGoo fundamentals 5536 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.352Z"
+          "updatedAt": "2026-05-23T06:47:44.738Z"
         },
         {
           "id": "1605-2026-05-12-39",
@@ -9247,7 +9265,7 @@
             "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401",
             "WantGoo: WantGoo fundamentals 1605 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.286Z"
+          "updatedAt": "2026-05-23T06:47:43.981Z"
         },
         {
           "id": "8069-2026-05-12-40",
@@ -9290,10 +9308,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
-            "TradingView: TradingView 8069 HTTP 404",
+            "TradingView: TradingView 8069 HTTP 403",
             "WantGoo: WantGoo fundamentals 8069 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.665Z"
+          "updatedAt": "2026-05-23T06:47:45.060Z"
         },
         {
           "id": "2049-2026-05-12-41",
@@ -9338,7 +9356,7 @@
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
             "WantGoo: WantGoo fundamentals 2049 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.340Z"
+          "updatedAt": "2026-05-23T06:47:43.797Z"
         },
         {
           "id": "6415-2026-05-12-42",
@@ -9383,7 +9401,7 @@
             "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401",
             "WantGoo: WantGoo fundamentals 6415 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.505Z"
+          "updatedAt": "2026-05-23T06:47:44.891Z"
         },
         {
           "id": "2385-2026-05-12-43",
@@ -9428,7 +9446,7 @@
             "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401",
             "WantGoo: WantGoo fundamentals 2385 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.596Z"
+          "updatedAt": "2026-05-23T06:47:44.090Z"
         },
         {
           "id": "4566-2026-05-12-44",
@@ -9473,7 +9491,7 @@
             "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401",
             "WantGoo: WantGoo fundamentals 4566 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.168Z"
+          "updatedAt": "2026-05-23T06:47:44.587Z"
         },
         {
           "id": "7734-2026-05-12-45",
@@ -9516,10 +9534,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
-            "TradingView: TradingView 7734 HTTP 404",
+            "TradingView: TradingView 7734 HTTP 403",
             "WantGoo: WantGoo fundamentals 7734 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.617Z"
+          "updatedAt": "2026-05-23T06:47:45.002Z"
         },
         {
           "id": "3680-2026-05-12-46",
@@ -9565,7 +9583,7 @@
             "TradingView: TradingView 3680 HTTP 404",
             "WantGoo: WantGoo fundamentals 3680 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.105Z"
+          "updatedAt": "2026-05-23T06:47:44.553Z"
         },
         {
           "id": "4961-2026-05-12-47",
@@ -9610,7 +9628,7 @@
             "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401",
             "WantGoo: WantGoo fundamentals 4961 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.187Z"
+          "updatedAt": "2026-05-23T06:47:44.605Z"
         },
         {
           "id": "2408-2026-05-12-48",
@@ -9655,7 +9673,7 @@
             "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
             "WantGoo: WantGoo fundamentals 2408 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.632Z"
+          "updatedAt": "2026-05-23T06:47:44.105Z"
         },
         {
           "id": "1802-2026-05-12-49",
@@ -9700,7 +9718,7 @@
             "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401",
             "WantGoo: WantGoo fundamentals 1802 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.486Z"
+          "updatedAt": "2026-05-23T06:47:43.933Z"
         },
         {
           "id": "4551-2026-05-11-50",
@@ -9745,7 +9763,7 @@
             "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401",
             "WantGoo: WantGoo fundamentals 4551 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.188Z"
+          "updatedAt": "2026-05-23T06:47:44.588Z"
         },
         {
           "id": "6829-2026-05-11-51",
@@ -9788,10 +9806,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
-            "TradingView: TradingView 6829 HTTP 404",
+            "TradingView: TradingView 6829 HTTP 403",
             "WantGoo: WantGoo fundamentals 6829 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.587Z"
+          "updatedAt": "2026-05-23T06:47:44.965Z"
         },
         {
           "id": "2344-2026-05-11-52",
@@ -9836,7 +9854,7 @@
             "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401",
             "WantGoo: WantGoo fundamentals 2344 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.493Z"
+          "updatedAt": "2026-05-23T06:47:43.992Z"
         },
         {
           "id": "3596-2026-05-11-53",
@@ -9881,7 +9899,7 @@
             "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401",
             "WantGoo: WantGoo fundamentals 3596 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.064Z"
+          "updatedAt": "2026-05-23T06:47:44.504Z"
         },
         {
           "id": "2049-2026-05-11-54",
@@ -9926,7 +9944,7 @@
             "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
             "WantGoo: WantGoo fundamentals 2049 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.340Z"
+          "updatedAt": "2026-05-23T06:47:43.797Z"
         },
         {
           "id": "2451-2026-05-11-55",
@@ -9971,7 +9989,7 @@
             "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401",
             "WantGoo: WantGoo fundamentals 2451 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.664Z"
+          "updatedAt": "2026-05-23T06:47:44.162Z"
         },
         {
           "id": "8210-2026-05-11-56",
@@ -10014,9 +10032,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401",
+            "TradingView: TradingView 8210 HTTP 403",
             "WantGoo: WantGoo fundamentals 8210 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.666Z"
+          "updatedAt": "2026-05-23T06:47:45.059Z"
         },
         {
           "id": "1519-2026-05-11-57",
@@ -10061,7 +10080,7 @@
             "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401",
             "WantGoo: WantGoo fundamentals 1519 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.271Z"
+          "updatedAt": "2026-05-23T06:47:43.761Z"
         },
         {
           "id": "5289-2026-05-11-58",
@@ -10107,7 +10126,7 @@
             "TradingView: TradingView 5289 HTTP 404",
             "WantGoo: WantGoo fundamentals 5289 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.291Z"
+          "updatedAt": "2026-05-23T06:47:44.676Z"
         },
         {
           "id": "2395-2026-05-08-59",
@@ -10152,7 +10171,7 @@
             "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
             "WantGoo: WantGoo fundamentals 2395 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.602Z"
+          "updatedAt": "2026-05-23T06:47:44.103Z"
         },
         {
           "id": "6285-2026-05-08-60",
@@ -10197,7 +10216,7 @@
             "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401",
             "WantGoo: WantGoo fundamentals 6285 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.501Z"
+          "updatedAt": "2026-05-23T06:47:44.871Z"
         },
         {
           "id": "3034-2026-05-08-61",
@@ -10242,7 +10261,7 @@
             "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401",
             "WantGoo: WantGoo fundamentals 3034 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.867Z"
+          "updatedAt": "2026-05-23T06:47:44.341Z"
         },
         {
           "id": "6526-2026-05-08-62",
@@ -10285,9 +10304,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401",
+            "TradingView: TradingView 6526 HTTP 403",
             "WantGoo: WantGoo fundamentals 6526 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.542Z"
+          "updatedAt": "2026-05-23T06:47:44.905Z"
         },
         {
           "id": "2383-2026-05-08-63",
@@ -10332,7 +10352,7 @@
             "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401",
             "WantGoo: WantGoo fundamentals 2383 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.575Z"
+          "updatedAt": "2026-05-23T06:47:44.075Z"
         },
         {
           "id": "2303-2026-05-08-64",
@@ -10377,7 +10397,7 @@
             "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401",
             "WantGoo: WantGoo fundamentals 2303 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.381Z"
+          "updatedAt": "2026-05-23T06:47:43.854Z"
         },
         {
           "id": "2606-2026-05-07-65",
@@ -10422,7 +10442,7 @@
             "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401",
             "WantGoo: WantGoo fundamentals 2606 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.728Z"
+          "updatedAt": "2026-05-23T06:47:44.255Z"
         },
         {
           "id": "3260-2026-05-07-66",
@@ -10468,7 +10488,7 @@
             "TradingView: TradingView 3260 HTTP 404",
             "WantGoo: WantGoo fundamentals 3260 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.959Z"
+          "updatedAt": "2026-05-23T06:47:44.438Z"
         },
         {
           "id": "5388-2026-05-07-67",
@@ -10513,7 +10533,7 @@
             "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
             "WantGoo: WantGoo fundamentals 5388 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.330Z"
+          "updatedAt": "2026-05-23T06:47:44.709Z"
         },
         {
           "id": "8299-2026-05-07-68",
@@ -10556,10 +10576,10 @@
           "failedProviders": [
             "TWSE OpenAPI: not TWSE",
             "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-            "TradingView: TradingView 8299 HTTP 404",
+            "TradingView: TradingView 8299 HTTP 403",
             "WantGoo: WantGoo fundamentals 8299 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.742Z"
+          "updatedAt": "2026-05-23T06:47:45.108Z"
         },
         {
           "id": "3661-2026-05-07-69",
@@ -10604,7 +10624,7 @@
             "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401",
             "WantGoo: WantGoo fundamentals 3661 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.064Z"
+          "updatedAt": "2026-05-23T06:47:44.504Z"
         },
         {
           "id": "2884-2026-05-07-70",
@@ -10649,7 +10669,7 @@
             "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
             "WantGoo: WantGoo fundamentals 2884 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.795Z"
+          "updatedAt": "2026-05-23T06:47:44.284Z"
         },
         {
           "id": "3162-2026-05-06-71",
@@ -10695,7 +10715,7 @@
             "TradingView: TradingView 3162 HTTP 404",
             "WantGoo: WantGoo fundamentals 3162 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.920Z"
+          "updatedAt": "2026-05-23T06:47:44.393Z"
         },
         {
           "id": "4540-2026-05-06-72",
@@ -10740,7 +10760,7 @@
             "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401",
             "WantGoo: WantGoo fundamentals 4540 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.139Z"
+          "updatedAt": "2026-05-23T06:47:44.548Z"
         },
         {
           "id": "4991-2026-05-06-73",
@@ -10786,7 +10806,7 @@
             "TradingView: TradingView 4991 HTTP 404",
             "WantGoo: WantGoo fundamentals 4991 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.253Z"
+          "updatedAt": "2026-05-23T06:47:44.645Z"
         },
         {
           "id": "3044-2026-05-06-74",
@@ -10831,7 +10851,7 @@
             "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401",
             "WantGoo: WantGoo fundamentals 3044 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.884Z"
+          "updatedAt": "2026-05-23T06:47:44.358Z"
         },
         {
           "id": "5347-2026-05-06-75",
@@ -10877,7 +10897,7 @@
             "TradingView: TradingView 5347 HTTP 404",
             "WantGoo: WantGoo fundamentals 5347 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.317Z"
+          "updatedAt": "2026-05-23T06:47:44.696Z"
         },
         {
           "id": "3264-2026-05-05-76",
@@ -10923,7 +10943,7 @@
             "TradingView: TradingView 3264 HTTP 404",
             "WantGoo: WantGoo fundamentals 3264 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.988Z"
+          "updatedAt": "2026-05-23T06:47:44.446Z"
         },
         {
           "id": "2449-2026-05-05-77",
@@ -10968,7 +10988,7 @@
             "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
             "WantGoo: WantGoo fundamentals 2449 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.657Z"
+          "updatedAt": "2026-05-23T06:47:44.144Z"
         },
         {
           "id": "2360-2026-05-05-78",
@@ -11013,7 +11033,7 @@
             "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401",
             "WantGoo: WantGoo fundamentals 2360 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.546Z"
+          "updatedAt": "2026-05-23T06:47:44.037Z"
         },
         {
           "id": "2454-2026-05-05-79",
@@ -11058,7 +11078,7 @@
             "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
             "WantGoo: WantGoo fundamentals 2454 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.701Z"
+          "updatedAt": "2026-05-23T06:47:44.158Z"
         },
         {
           "id": "4979-2026-05-05-80",
@@ -11104,7 +11124,7 @@
             "TradingView: TradingView 4979 HTTP 404",
             "WantGoo: WantGoo fundamentals 4979 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.231Z"
+          "updatedAt": "2026-05-23T06:47:44.638Z"
         },
         {
           "id": "2345-2026-05-05-81",
@@ -11149,7 +11169,7 @@
             "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401",
             "WantGoo: WantGoo fundamentals 2345 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.518Z"
+          "updatedAt": "2026-05-23T06:47:43.990Z"
         },
         {
           "id": "3105-2026-05-04-82",
@@ -11195,7 +11215,7 @@
             "TradingView: TradingView 3105 HTTP 404",
             "WantGoo: WantGoo fundamentals 3105 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.904Z"
+          "updatedAt": "2026-05-23T06:47:44.386Z"
         },
         {
           "id": "2480-2026-05-04-83",
@@ -11240,7 +11260,7 @@
             "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
             "WantGoo: WantGoo fundamentals 2480 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.698Z"
+          "updatedAt": "2026-05-23T06:47:44.191Z"
         },
         {
           "id": "8996-2026-05-04-84",
@@ -11283,9 +11303,10 @@
           "failedProviders": [
             "TPEX API: not TPEX",
             "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401",
+            "TradingView: TradingView 8996 HTTP 403",
             "WantGoo: WantGoo fundamentals 8996 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:57.738Z"
+          "updatedAt": "2026-05-23T06:47:45.115Z"
         },
         {
           "id": "2439-2026-05-04-85",
@@ -11330,7 +11351,7 @@
             "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401",
             "WantGoo: WantGoo fundamentals 2439 HTTP 403"
           ],
-          "updatedAt": "2026-05-22T20:30:56.633Z"
+          "updatedAt": "2026-05-23T06:47:44.137Z"
         }
       ]
     }
@@ -11379,7 +11400,7 @@
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
         "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.455Z",
+      "updatedAt": "2026-05-23T06:47:44.845Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11426,7 +11447,7 @@
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
         "WantGoo: WantGoo fundamentals 3443 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.116Z",
+      "updatedAt": "2026-05-23T06:47:44.468Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11474,7 +11495,7 @@
         "TradingView: TradingView 4541 HTTP 404",
         "WantGoo: WantGoo fundamentals 4541 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.147Z",
+      "updatedAt": "2026-05-23T06:47:44.559Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11522,7 +11543,7 @@
         "TradingView: TradingView 3088 HTTP 404",
         "WantGoo: WantGoo fundamentals 3088 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.883Z",
+      "updatedAt": "2026-05-23T06:47:44.350Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11569,7 +11590,7 @@
         "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401",
         "WantGoo: WantGoo fundamentals 2645 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.734Z",
+      "updatedAt": "2026-05-23T06:47:44.226Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11616,7 +11637,7 @@
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
         "WantGoo: WantGoo fundamentals 3702 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.119Z",
+      "updatedAt": "2026-05-23T06:47:44.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11663,7 +11684,7 @@
         "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401",
         "WantGoo: WantGoo fundamentals 1476 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.273Z",
+      "updatedAt": "2026-05-23T06:47:43.740Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11711,7 +11732,7 @@
         "TradingView: TradingView 2949 HTTP 404",
         "WantGoo: WantGoo fundamentals 2949 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.846Z",
+      "updatedAt": "2026-05-23T06:47:44.296Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11756,10 +11777,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
-        "TradingView: TradingView 8111 HTTP 404",
+        "TradingView: TradingView 8111 HTTP 403",
         "WantGoo: WantGoo fundamentals 8111 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.717Z",
+      "updatedAt": "2026-05-23T06:47:45.058Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11806,7 +11827,7 @@
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
         "WantGoo: WantGoo fundamentals 2891 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.816Z",
+      "updatedAt": "2026-05-23T06:47:44.300Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11851,9 +11872,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401",
+        "TradingView: TradingView 6902 HTTP 403",
         "WantGoo: WantGoo fundamentals 6902 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.616Z",
+      "updatedAt": "2026-05-23T06:47:44.977Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11900,7 +11922,7 @@
         "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401",
         "WantGoo: WantGoo fundamentals 2359 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.536Z",
+      "updatedAt": "2026-05-23T06:47:44.021Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11947,7 +11969,7 @@
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
         "WantGoo: WantGoo fundamentals 5388 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.330Z",
+      "updatedAt": "2026-05-23T06:47:44.709Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -11994,7 +12016,7 @@
         "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401",
         "WantGoo: WantGoo fundamentals 1503 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.292Z",
+      "updatedAt": "2026-05-23T06:47:43.747Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12041,7 +12063,7 @@
         "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401",
         "WantGoo: WantGoo fundamentals 6414 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.503Z",
+      "updatedAt": "2026-05-23T06:47:44.890Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12088,7 +12110,7 @@
         "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401",
         "WantGoo: WantGoo fundamentals 2890 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.801Z",
+      "updatedAt": "2026-05-23T06:47:44.283Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12135,7 +12157,7 @@
         "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401",
         "WantGoo: WantGoo fundamentals 6177 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.395Z",
+      "updatedAt": "2026-05-23T06:47:44.788Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12180,9 +12202,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401",
+        "TradingView: TradingView 8462 HTTP 403",
         "WantGoo: WantGoo fundamentals 8462 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.706Z",
+      "updatedAt": "2026-05-23T06:47:45.118Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12229,7 +12252,7 @@
         "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401",
         "WantGoo: WantGoo fundamentals 2034 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.342Z",
+      "updatedAt": "2026-05-23T06:47:43.865Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12276,7 +12299,7 @@
         "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401",
         "WantGoo: WantGoo fundamentals 1326 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.274Z",
+      "updatedAt": "2026-05-23T06:47:43.743Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12323,7 +12346,7 @@
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
         "WantGoo: WantGoo fundamentals 2480 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.698Z",
+      "updatedAt": "2026-05-23T06:47:44.191Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12368,10 +12391,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
-        "TradingView: TradingView 6664 HTTP 404",
+        "TradingView: TradingView 6664 HTTP 403",
         "WantGoo: WantGoo fundamentals 6664 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.595Z",
+      "updatedAt": "2026-05-23T06:47:44.931Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12418,7 +12441,7 @@
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.433Z",
+      "updatedAt": "2026-05-23T06:47:43.951Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12465,7 +12488,7 @@
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
         "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.420Z",
+      "updatedAt": "2026-05-23T06:47:43.936Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12512,7 +12535,7 @@
         "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401",
         "WantGoo: WantGoo fundamentals 2515 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.764Z",
+      "updatedAt": "2026-05-23T06:47:44.207Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12559,7 +12582,7 @@
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
         "WantGoo: WantGoo fundamentals 2891 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.816Z",
+      "updatedAt": "2026-05-23T06:47:44.300Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12606,7 +12629,7 @@
         "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401",
         "WantGoo: WantGoo fundamentals 5534 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.347Z",
+      "updatedAt": "2026-05-23T06:47:44.731Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12651,9 +12674,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+        "TradingView: TradingView 7769 HTTP 403",
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.621Z",
+      "updatedAt": "2026-05-23T06:47:45.000Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12701,7 +12725,7 @@
         "TradingView: TradingView 6223 HTTP 404",
         "WantGoo: WantGoo fundamentals 6223 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.465Z",
+      "updatedAt": "2026-05-23T06:47:44.818Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12748,7 +12772,7 @@
         "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401",
         "WantGoo: WantGoo fundamentals 2762 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.759Z",
+      "updatedAt": "2026-05-23T06:47:44.240Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12795,7 +12819,7 @@
         "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401",
         "WantGoo: WantGoo fundamentals 4571 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.194Z",
+      "updatedAt": "2026-05-23T06:47:44.592Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12840,9 +12864,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401",
+        "TradingView: TradingView 6531 HTTP 403",
         "WantGoo: WantGoo fundamentals 6531 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.546Z",
+      "updatedAt": "2026-05-23T06:47:44.932Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12890,7 +12915,7 @@
         "TradingView: TradingView 4966 HTTP 404",
         "WantGoo: WantGoo fundamentals 4966 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.218Z",
+      "updatedAt": "2026-05-23T06:47:44.633Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12937,7 +12962,7 @@
         "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401",
         "WantGoo: WantGoo fundamentals 2615 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.789Z",
+      "updatedAt": "2026-05-23T06:47:44.239Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -12982,9 +13007,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401",
+        "TradingView: TradingView 7750 HTTP 403",
         "WantGoo: WantGoo fundamentals 7750 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.630Z",
+      "updatedAt": "2026-05-23T06:47:44.999Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13031,7 +13057,7 @@
         "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401",
         "WantGoo: WantGoo fundamentals 6166 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.391Z",
+      "updatedAt": "2026-05-23T06:47:44.764Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13078,7 +13104,7 @@
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
         "WantGoo: WantGoo fundamentals 3702 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.119Z",
+      "updatedAt": "2026-05-23T06:47:44.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13125,7 +13151,7 @@
         "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401",
         "WantGoo: WantGoo fundamentals 2404 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.640Z",
+      "updatedAt": "2026-05-23T06:47:44.116Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13173,7 +13199,7 @@
         "TradingView: TradingView 5536 HTTP 404",
         "WantGoo: WantGoo fundamentals 5536 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.352Z",
+      "updatedAt": "2026-05-23T06:47:44.738Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13220,7 +13246,7 @@
         "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401",
         "WantGoo: WantGoo fundamentals 1605 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.286Z",
+      "updatedAt": "2026-05-23T06:47:43.981Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13265,10 +13291,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
-        "TradingView: TradingView 8069 HTTP 404",
+        "TradingView: TradingView 8069 HTTP 403",
         "WantGoo: WantGoo fundamentals 8069 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.665Z",
+      "updatedAt": "2026-05-23T06:47:45.060Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13315,7 +13341,7 @@
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
         "WantGoo: WantGoo fundamentals 2049 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.340Z",
+      "updatedAt": "2026-05-23T06:47:43.797Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13362,7 +13388,7 @@
         "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401",
         "WantGoo: WantGoo fundamentals 6415 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.505Z",
+      "updatedAt": "2026-05-23T06:47:44.891Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13409,7 +13435,7 @@
         "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401",
         "WantGoo: WantGoo fundamentals 2385 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.596Z",
+      "updatedAt": "2026-05-23T06:47:44.090Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13456,7 +13482,7 @@
         "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401",
         "WantGoo: WantGoo fundamentals 4566 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.168Z",
+      "updatedAt": "2026-05-23T06:47:44.587Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13501,10 +13527,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
-        "TradingView: TradingView 7734 HTTP 404",
+        "TradingView: TradingView 7734 HTTP 403",
         "WantGoo: WantGoo fundamentals 7734 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.617Z",
+      "updatedAt": "2026-05-23T06:47:45.002Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13552,7 +13578,7 @@
         "TradingView: TradingView 3680 HTTP 404",
         "WantGoo: WantGoo fundamentals 3680 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.105Z",
+      "updatedAt": "2026-05-23T06:47:44.553Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13599,7 +13625,7 @@
         "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401",
         "WantGoo: WantGoo fundamentals 4961 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.187Z",
+      "updatedAt": "2026-05-23T06:47:44.605Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13646,7 +13672,7 @@
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
         "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.632Z",
+      "updatedAt": "2026-05-23T06:47:44.105Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13693,7 +13719,7 @@
         "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401",
         "WantGoo: WantGoo fundamentals 1802 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.486Z",
+      "updatedAt": "2026-05-23T06:47:43.933Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13740,7 +13766,7 @@
         "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401",
         "WantGoo: WantGoo fundamentals 4551 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.188Z",
+      "updatedAt": "2026-05-23T06:47:44.588Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13785,10 +13811,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
-        "TradingView: TradingView 6829 HTTP 404",
+        "TradingView: TradingView 6829 HTTP 403",
         "WantGoo: WantGoo fundamentals 6829 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.587Z",
+      "updatedAt": "2026-05-23T06:47:44.965Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13835,7 +13861,7 @@
         "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401",
         "WantGoo: WantGoo fundamentals 2344 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.493Z",
+      "updatedAt": "2026-05-23T06:47:43.992Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13882,7 +13908,7 @@
         "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401",
         "WantGoo: WantGoo fundamentals 3596 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.064Z",
+      "updatedAt": "2026-05-23T06:47:44.504Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13929,7 +13955,7 @@
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
         "WantGoo: WantGoo fundamentals 2049 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.340Z",
+      "updatedAt": "2026-05-23T06:47:43.797Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -13976,7 +14002,7 @@
         "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401",
         "WantGoo: WantGoo fundamentals 2451 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.664Z",
+      "updatedAt": "2026-05-23T06:47:44.162Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14021,9 +14047,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401",
+        "TradingView: TradingView 8210 HTTP 403",
         "WantGoo: WantGoo fundamentals 8210 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.666Z",
+      "updatedAt": "2026-05-23T06:47:45.059Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14070,7 +14097,7 @@
         "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401",
         "WantGoo: WantGoo fundamentals 1519 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.271Z",
+      "updatedAt": "2026-05-23T06:47:43.761Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14118,7 +14145,7 @@
         "TradingView: TradingView 5289 HTTP 404",
         "WantGoo: WantGoo fundamentals 5289 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.291Z",
+      "updatedAt": "2026-05-23T06:47:44.676Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14165,7 +14192,7 @@
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
         "WantGoo: WantGoo fundamentals 2395 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.602Z",
+      "updatedAt": "2026-05-23T06:47:44.103Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14212,7 +14239,7 @@
         "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401",
         "WantGoo: WantGoo fundamentals 6285 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.501Z",
+      "updatedAt": "2026-05-23T06:47:44.871Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14259,7 +14286,7 @@
         "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401",
         "WantGoo: WantGoo fundamentals 3034 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.867Z",
+      "updatedAt": "2026-05-23T06:47:44.341Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14304,9 +14331,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401",
+        "TradingView: TradingView 6526 HTTP 403",
         "WantGoo: WantGoo fundamentals 6526 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.542Z",
+      "updatedAt": "2026-05-23T06:47:44.905Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14353,7 +14381,7 @@
         "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401",
         "WantGoo: WantGoo fundamentals 2383 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.575Z",
+      "updatedAt": "2026-05-23T06:47:44.075Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14400,7 +14428,7 @@
         "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401",
         "WantGoo: WantGoo fundamentals 2303 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.381Z",
+      "updatedAt": "2026-05-23T06:47:43.854Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14447,7 +14475,7 @@
         "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401",
         "WantGoo: WantGoo fundamentals 2606 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.728Z",
+      "updatedAt": "2026-05-23T06:47:44.255Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14495,7 +14523,7 @@
         "TradingView: TradingView 3260 HTTP 404",
         "WantGoo: WantGoo fundamentals 3260 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.959Z",
+      "updatedAt": "2026-05-23T06:47:44.438Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14542,7 +14570,7 @@
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
         "WantGoo: WantGoo fundamentals 5388 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.330Z",
+      "updatedAt": "2026-05-23T06:47:44.709Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14587,10 +14615,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-        "TradingView: TradingView 8299 HTTP 404",
+        "TradingView: TradingView 8299 HTTP 403",
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.742Z",
+      "updatedAt": "2026-05-23T06:47:45.108Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14637,7 +14665,7 @@
         "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401",
         "WantGoo: WantGoo fundamentals 3661 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.064Z",
+      "updatedAt": "2026-05-23T06:47:44.504Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14684,7 +14712,7 @@
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
         "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.795Z",
+      "updatedAt": "2026-05-23T06:47:44.284Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14732,7 +14760,7 @@
         "TradingView: TradingView 3162 HTTP 404",
         "WantGoo: WantGoo fundamentals 3162 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.920Z",
+      "updatedAt": "2026-05-23T06:47:44.393Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14779,7 +14807,7 @@
         "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401",
         "WantGoo: WantGoo fundamentals 4540 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.139Z",
+      "updatedAt": "2026-05-23T06:47:44.548Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14827,7 +14855,7 @@
         "TradingView: TradingView 4991 HTTP 404",
         "WantGoo: WantGoo fundamentals 4991 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.253Z",
+      "updatedAt": "2026-05-23T06:47:44.645Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14874,7 +14902,7 @@
         "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401",
         "WantGoo: WantGoo fundamentals 3044 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.884Z",
+      "updatedAt": "2026-05-23T06:47:44.358Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14922,7 +14950,7 @@
         "TradingView: TradingView 5347 HTTP 404",
         "WantGoo: WantGoo fundamentals 5347 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.317Z",
+      "updatedAt": "2026-05-23T06:47:44.696Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -14970,7 +14998,7 @@
         "TradingView: TradingView 3264 HTTP 404",
         "WantGoo: WantGoo fundamentals 3264 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.988Z",
+      "updatedAt": "2026-05-23T06:47:44.446Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15017,7 +15045,7 @@
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
         "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.657Z",
+      "updatedAt": "2026-05-23T06:47:44.144Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15064,7 +15092,7 @@
         "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401",
         "WantGoo: WantGoo fundamentals 2360 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.546Z",
+      "updatedAt": "2026-05-23T06:47:44.037Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15111,7 +15139,7 @@
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.701Z",
+      "updatedAt": "2026-05-23T06:47:44.158Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15159,7 +15187,7 @@
         "TradingView: TradingView 4979 HTTP 404",
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.231Z",
+      "updatedAt": "2026-05-23T06:47:44.638Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15206,7 +15234,7 @@
         "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401",
         "WantGoo: WantGoo fundamentals 2345 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.518Z",
+      "updatedAt": "2026-05-23T06:47:43.990Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15254,7 +15282,7 @@
         "TradingView: TradingView 3105 HTTP 404",
         "WantGoo: WantGoo fundamentals 3105 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.904Z",
+      "updatedAt": "2026-05-23T06:47:44.386Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15301,7 +15329,7 @@
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
         "WantGoo: WantGoo fundamentals 2480 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.698Z",
+      "updatedAt": "2026-05-23T06:47:44.191Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15346,9 +15374,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401",
+        "TradingView: TradingView 8996 HTTP 403",
         "WantGoo: WantGoo fundamentals 8996 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.738Z",
+      "updatedAt": "2026-05-23T06:47:45.115Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15395,7 +15424,7 @@
         "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401",
         "WantGoo: WantGoo fundamentals 2439 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.633Z",
+      "updatedAt": "2026-05-23T06:47:44.137Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -15442,7 +15471,7 @@
         "Yahoo Finance: Yahoo fundamentals 6209 HTTP 401",
         "WantGoo: WantGoo fundamentals 6209 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.421Z",
+      "updatedAt": "2026-05-23T06:47:44.801Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15490,7 +15519,7 @@
         "TradingView: TradingView 6290 HTTP 404",
         "WantGoo: WantGoo fundamentals 6290 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.511Z",
+      "updatedAt": "2026-05-23T06:47:44.872Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15535,9 +15564,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6862 HTTP 401",
+        "TradingView: TradingView 6862 HTTP 403",
         "WantGoo: WantGoo fundamentals 6862 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.597Z",
+      "updatedAt": "2026-05-23T06:47:44.963Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15584,7 +15614,7 @@
         "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401",
         "WantGoo: WantGoo fundamentals 3665 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.067Z",
+      "updatedAt": "2026-05-23T06:47:44.515Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15631,7 +15661,7 @@
         "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401",
         "WantGoo: WantGoo fundamentals 3008 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.853Z",
+      "updatedAt": "2026-05-23T06:47:44.343Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15679,7 +15709,7 @@
         "TradingView: TradingView 5328 HTTP 404",
         "WantGoo: WantGoo fundamentals 5328 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.287Z",
+      "updatedAt": "2026-05-23T06:47:44.677Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15726,7 +15756,7 @@
         "Yahoo Finance: Yahoo fundamentals 3090 HTTP 401",
         "WantGoo: WantGoo fundamentals 3090 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.895Z",
+      "updatedAt": "2026-05-23T06:47:44.360Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15773,7 +15803,7 @@
         "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401",
         "WantGoo: WantGoo fundamentals 2472 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.685Z",
+      "updatedAt": "2026-05-23T06:47:44.170Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15820,7 +15850,7 @@
         "Yahoo Finance: Yahoo fundamentals 5269 HTTP 401",
         "WantGoo: WantGoo fundamentals 5269 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.273Z",
+      "updatedAt": "2026-05-23T06:47:44.655Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15865,9 +15895,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+        "TradingView: TradingView 7769 HTTP 403",
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.621Z",
+      "updatedAt": "2026-05-23T06:47:45.000Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15912,10 +15943,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-        "TradingView: TradingView 8299 HTTP 404",
+        "TradingView: TradingView 8299 HTTP 403",
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.742Z",
+      "updatedAt": "2026-05-23T06:47:45.108Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -15963,7 +15994,7 @@
         "TradingView: TradingView 5289 HTTP 404",
         "WantGoo: WantGoo fundamentals 5289 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.291Z",
+      "updatedAt": "2026-05-23T06:47:44.676Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16010,7 +16041,7 @@
         "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401",
         "WantGoo: WantGoo fundamentals 3376 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.021Z",
+      "updatedAt": "2026-05-23T06:47:44.460Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16057,7 +16088,7 @@
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.701Z",
+      "updatedAt": "2026-05-23T06:47:44.158Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16104,7 +16135,7 @@
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
         "WantGoo: WantGoo fundamentals 2395 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.602Z",
+      "updatedAt": "2026-05-23T06:47:44.103Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16151,7 +16182,7 @@
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
         "WantGoo: WantGoo fundamentals 3443 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.116Z",
+      "updatedAt": "2026-05-23T06:47:44.468Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16198,7 +16229,7 @@
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
         "WantGoo: WantGoo fundamentals 3443 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.116Z",
+      "updatedAt": "2026-05-23T06:47:44.468Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16245,7 +16276,7 @@
         "Yahoo Finance: Yahoo fundamentals 4967 HTTP 401",
         "WantGoo: WantGoo fundamentals 4967 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.230Z",
+      "updatedAt": "2026-05-23T06:47:44.634Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16292,7 +16323,7 @@
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.508Z",
+      "updatedAt": "2026-05-23T06:47:43.973Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16337,9 +16368,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8271 HTTP 401",
+        "TradingView: TradingView 8271 HTTP 403",
         "WantGoo: WantGoo fundamentals 8271 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.680Z",
+      "updatedAt": "2026-05-23T06:47:45.107Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16387,7 +16419,7 @@
         "TradingView: TradingView 5904 HTTP 404",
         "WantGoo: WantGoo fundamentals 5904 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.361Z",
+      "updatedAt": "2026-05-23T06:47:44.747Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16435,7 +16467,7 @@
         "TradingView: TradingView 6187 HTTP 404",
         "WantGoo: WantGoo fundamentals 6187 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.405Z",
+      "updatedAt": "2026-05-23T06:47:44.784Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16480,9 +16512,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6789 HTTP 401",
+        "TradingView: TradingView 6789 HTTP 403",
         "WantGoo: WantGoo fundamentals 6789 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.586Z",
+      "updatedAt": "2026-05-23T06:47:44.945Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16527,9 +16560,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6449 HTTP 401",
+        "TradingView: TradingView 6449 HTTP 403",
         "WantGoo: WantGoo fundamentals 6449 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.551Z",
+      "updatedAt": "2026-05-23T06:47:44.892Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16576,7 +16610,7 @@
         "Yahoo Finance: Yahoo fundamentals 4958 HTTP 401",
         "WantGoo: WantGoo fundamentals 4958 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.186Z",
+      "updatedAt": "2026-05-23T06:47:44.611Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16623,7 +16657,7 @@
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.508Z",
+      "updatedAt": "2026-05-23T06:47:43.973Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16670,7 +16704,7 @@
         "Yahoo Finance: Yahoo fundamentals 2308 HTTP 401",
         "WantGoo: WantGoo fundamentals 2308 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.430Z",
+      "updatedAt": "2026-05-23T06:47:43.894Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16718,7 +16752,7 @@
         "TradingView: TradingView 5340 HTTP 404",
         "WantGoo: WantGoo fundamentals 5340 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.305Z",
+      "updatedAt": "2026-05-23T06:47:44.691Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16766,7 +16800,7 @@
         "TradingView: TradingView 4979 HTTP 404",
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.231Z",
+      "updatedAt": "2026-05-23T06:47:44.638Z",
       "watchlistId": "discord",
       "watchlistName": "Discord"
     },
@@ -16813,7 +16847,7 @@
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
         "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.455Z",
+      "updatedAt": "2026-05-23T06:47:44.845Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16860,7 +16894,7 @@
         "Yahoo Finance: Yahoo fundamentals 3443 HTTP 401",
         "WantGoo: WantGoo fundamentals 3443 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.116Z",
+      "updatedAt": "2026-05-23T06:47:44.468Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16908,7 +16942,7 @@
         "TradingView: TradingView 4541 HTTP 404",
         "WantGoo: WantGoo fundamentals 4541 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.147Z",
+      "updatedAt": "2026-05-23T06:47:44.559Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -16956,7 +16990,7 @@
         "TradingView: TradingView 3088 HTTP 404",
         "WantGoo: WantGoo fundamentals 3088 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.883Z",
+      "updatedAt": "2026-05-23T06:47:44.350Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17003,7 +17037,7 @@
         "Yahoo Finance: Yahoo fundamentals 2645 HTTP 401",
         "WantGoo: WantGoo fundamentals 2645 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.734Z",
+      "updatedAt": "2026-05-23T06:47:44.226Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17050,7 +17084,7 @@
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
         "WantGoo: WantGoo fundamentals 3702 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.119Z",
+      "updatedAt": "2026-05-23T06:47:44.545Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17097,7 +17131,7 @@
         "Yahoo Finance: Yahoo fundamentals 1476 HTTP 401",
         "WantGoo: WantGoo fundamentals 1476 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.273Z",
+      "updatedAt": "2026-05-23T06:47:43.740Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17145,7 +17179,7 @@
         "TradingView: TradingView 2949 HTTP 404",
         "WantGoo: WantGoo fundamentals 2949 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.846Z",
+      "updatedAt": "2026-05-23T06:47:44.296Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17190,10 +17224,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8111 HTTP 401",
-        "TradingView: TradingView 8111 HTTP 404",
+        "TradingView: TradingView 8111 HTTP 403",
         "WantGoo: WantGoo fundamentals 8111 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.717Z",
+      "updatedAt": "2026-05-23T06:47:45.058Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17240,7 +17274,7 @@
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
         "WantGoo: WantGoo fundamentals 2891 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.816Z",
+      "updatedAt": "2026-05-23T06:47:44.300Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17285,9 +17319,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6902 HTTP 401",
+        "TradingView: TradingView 6902 HTTP 403",
         "WantGoo: WantGoo fundamentals 6902 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.616Z",
+      "updatedAt": "2026-05-23T06:47:44.977Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17334,7 +17369,7 @@
         "Yahoo Finance: Yahoo fundamentals 2359 HTTP 401",
         "WantGoo: WantGoo fundamentals 2359 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.536Z",
+      "updatedAt": "2026-05-23T06:47:44.021Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17381,7 +17416,7 @@
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
         "WantGoo: WantGoo fundamentals 5388 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.330Z",
+      "updatedAt": "2026-05-23T06:47:44.709Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17428,7 +17463,7 @@
         "Yahoo Finance: Yahoo fundamentals 1503 HTTP 401",
         "WantGoo: WantGoo fundamentals 1503 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.292Z",
+      "updatedAt": "2026-05-23T06:47:43.747Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17475,7 +17510,7 @@
         "Yahoo Finance: Yahoo fundamentals 6414 HTTP 401",
         "WantGoo: WantGoo fundamentals 6414 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.503Z",
+      "updatedAt": "2026-05-23T06:47:44.890Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17522,7 +17557,7 @@
         "Yahoo Finance: Yahoo fundamentals 2890 HTTP 401",
         "WantGoo: WantGoo fundamentals 2890 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.801Z",
+      "updatedAt": "2026-05-23T06:47:44.283Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17569,7 +17604,7 @@
         "Yahoo Finance: Yahoo fundamentals 6177 HTTP 401",
         "WantGoo: WantGoo fundamentals 6177 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.395Z",
+      "updatedAt": "2026-05-23T06:47:44.788Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17614,9 +17649,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8462 HTTP 401",
+        "TradingView: TradingView 8462 HTTP 403",
         "WantGoo: WantGoo fundamentals 8462 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.706Z",
+      "updatedAt": "2026-05-23T06:47:45.118Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17663,7 +17699,7 @@
         "Yahoo Finance: Yahoo fundamentals 2034 HTTP 401",
         "WantGoo: WantGoo fundamentals 2034 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.342Z",
+      "updatedAt": "2026-05-23T06:47:43.865Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17710,7 +17746,7 @@
         "Yahoo Finance: Yahoo fundamentals 1326 HTTP 401",
         "WantGoo: WantGoo fundamentals 1326 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.274Z",
+      "updatedAt": "2026-05-23T06:47:43.743Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17757,7 +17793,7 @@
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
         "WantGoo: WantGoo fundamentals 2480 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.698Z",
+      "updatedAt": "2026-05-23T06:47:44.191Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17802,10 +17838,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6664 HTTP 401",
-        "TradingView: TradingView 6664 HTTP 404",
+        "TradingView: TradingView 6664 HTTP 403",
         "WantGoo: WantGoo fundamentals 6664 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.595Z",
+      "updatedAt": "2026-05-23T06:47:44.931Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17852,7 +17888,7 @@
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.433Z",
+      "updatedAt": "2026-05-23T06:47:43.951Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17899,7 +17935,7 @@
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
         "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.420Z",
+      "updatedAt": "2026-05-23T06:47:43.936Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17946,7 +17982,7 @@
         "Yahoo Finance: Yahoo fundamentals 2515 HTTP 401",
         "WantGoo: WantGoo fundamentals 2515 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.764Z",
+      "updatedAt": "2026-05-23T06:47:44.207Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -17993,7 +18029,7 @@
         "Yahoo Finance: Yahoo fundamentals 2891 HTTP 401",
         "WantGoo: WantGoo fundamentals 2891 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.816Z",
+      "updatedAt": "2026-05-23T06:47:44.300Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18040,7 +18076,7 @@
         "Yahoo Finance: Yahoo fundamentals 5534 HTTP 401",
         "WantGoo: WantGoo fundamentals 5534 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.347Z",
+      "updatedAt": "2026-05-23T06:47:44.731Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18085,9 +18121,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
+        "TradingView: TradingView 7769 HTTP 403",
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.621Z",
+      "updatedAt": "2026-05-23T06:47:45.000Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18135,7 +18172,7 @@
         "TradingView: TradingView 6223 HTTP 404",
         "WantGoo: WantGoo fundamentals 6223 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.465Z",
+      "updatedAt": "2026-05-23T06:47:44.818Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18182,7 +18219,7 @@
         "Yahoo Finance: Yahoo fundamentals 2762 HTTP 401",
         "WantGoo: WantGoo fundamentals 2762 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.759Z",
+      "updatedAt": "2026-05-23T06:47:44.240Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18229,7 +18266,7 @@
         "Yahoo Finance: Yahoo fundamentals 4571 HTTP 401",
         "WantGoo: WantGoo fundamentals 4571 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.194Z",
+      "updatedAt": "2026-05-23T06:47:44.592Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18274,9 +18311,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6531 HTTP 401",
+        "TradingView: TradingView 6531 HTTP 403",
         "WantGoo: WantGoo fundamentals 6531 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.546Z",
+      "updatedAt": "2026-05-23T06:47:44.932Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18324,7 +18362,7 @@
         "TradingView: TradingView 4966 HTTP 404",
         "WantGoo: WantGoo fundamentals 4966 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.218Z",
+      "updatedAt": "2026-05-23T06:47:44.633Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18371,7 +18409,7 @@
         "Yahoo Finance: Yahoo fundamentals 2615 HTTP 401",
         "WantGoo: WantGoo fundamentals 2615 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.789Z",
+      "updatedAt": "2026-05-23T06:47:44.239Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18416,9 +18454,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7750 HTTP 401",
+        "TradingView: TradingView 7750 HTTP 403",
         "WantGoo: WantGoo fundamentals 7750 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.630Z",
+      "updatedAt": "2026-05-23T06:47:44.999Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18465,7 +18504,7 @@
         "Yahoo Finance: Yahoo fundamentals 6166 HTTP 401",
         "WantGoo: WantGoo fundamentals 6166 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.391Z",
+      "updatedAt": "2026-05-23T06:47:44.764Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18512,7 +18551,7 @@
         "Yahoo Finance: Yahoo fundamentals 3702 HTTP 401",
         "WantGoo: WantGoo fundamentals 3702 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.119Z",
+      "updatedAt": "2026-05-23T06:47:44.545Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18559,7 +18598,7 @@
         "Yahoo Finance: Yahoo fundamentals 2404 HTTP 401",
         "WantGoo: WantGoo fundamentals 2404 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.640Z",
+      "updatedAt": "2026-05-23T06:47:44.116Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18607,7 +18646,7 @@
         "TradingView: TradingView 5536 HTTP 404",
         "WantGoo: WantGoo fundamentals 5536 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.352Z",
+      "updatedAt": "2026-05-23T06:47:44.738Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18654,7 +18693,7 @@
         "Yahoo Finance: Yahoo fundamentals 1605 HTTP 401",
         "WantGoo: WantGoo fundamentals 1605 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.286Z",
+      "updatedAt": "2026-05-23T06:47:43.981Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18699,10 +18738,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8069 HTTP 401",
-        "TradingView: TradingView 8069 HTTP 404",
+        "TradingView: TradingView 8069 HTTP 403",
         "WantGoo: WantGoo fundamentals 8069 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.665Z",
+      "updatedAt": "2026-05-23T06:47:45.060Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18749,7 +18788,7 @@
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
         "WantGoo: WantGoo fundamentals 2049 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.340Z",
+      "updatedAt": "2026-05-23T06:47:43.797Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18796,7 +18835,7 @@
         "Yahoo Finance: Yahoo fundamentals 6415 HTTP 401",
         "WantGoo: WantGoo fundamentals 6415 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.505Z",
+      "updatedAt": "2026-05-23T06:47:44.891Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18843,7 +18882,7 @@
         "Yahoo Finance: Yahoo fundamentals 2385 HTTP 401",
         "WantGoo: WantGoo fundamentals 2385 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.596Z",
+      "updatedAt": "2026-05-23T06:47:44.090Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18890,7 +18929,7 @@
         "Yahoo Finance: Yahoo fundamentals 4566 HTTP 401",
         "WantGoo: WantGoo fundamentals 4566 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.168Z",
+      "updatedAt": "2026-05-23T06:47:44.587Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18935,10 +18974,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 7734 HTTP 401",
-        "TradingView: TradingView 7734 HTTP 404",
+        "TradingView: TradingView 7734 HTTP 403",
         "WantGoo: WantGoo fundamentals 7734 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.617Z",
+      "updatedAt": "2026-05-23T06:47:45.002Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -18986,7 +19025,7 @@
         "TradingView: TradingView 3680 HTTP 404",
         "WantGoo: WantGoo fundamentals 3680 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.105Z",
+      "updatedAt": "2026-05-23T06:47:44.553Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19033,7 +19072,7 @@
         "Yahoo Finance: Yahoo fundamentals 4961 HTTP 401",
         "WantGoo: WantGoo fundamentals 4961 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.187Z",
+      "updatedAt": "2026-05-23T06:47:44.605Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19080,7 +19119,7 @@
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
         "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.632Z",
+      "updatedAt": "2026-05-23T06:47:44.105Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19127,7 +19166,7 @@
         "Yahoo Finance: Yahoo fundamentals 1802 HTTP 401",
         "WantGoo: WantGoo fundamentals 1802 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.486Z",
+      "updatedAt": "2026-05-23T06:47:43.933Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19174,7 +19213,7 @@
         "Yahoo Finance: Yahoo fundamentals 4551 HTTP 401",
         "WantGoo: WantGoo fundamentals 4551 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.188Z",
+      "updatedAt": "2026-05-23T06:47:44.588Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19219,10 +19258,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 6829 HTTP 401",
-        "TradingView: TradingView 6829 HTTP 404",
+        "TradingView: TradingView 6829 HTTP 403",
         "WantGoo: WantGoo fundamentals 6829 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.587Z",
+      "updatedAt": "2026-05-23T06:47:44.965Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19269,7 +19308,7 @@
         "Yahoo Finance: Yahoo fundamentals 2344 HTTP 401",
         "WantGoo: WantGoo fundamentals 2344 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.493Z",
+      "updatedAt": "2026-05-23T06:47:43.992Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19316,7 +19355,7 @@
         "Yahoo Finance: Yahoo fundamentals 3596 HTTP 401",
         "WantGoo: WantGoo fundamentals 3596 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.064Z",
+      "updatedAt": "2026-05-23T06:47:44.504Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19363,7 +19402,7 @@
         "Yahoo Finance: Yahoo fundamentals 2049 HTTP 401",
         "WantGoo: WantGoo fundamentals 2049 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.340Z",
+      "updatedAt": "2026-05-23T06:47:43.797Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19410,7 +19449,7 @@
         "Yahoo Finance: Yahoo fundamentals 2451 HTTP 401",
         "WantGoo: WantGoo fundamentals 2451 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.664Z",
+      "updatedAt": "2026-05-23T06:47:44.162Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19455,9 +19494,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8210 HTTP 401",
+        "TradingView: TradingView 8210 HTTP 403",
         "WantGoo: WantGoo fundamentals 8210 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.666Z",
+      "updatedAt": "2026-05-23T06:47:45.059Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19504,7 +19544,7 @@
         "Yahoo Finance: Yahoo fundamentals 1519 HTTP 401",
         "WantGoo: WantGoo fundamentals 1519 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.271Z",
+      "updatedAt": "2026-05-23T06:47:43.761Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19552,7 +19592,7 @@
         "TradingView: TradingView 5289 HTTP 404",
         "WantGoo: WantGoo fundamentals 5289 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.291Z",
+      "updatedAt": "2026-05-23T06:47:44.676Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19599,7 +19639,7 @@
         "Yahoo Finance: Yahoo fundamentals 2395 HTTP 401",
         "WantGoo: WantGoo fundamentals 2395 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.602Z",
+      "updatedAt": "2026-05-23T06:47:44.103Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19646,7 +19686,7 @@
         "Yahoo Finance: Yahoo fundamentals 6285 HTTP 401",
         "WantGoo: WantGoo fundamentals 6285 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.501Z",
+      "updatedAt": "2026-05-23T06:47:44.871Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19693,7 +19733,7 @@
         "Yahoo Finance: Yahoo fundamentals 3034 HTTP 401",
         "WantGoo: WantGoo fundamentals 3034 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.867Z",
+      "updatedAt": "2026-05-23T06:47:44.341Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19738,9 +19778,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6526 HTTP 401",
+        "TradingView: TradingView 6526 HTTP 403",
         "WantGoo: WantGoo fundamentals 6526 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.542Z",
+      "updatedAt": "2026-05-23T06:47:44.905Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19787,7 +19828,7 @@
         "Yahoo Finance: Yahoo fundamentals 2383 HTTP 401",
         "WantGoo: WantGoo fundamentals 2383 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.575Z",
+      "updatedAt": "2026-05-23T06:47:44.075Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19834,7 +19875,7 @@
         "Yahoo Finance: Yahoo fundamentals 2303 HTTP 401",
         "WantGoo: WantGoo fundamentals 2303 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.381Z",
+      "updatedAt": "2026-05-23T06:47:43.854Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19881,7 +19922,7 @@
         "Yahoo Finance: Yahoo fundamentals 2606 HTTP 401",
         "WantGoo: WantGoo fundamentals 2606 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.728Z",
+      "updatedAt": "2026-05-23T06:47:44.255Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19929,7 +19970,7 @@
         "TradingView: TradingView 3260 HTTP 404",
         "WantGoo: WantGoo fundamentals 3260 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.959Z",
+      "updatedAt": "2026-05-23T06:47:44.438Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -19976,7 +20017,7 @@
         "Yahoo Finance: Yahoo fundamentals 5388 HTTP 401",
         "WantGoo: WantGoo fundamentals 5388 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.330Z",
+      "updatedAt": "2026-05-23T06:47:44.709Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20021,10 +20062,10 @@
       "failedProviders": [
         "TWSE OpenAPI: not TWSE",
         "Yahoo Finance: Yahoo fundamentals 8299 HTTP 401",
-        "TradingView: TradingView 8299 HTTP 404",
+        "TradingView: TradingView 8299 HTTP 403",
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.742Z",
+      "updatedAt": "2026-05-23T06:47:45.108Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20071,7 +20112,7 @@
         "Yahoo Finance: Yahoo fundamentals 3661 HTTP 401",
         "WantGoo: WantGoo fundamentals 3661 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.064Z",
+      "updatedAt": "2026-05-23T06:47:44.504Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20118,7 +20159,7 @@
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
         "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.795Z",
+      "updatedAt": "2026-05-23T06:47:44.284Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20166,7 +20207,7 @@
         "TradingView: TradingView 3162 HTTP 404",
         "WantGoo: WantGoo fundamentals 3162 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.920Z",
+      "updatedAt": "2026-05-23T06:47:44.393Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20213,7 +20254,7 @@
         "Yahoo Finance: Yahoo fundamentals 4540 HTTP 401",
         "WantGoo: WantGoo fundamentals 4540 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.139Z",
+      "updatedAt": "2026-05-23T06:47:44.548Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20261,7 +20302,7 @@
         "TradingView: TradingView 4991 HTTP 404",
         "WantGoo: WantGoo fundamentals 4991 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.253Z",
+      "updatedAt": "2026-05-23T06:47:44.645Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20308,7 +20349,7 @@
         "Yahoo Finance: Yahoo fundamentals 3044 HTTP 401",
         "WantGoo: WantGoo fundamentals 3044 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.884Z",
+      "updatedAt": "2026-05-23T06:47:44.358Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20356,7 +20397,7 @@
         "TradingView: TradingView 5347 HTTP 404",
         "WantGoo: WantGoo fundamentals 5347 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.317Z",
+      "updatedAt": "2026-05-23T06:47:44.696Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20404,7 +20445,7 @@
         "TradingView: TradingView 3264 HTTP 404",
         "WantGoo: WantGoo fundamentals 3264 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.988Z",
+      "updatedAt": "2026-05-23T06:47:44.446Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20451,7 +20492,7 @@
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
         "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.657Z",
+      "updatedAt": "2026-05-23T06:47:44.144Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20498,7 +20539,7 @@
         "Yahoo Finance: Yahoo fundamentals 2360 HTTP 401",
         "WantGoo: WantGoo fundamentals 2360 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.546Z",
+      "updatedAt": "2026-05-23T06:47:44.037Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20545,7 +20586,7 @@
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.701Z",
+      "updatedAt": "2026-05-23T06:47:44.158Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20593,7 +20634,7 @@
         "TradingView: TradingView 4979 HTTP 404",
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.231Z",
+      "updatedAt": "2026-05-23T06:47:44.638Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20640,7 +20681,7 @@
         "Yahoo Finance: Yahoo fundamentals 2345 HTTP 401",
         "WantGoo: WantGoo fundamentals 2345 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.518Z",
+      "updatedAt": "2026-05-23T06:47:43.990Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20688,7 +20729,7 @@
         "TradingView: TradingView 3105 HTTP 404",
         "WantGoo: WantGoo fundamentals 3105 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.904Z",
+      "updatedAt": "2026-05-23T06:47:44.386Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20735,7 +20776,7 @@
         "Yahoo Finance: Yahoo fundamentals 2480 HTTP 401",
         "WantGoo: WantGoo fundamentals 2480 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.698Z",
+      "updatedAt": "2026-05-23T06:47:44.191Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20780,9 +20821,10 @@
       "failedProviders": [
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 8996 HTTP 401",
+        "TradingView: TradingView 8996 HTTP 403",
         "WantGoo: WantGoo fundamentals 8996 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:57.738Z",
+      "updatedAt": "2026-05-23T06:47:45.115Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     },
@@ -20829,7 +20871,7 @@
         "Yahoo Finance: Yahoo fundamentals 2439 HTTP 401",
         "WantGoo: WantGoo fundamentals 2439 HTTP 403"
       ],
-      "updatedAt": "2026-05-22T20:30:56.633Z",
+      "updatedAt": "2026-05-23T06:47:44.137Z",
       "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
       "watchlistName": "群益投顧"
     }
