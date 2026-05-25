@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-23T06:48:07.659Z",
+  "generatedAt": "2026-05-25T11:16:53.055Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 5.555555555555555,
-      "avgPotentialReturn": 31.57894736842105,
+      "avgInstantReturn": 12.037037037037036,
+      "avgPotentialReturn": 23.96694214876033,
       "avgReachedDays": 13
     },
     {
@@ -15,36 +15,36 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 1.493834810720107,
-      "avgPotentialReturn": 142.59381366953806,
+      "avgInstantReturn": 1.8964475729411188,
+      "avgPotentialReturn": 140.40722383921826,
       "avgReachedDays": 12.2
     },
     {
       "recommender": "Donthitjisoo",
       "count": 21,
-      "targetReachedCount": 12,
-      "hitRate": 57.14285714285714,
-      "avgInstantReturn": 12.831877968249247,
-      "avgPotentialReturn": 14.445336498610821,
-      "avgReachedDays": 4.75
-    },
-    {
-      "recommender": "capital securities",
-      "count": 166,
-      "targetReachedCount": 20,
-      "hitRate": 12.048192771084338,
-      "avgInstantReturn": 1.8857625121906108,
-      "avgPotentialReturn": 16.723590794373347,
-      "avgReachedDays": 2.2
+      "targetReachedCount": 13,
+      "hitRate": 61.904761904761905,
+      "avgInstantReturn": 17.673813273658247,
+      "avgPotentialReturn": 9.554999795044786,
+      "avgReachedDays": 5.076923076923077
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
-      "targetReachedCount": 0,
-      "hitRate": 0,
-      "avgInstantReturn": -0.884750814740082,
-      "avgPotentialReturn": 27.609246543741666,
-      "avgReachedDays": 0
+      "targetReachedCount": 2,
+      "hitRate": 33.33333333333333,
+      "avgInstantReturn": 5.239612248999703,
+      "avgPotentialReturn": 21.241153447286788,
+      "avgReachedDays": 10
+    },
+    {
+      "recommender": "capital securities",
+      "count": 166,
+      "targetReachedCount": 26,
+      "hitRate": 15.66265060240964,
+      "avgInstantReturn": 4.182736450878598,
+      "avgPotentialReturn": 14.306325327088846,
+      "avgReachedDays": 4.3076923076923075
     }
   ]
 }
