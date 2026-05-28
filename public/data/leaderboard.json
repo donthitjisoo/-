@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-27T11:01:10.271Z",
+  "generatedAt": "2026-05-28T11:02:09.026Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 4.62962962962963,
-      "avgPotentialReturn": 32.743362831858406,
+      "avgInstantReturn": 14.814814814814813,
+      "avgPotentialReturn": 20.967741935483872,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 1.85232171119915,
-      "avgPotentialReturn": 140.89628674253984,
+      "avgInstantReturn": 2.1566828378796594,
+      "avgPotentialReturn": 139.30210123156343,
       "avgReachedDays": 12.2
     },
     {
@@ -24,27 +24,27 @@
       "count": 21,
       "targetReachedCount": 14,
       "hitRate": 66.66666666666666,
-      "avgInstantReturn": 18.089826674431293,
-      "avgPotentialReturn": 10.494045036786602,
-      "avgReachedDays": 6
+      "avgInstantReturn": 15.393450004643288,
+      "avgPotentialReturn": 13.227391312815442,
+      "avgReachedDays": 6.285714285714286
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 2,
       "hitRate": 33.33333333333333,
-      "avgInstantReturn": 9.522205155873879,
-      "avgPotentialReturn": 16.855120882135022,
-      "avgReachedDays": 12
+      "avgInstantReturn": 3.7323040479455565,
+      "avgPotentialReturn": 22.850471397038955,
+      "avgReachedDays": 13
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 36,
-      "hitRate": 21.686746987951807,
-      "avgInstantReturn": 5.48312247972922,
-      "avgPotentialReturn": 13.291144379813623,
-      "avgReachedDays": 5.944444444444445
+      "targetReachedCount": 32,
+      "hitRate": 19.27710843373494,
+      "avgInstantReturn": 3.459073929153739,
+      "avgPotentialReturn": 15.598594851721263,
+      "avgReachedDays": 5.6875
     }
   ]
 }
