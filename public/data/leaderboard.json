@@ -1,50 +1,50 @@
 {
-  "generatedAt": "2026-05-28T11:02:09.026Z",
+  "generatedAt": "2026-05-29T10:53:38.382Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 14.814814814814813,
-      "avgPotentialReturn": 20.967741935483872,
+      "avgInstantReturn": 3.7037037037037033,
+      "avgPotentialReturn": 33.92857142857143,
       "avgReachedDays": 13
+    },
+    {
+      "recommender": "Donthitjisoo",
+      "count": 21,
+      "targetReachedCount": 16,
+      "hitRate": 76.19047619047619,
+      "avgInstantReturn": 19.21915164027371,
+      "avgPotentialReturn": 10.333408199546177,
+      "avgReachedDays": 7.3125
     },
     {
       "recommender": "Gaeulisautumn",
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 2.1566828378796594,
-      "avgPotentialReturn": 139.30210123156343,
+      "avgInstantReturn": 4.236306340900641,
+      "avgPotentialReturn": 132.41199338495682,
       "avgReachedDays": 12.2
-    },
-    {
-      "recommender": "Donthitjisoo",
-      "count": 21,
-      "targetReachedCount": 14,
-      "hitRate": 66.66666666666666,
-      "avgInstantReturn": 15.393450004643288,
-      "avgPotentialReturn": 13.227391312815442,
-      "avgReachedDays": 6.285714285714286
-    },
-    {
-      "recommender": "donthitjisoo",
-      "count": 6,
-      "targetReachedCount": 2,
-      "hitRate": 33.33333333333333,
-      "avgInstantReturn": 3.7323040479455565,
-      "avgPotentialReturn": 22.850471397038955,
-      "avgReachedDays": 13
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 32,
-      "hitRate": 19.27710843373494,
-      "avgInstantReturn": 3.459073929153739,
-      "avgPotentialReturn": 15.598594851721263,
-      "avgReachedDays": 5.6875
+      "targetReachedCount": 36,
+      "hitRate": 21.686746987951807,
+      "avgInstantReturn": 5.590969071494976,
+      "avgPotentialReturn": 13.247708760429243,
+      "avgReachedDays": 6.5
+    },
+    {
+      "recommender": "donthitjisoo",
+      "count": 6,
+      "targetReachedCount": 0,
+      "hitRate": 0,
+      "avgInstantReturn": 2.6519444317486722,
+      "avgPotentialReturn": 23.472915091962708,
+      "avgReachedDays": 0
     }
   ]
 }
